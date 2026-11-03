@@ -1199,6 +1199,1206 @@
       "answer": 3,
       "t": "Higher Education",
       "d": 2
+    },
+    {
+      "q": "In the revised taxonomy of educational objectives, which cognitive process is at the highest level?",
+      "options": [
+        "Remember",
+        "Understand",
+        "Evaluate",
+        "Create"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A teacher asks learners to compare two theories and justify which is more suitable. Which level of teaching is primarily involved?",
+      "options": [
+        "Memory",
+        "Understanding",
+        "Reflective",
+        "Drill"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Which of the following is an example of formative assessment?",
+      "options": [
+        "End-semester examination",
+        "Weekly feedback quiz during a course",
+        "University convocation",
+        "Entrance examination"
+      ],
+      "answer": 1,
+      "t": "Evaluation Systems",
+      "d": 1
+    },
+    {
+      "q": "In learner-centred teaching, the teacher primarily acts as a:",
+      "options": [
+        "Sole source of information",
+        "Facilitator of learning",
+        "Strict examiner",
+        "Passive observer"
+      ],
+      "answer": 1,
+      "t": "Teaching Aptitude",
+      "d": 1
+    },
+    {
+      "q": "Which sampling method gives every member of a population an equal chance of selection?",
+      "options": [
+        "Convenience sampling",
+        "Purposive sampling",
+        "Simple random sampling",
+        "Snowball sampling"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A hypothesis stating that there is no significant difference between two groups is called:",
+      "options": [
+        "Alternative hypothesis",
+        "Null hypothesis",
+        "Directional hypothesis",
+        "Working theory"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "Which research design is most appropriate for studying the lived experiences of a small group?",
+      "options": [
+        "Experimental",
+        "Phenomenological",
+        "Large-scale census",
+        "Correlational survey"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "In research, plagiarism means:",
+      "options": [
+        "Using a recognised citation style",
+        "Presenting another person's work as one's own",
+        "Collecting primary data",
+        "Reporting a null result"
+      ],
+      "answer": 1,
+      "t": "Research Ethics",
+      "d": 1
+    },
+    {
+      "q": "The reliability of a research instrument refers to its:",
+      "options": [
+        "Beauty of presentation",
+        "Consistency of measurement",
+        "Cost of administration",
+        "Popularity among participants"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Which measure of central tendency is least affected by extreme values?",
+      "options": [
+        "Mean",
+        "Median",
+        "Arithmetic range",
+        "Standard deviation"
+      ],
+      "answer": 1,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 2
+    },
+    {
+      "q": "If the ratio of boys to girls in a class is 3:5 and there are 40 students, how many are girls?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 2,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A book marked at ₹800 is sold at a discount of 15%. What is its selling price?",
+      "options": [
+        "₹660",
+        "₹680",
+        "₹700",
+        "₹720"
+      ],
+      "answer": 1,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "Which fallacy attacks the person making an argument rather than addressing the argument itself?",
+      "options": [
+        "Ad hominem",
+        "Straw man",
+        "False dilemma",
+        "Slippery slope"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "In a valid deductive argument, if the premises are true, the conclusion must be:",
+      "options": [
+        "Popular",
+        "Probably true",
+        "Logically true",
+        "Emotionally acceptable"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "In Indian logic, inference is known as:",
+      "options": [
+        "Pratyaksha",
+        "Anumana",
+        "Upamana",
+        "Shabda"
+      ],
+      "answer": 1,
+      "t": "Logical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "Which Venn diagram relationship best represents: all roses are flowers, but not all flowers are roses?",
+      "options": [
+        "Two disjoint circles",
+        "Rose circle inside flower circle",
+        "Flower circle inside rose circle",
+        "Two identical circles"
+      ],
+      "answer": 1,
+      "t": "Logical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "A table shows values increasing from 20 to 25. What is the percentage increase?",
+      "options": [
+        "20%",
+        "25%",
+        "5%",
+        "125%"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "When comparing quantities across categories with a common baseline, which chart is generally most suitable?",
+      "options": [
+        "Bar chart",
+        "Scatter plot only",
+        "Flow chart",
+        "Network diagram"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "The median of the values 4, 7, 9, 12, 18 is:",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "Which protocol is primarily used to transfer web pages securely?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "In a spreadsheet, which symbol normally begins a formula?",
+      "options": [
+        "#",
+        "=",
+        "@",
+        "&"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Phishing is best described as:",
+      "options": [
+        "Encrypting a hard drive",
+        "Fraudulently attempting to obtain sensitive information",
+        "Backing up a database",
+        "Updating an operating system"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "A Massive Open Online Course (MOOC) is characterised mainly by:",
+      "options": [
+        "Restricted access to a few students",
+        "Online delivery at large scale",
+        "Mandatory campus attendance",
+        "No learning materials"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Which Indian initiative provides a platform for online courses offered by institutions?",
+      "options": [
+        "SWAYAM",
+        "Aadhaar",
+        "DigiLocker only",
+        "FASTag"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "The greenhouse effect is primarily associated with the:",
+      "options": [
+        "Absorption and re-emission of infrared radiation",
+        "Complete blocking of sunlight",
+        "Disappearance of oxygen",
+        "Increase in ocean salinity"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 2
+    },
+    {
+      "q": "Which of the following is a renewable source of energy?",
+      "options": [
+        "Coal",
+        "Petroleum",
+        "Solar energy",
+        "Natural gas"
+      ],
+      "answer": 2,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "The Sustainable Development Goals (SDGs) were adopted by the United Nations in:",
+      "options": [
+        "2000",
+        "2010",
+        "2015",
+        "2020"
+      ],
+      "answer": 2,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "The University Grants Commission in India was established by an Act of Parliament in:",
+      "options": [
+        "1948",
+        "1956",
+        "1961",
+        "1986"
+      ],
+      "answer": 1,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "Which body is primarily responsible for coordinating and determining standards of university education in India?",
+      "options": [
+        "UGC",
+        "Election Commission",
+        "NITI Aayog",
+        "CAG"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 1
+    },
+    {
+      "q": "Accreditation of higher education institutions in India is commonly associated with:",
+      "options": [
+        "NAAC",
+        "SEBI",
+        "TRAI",
+        "FSSAI"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 1
+    },
+    {
+      "q": "Which teaching approach begins with a real-world problem and asks learners to investigate possible solutions?",
+      "options": [
+        "Problem-based learning",
+        "Dictation",
+        "Programmed instruction",
+        "Recitation"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A lesson plan that states what learners should be able to do by the end of a lesson describes:",
+      "options": [
+        "Learning outcomes",
+        "Teacher attendance",
+        "Course fees",
+        "Institutional ranking"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 1
+    },
+    {
+      "q": "Which classroom practice is most likely to promote inclusive education?",
+      "options": [
+        "Providing multiple ways to access and demonstrate learning",
+        "Using one fixed method for every learner",
+        "Excluding learners who need support",
+        "Assessing only speed"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Microteaching is primarily intended to:",
+      "options": [
+        "Practise a specific teaching skill in a scaled-down setting",
+        "Replace all university examinations",
+        "Teach an entire semester in one session",
+        "Measure institutional funding"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Which of the following is an example of asynchronous learning?",
+      "options": [
+        "Recorded lecture accessed at a convenient time",
+        "Live video class",
+        "Real-time webinar",
+        "Face-to-face seminar"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A diagnostic test is mainly used to:",
+      "options": [
+        "Identify specific learning difficulties",
+        "Assign final degree classifications",
+        "Rank universities",
+        "Certify research publications"
+      ],
+      "answer": 0,
+      "t": "Evaluation Systems",
+      "d": 1
+    },
+    {
+      "q": "Criterion-referenced assessment compares a learner's performance with:",
+      "options": [
+        "Predefined learning standards",
+        "The performance of classmates only",
+        "A national average only",
+        "The teacher's personal preference"
+      ],
+      "answer": 0,
+      "t": "Evaluation Systems",
+      "d": 2
+    },
+    {
+      "q": "Which assessment practice best supports feedback for improvement?",
+      "options": [
+        "Specific comments linked to learning outcomes",
+        "Only a final grade",
+        "Public comparison of weak students",
+        "Feedback after the course has ended"
+      ],
+      "answer": 0,
+      "t": "Evaluation Systems",
+      "d": 1
+    },
+    {
+      "q": "A research study that uses numerical data and statistical analysis is generally:",
+      "options": [
+        "Quantitative",
+        "Ethnographic only",
+        "Narrative only",
+        "Phenomenological only"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "In an experiment, the variable deliberately manipulated by the researcher is the:",
+      "options": [
+        "Independent variable",
+        "Dependent variable",
+        "Extraneous result",
+        "Sampling frame"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "The variable measured as an outcome in an experiment is the:",
+      "options": [
+        "Dependent variable",
+        "Independent variable",
+        "Control group",
+        "Confounding constant"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A literature review helps a researcher primarily to:",
+      "options": [
+        "Identify existing knowledge and research gaps",
+        "Avoid reading earlier studies",
+        "Guarantee a positive result",
+        "Replace data collection in every study"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A pilot study is conducted mainly to:",
+      "options": [
+        "Test and refine research procedures",
+        "Publish the final conclusion",
+        "Replace the sample permanently",
+        "Prove the hypothesis in advance"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Which sampling method selects participants because they meet specified characteristics?",
+      "options": [
+        "Purposive sampling",
+        "Simple random sampling",
+        "Systematic random sampling",
+        "Cluster sampling"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "In systematic sampling, participants are usually selected:",
+      "options": [
+        "At a fixed interval from an ordered list",
+        "Only when they volunteer",
+        "Only from one convenient classroom",
+        "By choosing the largest observations"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A correlation coefficient of -0.90 indicates:",
+      "options": [
+        "A strong negative linear association",
+        "A strong positive association",
+        "No linear association",
+        "Proof of causation"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Which statement about correlation and causation is correct?",
+      "options": [
+        "Correlation alone does not establish causation",
+        "Correlation always proves causation",
+        "Causation cannot be studied scientifically",
+        "A negative correlation is invalid"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Informed consent requires research participants to:",
+      "options": [
+        "Understand relevant information and voluntarily agree",
+        "Be enrolled without explanation",
+        "Give up all privacy rights",
+        "Know the findings before data collection"
+      ],
+      "answer": 0,
+      "t": "Research Ethics",
+      "d": 1
+    },
+    {
+      "q": "Fabrication in research refers to:",
+      "options": [
+        "Making up data or results",
+        "Rechecking calculations",
+        "Citing a source",
+        "Reporting study limitations"
+      ],
+      "answer": 0,
+      "t": "Research Ethics",
+      "d": 2
+    },
+    {
+      "q": "Which is the most appropriate way to acknowledge another author's idea?",
+      "options": [
+        "Cite the source using a consistent referencing style",
+        "Change a few words and omit the citation",
+        "Place the idea in quotation marks without a source",
+        "List the source only if asked"
+      ],
+      "answer": 0,
+      "t": "Research Ethics",
+      "d": 1
+    },
+    {
+      "q": "If all researchers are readers and some readers are teachers, which conclusion necessarily follows?",
+      "options": [
+        "All researchers are readers",
+        "All teachers are researchers",
+        "Some researchers are teachers",
+        "No reader is a researcher"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The converse of the statement 'If P, then Q' is:",
+      "options": [
+        "If Q, then P",
+        "If not P, then not Q",
+        "If not Q, then not P",
+        "P and Q are unrelated"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The contrapositive of 'If P, then Q' is:",
+      "options": [
+        "If not Q, then not P",
+        "If Q, then P",
+        "If not P, then not Q",
+        "If P, then not Q"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 3
+    },
+    {
+      "q": "An argument that draws a general conclusion from several observations uses:",
+      "options": [
+        "Inductive reasoning",
+        "Deductive reasoning only",
+        "Circular definition",
+        "Ad hominem reasoning"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The fallacy of affirming the consequent has which form?",
+      "options": [
+        "If P then Q; Q; therefore P",
+        "If P then Q; P; therefore Q",
+        "If P then Q; not Q; therefore not P",
+        "P or Q; not P; therefore Q"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 3
+    },
+    {
+      "q": "In Nyaya logic, the example used to establish the universal relation in inference is called:",
+      "options": [
+        "Udaharana",
+        "Pratijna",
+        "Nigamana",
+        "Upanaya"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 3
+    },
+    {
+      "q": "In the five-member Nyaya inference, the final statement of conclusion is:",
+      "options": [
+        "Nigamana",
+        "Hetu",
+        "Drishtanta",
+        "Upanaya"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 3
+    },
+    {
+      "q": "Which one is a source of valid knowledge (pramana) in Indian logic?",
+      "options": [
+        "Pratyaksha",
+        "Anukarana",
+        "Alankara",
+        "Chandas"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "If 40% of a number is 72, the number is:",
+      "options": [
+        "180",
+        "160",
+        "144",
+        "200"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "The average of 12, 18, 20 and 30 is:",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "24"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A sum becomes ₹1,200 after a 20% increase. What was the original sum?",
+      "options": [
+        "₹1,000",
+        "₹960",
+        "₹1,020",
+        "₹1,100"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A train travels 150 km in 2.5 hours. Its average speed is:",
+      "options": [
+        "60 km/h",
+        "50 km/h",
+        "65 km/h",
+        "75 km/h"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "If 3x + 7 = 28, the value of x is:",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "11"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 1
+    },
+    {
+      "q": "The next number in the sequence 2, 6, 12, 20, 30, ... is:",
+      "options": [
+        "42",
+        "36",
+        "40",
+        "44"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning and Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A pie chart is most suitable for showing:",
+      "options": [
+        "Parts of a whole",
+        "A process sequence",
+        "Exact geographic routes",
+        "A causal mechanism"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "Which measure describes the spread of observations around their mean?",
+      "options": [
+        "Standard deviation",
+        "Mode",
+        "Median",
+        "Percentile rank"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 2
+    },
+    {
+      "q": "In a positively skewed distribution, the long tail extends towards:",
+      "options": [
+        "Higher values",
+        "Lower values",
+        "The centre only",
+        "Both sides equally"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 3
+    },
+    {
+      "q": "A dataset has a mean of 10 and standard deviation of 0. Which statement is true?",
+      "options": [
+        "All observations equal 10",
+        "All observations are above 10",
+        "The dataset has no observations",
+        "The median must be zero"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 2
+    },
+    {
+      "q": "Which data visualisation is generally best for examining the relationship between two numerical variables?",
+      "options": [
+        "Scatter plot",
+        "Pie chart",
+        "Stacked area chart only",
+        "Flowchart"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "An IP address is used primarily to:",
+      "options": [
+        "Identify an interface on an IP network",
+        "Encrypt every file automatically",
+        "Name a programming language",
+        "Measure CPU temperature"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Which protocol translates a domain name into an IP address?",
+      "options": [
+        "DNS",
+        "SSH",
+        "SMTP",
+        "SNMP"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Which protocol is commonly used for secure remote command-line access?",
+      "options": [
+        "SSH",
+        "Telnet",
+        "HTTP",
+        "POP3"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Two-factor authentication improves account security by:",
+      "options": [
+        "Requiring two different authentication factors",
+        "Using the same password twice",
+        "Disabling account verification",
+        "Sharing credentials across users"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 2
+    },
+    {
+      "q": "A firewall is primarily designed to:",
+      "options": [
+        "Control network traffic according to security rules",
+        "Create presentation slides",
+        "Compress image files",
+        "Replace every endpoint backup"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "In cloud computing, IaaS provides:",
+      "options": [
+        "Virtualised computing infrastructure",
+        "A finished end-user application only",
+        "A social networking service",
+        "Printed textbooks"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 2
+    },
+    {
+      "q": "Which technology allows multiple operating systems to run as virtual machines on one physical host?",
+      "options": [
+        "Hypervisor-based virtualisation",
+        "Optical character recognition",
+        "Packet switching alone",
+        "Web indexing"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 2
+    },
+    {
+      "q": "An open educational resource is generally:",
+      "options": [
+        "Teaching or learning material with permissions for reuse under its licence",
+        "Any paid software",
+        "A resource that cannot be shared",
+        "A document without educational purpose"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "Which of the following is an example of a non-renewable energy source?",
+      "options": [
+        "Natural gas",
+        "Wind",
+        "Solar",
+        "Tidal"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "Eutrophication of a water body is commonly caused by excessive:",
+      "options": [
+        "Nutrient enrichment",
+        "Dissolved oxygen alone",
+        "Sand deposition only",
+        "Water transparency"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 2
+    },
+    {
+      "q": "The ozone layer is located mainly in the:",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "Which gas is the major contributor to anthropogenic global warming by total emissions?",
+      "options": [
+        "Carbon dioxide",
+        "Helium",
+        "Neon",
+        "Argon"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 2
+    },
+    {
+      "q": "The 3Rs in waste management stand for:",
+      "options": [
+        "Reduce, Reuse, Recycle",
+        "Repair, Remove, Replace",
+        "Recover, Return, Reject",
+        "Reuse, Refuse, Rebuild"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "Environmental Impact Assessment is undertaken mainly to:",
+      "options": [
+        "Predict and evaluate likely environmental effects of a proposed project",
+        "Measure student attendance",
+        "Determine a company's stock price",
+        "Replace all environmental laws"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 2
+    },
+    {
+      "q": "Which international agreement is specifically associated with controlling ozone-depleting substances?",
+      "options": [
+        "Montreal Protocol",
+        "Kyoto Protocol",
+        "Paris Agreement",
+        "Ramsar Convention"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 2
+    },
+    {
+      "q": "The Paris Agreement is primarily concerned with:",
+      "options": [
+        "Climate change",
+        "International postal services",
+        "Wetland bird census only",
+        "Nuclear test bans"
+      ],
+      "answer": 0,
+      "t": "People, Development and Environment",
+      "d": 1
+    },
+    {
+      "q": "The Right to Education Act in India provides free and compulsory education for children in which age group?",
+      "options": [
+        "6–14 years",
+        "3–6 years",
+        "14–18 years",
+        "0–3 years"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 1
+    },
+    {
+      "q": "The National Assessment and Accreditation Council (NAAC) was established in:",
+      "options": [
+        "1994",
+        "1986",
+        "2001",
+        "2015"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "The National Institutional Ranking Framework (NIRF) was launched in:",
+      "options": [
+        "2015",
+        "2005",
+        "1995",
+        "2020"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "The main purpose of the Academic Bank of Credits is to:",
+      "options": [
+        "Digitally store and transfer eligible academic credits",
+        "Provide education loans only",
+        "Conduct national entrance tests",
+        "Issue faculty appointment orders"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "Which commission is associated with the recommendations that led to the establishment of UGC?",
+      "options": [
+        "University Education Commission (Radhakrishnan Commission)",
+        "Kothari Commission only",
+        "Hunter Commission",
+        "Mandal Commission"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "The Kothari Commission (1964–66) is associated with:",
+      "options": [
+        "Comprehensive review of Indian education",
+        "Creation of the Election Commission",
+        "Formation of the Planning Commission",
+        "Regulation of commercial banks"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "Which is an important feature of institutional autonomy in higher education?",
+      "options": [
+        "Academic freedom within applicable regulatory frameworks",
+        "Exemption from all laws",
+        "No accountability for public funds",
+        "No quality assurance"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 2
+    },
+    {
+      "q": "Which of the following best describes gross enrolment ratio (GER)?",
+      "options": [
+        "Enrolment at a level as a percentage of the population in the official age group for that level",
+        "Number of graduates divided by faculty",
+        "Ratio of public to private colleges",
+        "Share of students receiving scholarships"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 3
+    },
+    {
+      "q": "Which constitutional provision is associated with promotion of education and economic interests of weaker sections?",
+      "options": [
+        "Article 46",
+        "Article 14",
+        "Article 32",
+        "Article 368"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 3
+    },
+    {
+      "q": "The main purpose of the National Education Policy 2020 is to:",
+      "options": [
+        "Provide a broad framework for transforming education in India",
+        "Replace the Constitution",
+        "Regulate only private coaching centres",
+        "Limit multidisciplinary learning"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 1
+    },
+    {
+      "q": "Which practice is most appropriate when reporting a statistically non-significant result?",
+      "options": [
+        "Report it transparently with relevant statistics",
+        "Delete the result from the dataset",
+        "Change the hypothesis after seeing results without disclosure",
+        "Claim the hypothesis was proved"
+      ],
+      "answer": 0,
+      "t": "Research Ethics",
+      "d": 2
+    },
+    {
+      "q": "Which of the following is a characteristic of a good research problem?",
+      "options": [
+        "It is clear, researchable and significant",
+        "It has no defined scope",
+        "It cannot be investigated with evidence",
+        "It guarantees a preferred conclusion"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A confidence interval provides:",
+      "options": [
+        "A range of plausible values for a population parameter under a stated method",
+        "The exact value of every individual observation",
+        "Proof that a hypothesis is true",
+        "A measure of sample size only"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 2
+    },
+    {
+      "q": "Which body is responsible for conducting the UGC-NET examination on behalf of UGC?",
+      "options": [
+        "National Testing Agency (NTA)",
+        "Union Public Service Commission",
+        "Staff Selection Commission",
+        "National Council of Educational Research and Training"
+      ],
+      "answer": 0,
+      "t": "Higher Education System",
+      "d": 1
+    },
+    {
+      "q": "Which of the following best describes blended learning?",
+      "options": [
+        "A planned combination of face-to-face and online learning",
+        "Only printed correspondence lessons",
+        "Only live classroom lectures",
+        "Learning without instructional support"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 1
     }
   ],
   "paper2_english": [
@@ -2401,6 +3601,1206 @@
       "answer": 3,
       "t": "Indian Writing",
       "d": 2
+    },
+    {
+      "q": "Who wrote the revenge tragedy The Spanish Tragedy?",
+      "options": [
+        "Thomas Kyd",
+        "John Webster",
+        "Ben Jonson",
+        "John Ford"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Doctor Faustus is a play by:",
+      "options": [
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Thomas Dekker",
+        "John Lyly"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "The term 'comedy of manners' is especially associated with which period of English drama?",
+      "options": [
+        "Restoration",
+        "Anglo-Saxon",
+        "Early medieval",
+        "Romantic"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Waiting for Godot was written by:",
+      "options": [
+        "Harold Pinter",
+        "Samuel Beckett",
+        "John Osborne",
+        "Tom Stoppard"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "Who is the author of The Duchess of Malfi?",
+      "options": [
+        "John Webster",
+        "Thomas Middleton",
+        "George Chapman",
+        "Philip Massinger"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "The phrase 'negative capability' is associated with:",
+      "options": [
+        "William Wordsworth",
+        "John Keats",
+        "P. B. Shelley",
+        "Lord Byron"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Who wrote The Waste Land?",
+      "options": [
+        "W. B. Yeats",
+        "T. S. Eliot",
+        "W. H. Auden",
+        "Ezra Pound"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "A sonnet traditionally consists of:",
+      "options": [
+        "Eight lines",
+        "Ten lines",
+        "Fourteen lines",
+        "Sixteen lines"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "The Rime of the Ancient Mariner is written by:",
+      "options": [
+        "S. T. Coleridge",
+        "William Blake",
+        "John Clare",
+        "Robert Southey"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Who is commonly associated with the metaphysical conceit?",
+      "options": [
+        "John Donne",
+        "Alexander Pope",
+        "Thomas Gray",
+        "William Cowper"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Who wrote Pamela (1740), often discussed in the development of the English novel?",
+      "options": [
+        "Samuel Richardson",
+        "Henry Fielding",
+        "Daniel Defoe",
+        "Laurence Sterne"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "The narrator of Wuthering Heights is primarily:",
+      "options": [
+        "Lockwood",
+        "Heathcliff",
+        "Catherine Earnshaw",
+        "Edgar Linton"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "Things Fall Apart was written by:",
+      "options": [
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Wole Soyinka",
+        "Ben Okri"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "Who wrote the short story 'The Dead'?",
+      "options": [
+        "James Joyce",
+        "Virginia Woolf",
+        "D. H. Lawrence",
+        "Katherine Mansfield"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "The term 'bildungsroman' refers to a novel that traces:",
+      "options": [
+        "A detective investigation",
+        "A character's growth and education",
+        "A family genealogy only",
+        "A historical battle"
+      ],
+      "answer": 1,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "A Vindication of the Rights of Woman was written by:",
+      "options": [
+        "Mary Wollstonecraft",
+        "Virginia Woolf",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "answer": 0,
+      "t": "Non-Fictional Prose",
+      "d": 1
+    },
+    {
+      "q": "The essay 'Of Studies' is by:",
+      "options": [
+        "Francis Bacon",
+        "Joseph Addison",
+        "Charles Lamb",
+        "William Hazlitt"
+      ],
+      "answer": 0,
+      "t": "Non-Fictional Prose",
+      "d": 1
+    },
+    {
+      "q": "A Room of One's Own is associated with:",
+      "options": [
+        "Virginia Woolf",
+        "Simone de Beauvoir",
+        "Elaine Showalter",
+        "Mary Astell"
+      ],
+      "answer": 0,
+      "t": "Non-Fictional Prose",
+      "d": 1
+    },
+    {
+      "q": "Who wrote the essay collection The Spectator papers with Richard Steele as a collaborator?",
+      "options": [
+        "Joseph Addison",
+        "John Dryden",
+        "Samuel Johnson",
+        "Thomas Carlyle"
+      ],
+      "answer": 0,
+      "t": "Non-Fictional Prose",
+      "d": 2
+    },
+    {
+      "q": "The smallest distinctive sound unit in a language is a:",
+      "options": [
+        "Morpheme",
+        "Phoneme",
+        "Lexeme",
+        "Clause"
+      ],
+      "answer": 1,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "The study of meaning in language is called:",
+      "options": [
+        "Syntax",
+        "Phonetics",
+        "Semantics",
+        "Morphology"
+      ],
+      "answer": 2,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "Who is associated with the distinction between langue and parole?",
+      "options": [
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "Roman Jakobson",
+        "M. A. K. Halliday"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 2
+    },
+    {
+      "q": "The concept of communicative competence is associated with:",
+      "options": [
+        "Dell Hymes",
+        "Leonard Bloomfield",
+        "I. A. Richards",
+        "Northrop Frye"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 2
+    },
+    {
+      "q": "Who wrote the influential essay 'Can the Subaltern Speak?'",
+      "options": [
+        "Gayatri Chakravorty Spivak",
+        "Homi K. Bhabha",
+        "Edward Said",
+        "Stuart Hall"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 2
+    },
+    {
+      "q": "Orientalism (1978) was written by:",
+      "options": [
+        "Edward Said",
+        "Frantz Fanon",
+        "Raymond Williams",
+        "Terry Eagleton"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 1
+    },
+    {
+      "q": "The concept of hegemony is central to the writings of:",
+      "options": [
+        "Antonio Gramsci",
+        "Jacques Derrida",
+        "Roland Barthes",
+        "Cleanth Brooks"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 2
+    },
+    {
+      "q": "Who wrote An Essay on Dramatic Poesy?",
+      "options": [
+        "John Dryden",
+        "Samuel Johnson",
+        "Alexander Pope",
+        "Philip Sidney"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Aristotle's Poetics primarily discusses:",
+      "options": [
+        "Epic and tragedy",
+        "The English novel",
+        "Modernist poetry",
+        "Postcolonial drama"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 1
+    },
+    {
+      "q": "The term 'intentional fallacy' is associated with:",
+      "options": [
+        "Wimsatt and Beardsley",
+        "Wordsworth and Coleridge",
+        "Marx and Engels",
+        "Frye and Leavis"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 3
+    },
+    {
+      "q": "Deconstruction is most closely associated with:",
+      "options": [
+        "Jacques Derrida",
+        "Michel Foucault",
+        "Lucien Goldmann",
+        "Georg Lukács"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Who wrote the Old English epic Beowulf?",
+      "options": [
+        "Anonymous",
+        "Geoffrey Chaucer",
+        "John Gower",
+        "William Langland"
+      ],
+      "answer": 0,
+      "t": "History of English Literature",
+      "d": 1
+    },
+    {
+      "q": "The Norman Conquest of England took place in:",
+      "options": [
+        "1066",
+        "1215",
+        "1348",
+        "1485"
+      ],
+      "answer": 0,
+      "t": "History of English Literature",
+      "d": 1
+    },
+    {
+      "q": "The Canterbury Tales is written primarily in:",
+      "options": [
+        "Middle English",
+        "Old English",
+        "Early Modern English",
+        "Latin"
+      ],
+      "answer": 0,
+      "t": "History of English Literature",
+      "d": 1
+    },
+    {
+      "q": "Who is traditionally known as the 'Father of English Poetry'?",
+      "options": [
+        "Geoffrey Chaucer",
+        "John Milton",
+        "Edmund Spenser",
+        "William Shakespeare"
+      ],
+      "answer": 0,
+      "t": "History of English Literature",
+      "d": 1
+    },
+    {
+      "q": "The Faerie Queene was written by:",
+      "options": [
+        "Edmund Spenser",
+        "Philip Sidney",
+        "John Donne",
+        "Ben Jonson"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Paradise Lost is written mainly in:",
+      "options": [
+        "Blank verse",
+        "Heroic couplets",
+        "Free verse",
+        "Terza rima"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Who wrote Lycidas?",
+      "options": [
+        "John Milton",
+        "Andrew Marvell",
+        "John Dryden",
+        "Thomas Gray"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "The phrase 'objective correlative' is associated with:",
+      "options": [
+        "T. S. Eliot",
+        "I. A. Richards",
+        "F. R. Leavis",
+        "William Empson"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Who wrote 'The Love Song of J. Alfred Prufrock'?",
+      "options": [
+        "T. S. Eliot",
+        "W. B. Yeats",
+        "Ezra Pound",
+        "Robert Frost"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "The poem 'Dover Beach' was written by:",
+      "options": [
+        "Matthew Arnold",
+        "Alfred Tennyson",
+        "Robert Browning",
+        "Dante Gabriel Rossetti"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Who wrote the dramatic monologue 'My Last Duchess'?",
+      "options": [
+        "Robert Browning",
+        "Alfred Tennyson",
+        "Matthew Arnold",
+        "D. G. Rossetti"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "In Shakespeare's Hamlet, the play-within-the-play is called:",
+      "options": [
+        "The Mousetrap",
+        "The Tempest",
+        "The Dumb Show",
+        "The Spanish Tragedy"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Which Shakespeare play features the characters Rosalind and Orlando?",
+      "options": [
+        "As You Like It",
+        "Twelfth Night",
+        "Measure for Measure",
+        "The Winter's Tale"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "The Tempest is often discussed as one of Shakespeare's:",
+      "options": [
+        "Late romances",
+        "History plays",
+        "Roman tragedies",
+        "Problem novels"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Who wrote Volpone?",
+      "options": [
+        "Ben Jonson",
+        "Thomas Kyd",
+        "John Webster",
+        "Christopher Marlowe"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "The Way of the World is a Restoration comedy by:",
+      "options": [
+        "William Congreve",
+        "William Wycherley",
+        "George Etherege",
+        "John Vanbrugh"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "The School for Scandal was written by:",
+      "options": [
+        "Richard Brinsley Sheridan",
+        "Oliver Goldsmith",
+        "William Congreve",
+        "John Dryden"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "A Doll's House is a play by:",
+      "options": [
+        "Henrik Ibsen",
+        "August Strindberg",
+        "Anton Chekhov",
+        "Bertolt Brecht"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "The theatre of the absurd is associated with:",
+      "options": [
+        "Samuel Beckett and Eugène Ionesco",
+        "Oscar Wilde and Shaw",
+        "Marlowe and Kyd",
+        "Dryden and Congreve"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Who wrote The Rivals?",
+      "options": [
+        "Richard Brinsley Sheridan",
+        "Oliver Goldsmith",
+        "George Bernard Shaw",
+        "John Galsworthy"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "The novel Robinson Crusoe was written by:",
+      "options": [
+        "Daniel Defoe",
+        "Samuel Richardson",
+        "Henry Fielding",
+        "Tobias Smollett"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "Who is the author of Tom Jones?",
+      "options": [
+        "Henry Fielding",
+        "Daniel Defoe",
+        "Laurence Sterne",
+        "Samuel Richardson"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "The narrator of Jane Eyre is:",
+      "options": [
+        "Jane Eyre",
+        "Mr Rochester",
+        "St John Rivers",
+        "Bertha Mason"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "Middlemarch was written by:",
+      "options": [
+        "George Eliot",
+        "Charlotte Brontë",
+        "Elizabeth Gaskell",
+        "George Meredith"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "Who wrote Heart of Darkness?",
+      "options": [
+        "Joseph Conrad",
+        "E. M. Forster",
+        "Rudyard Kipling",
+        "H. G. Wells"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "Mrs Dalloway is notable for its use of:",
+      "options": [
+        "Stream of consciousness",
+        "Epistolary narration only",
+        "Picaresque episodes",
+        "Gothic supernaturalism"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "Who wrote A Passage to India?",
+      "options": [
+        "E. M. Forster",
+        "Rudyard Kipling",
+        "Salman Rushdie",
+        "V. S. Naipaul"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "The God of Small Things was written by:",
+      "options": [
+        "Arundhati Roy",
+        "Kiran Desai",
+        "Anita Desai",
+        "Jhumpa Lahiri"
+      ],
+      "answer": 0,
+      "t": "Indian Writing in English",
+      "d": 1
+    },
+    {
+      "q": "Who wrote Kanthapura?",
+      "options": [
+        "Raja Rao",
+        "Mulk Raj Anand",
+        "R. K. Narayan",
+        "Bhabani Bhattacharya"
+      ],
+      "answer": 0,
+      "t": "Indian Writing in English",
+      "d": 1
+    },
+    {
+      "q": "The novel Untouchable is by:",
+      "options": [
+        "Mulk Raj Anand",
+        "R. K. Narayan",
+        "Raja Rao",
+        "Khushwant Singh"
+      ],
+      "answer": 0,
+      "t": "Indian Writing in English",
+      "d": 1
+    },
+    {
+      "q": "Who wrote the poem 'An Introduction'?",
+      "options": [
+        "Kamala Das",
+        "Toru Dutt",
+        "Sarojini Naidu",
+        "Eunice de Souza"
+      ],
+      "answer": 0,
+      "t": "Indian Writing in English",
+      "d": 1
+    },
+    {
+      "q": "The term 'postcolonialism' primarily examines:",
+      "options": [
+        "Cultural, political and literary effects of colonialism",
+        "Only medieval European grammar",
+        "The structure of classical tragedy",
+        "The use of rhyme in sonnets"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 1
+    },
+    {
+      "q": "The concept of hybridity in postcolonial theory is associated with:",
+      "options": [
+        "Homi K. Bhabha",
+        "Edward Said",
+        "Frantz Fanon",
+        "Aijaz Ahmad"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "The Wretched of the Earth was written by:",
+      "options": [
+        "Frantz Fanon",
+        "Edward Said",
+        "Ngũgĩ wa Thiong'o",
+        "Aimé Césaire"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 2
+    },
+    {
+      "q": "Who wrote Decolonising the Mind?",
+      "options": [
+        "Ngũgĩ wa Thiong'o",
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Derek Walcott"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 1
+    },
+    {
+      "q": "The concept of the 'gaze' is influential in:",
+      "options": [
+        "Feminist film and cultural theory",
+        "Classical prosody only",
+        "Historical linguistics only",
+        "Textual bibliography only"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 3
+    },
+    {
+      "q": "Who wrote The Second Sex?",
+      "options": [
+        "Simone de Beauvoir",
+        "Betty Friedan",
+        "Kate Millett",
+        "Judith Butler"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 1
+    },
+    {
+      "q": "The term 'gynocriticism' was introduced by:",
+      "options": [
+        "Elaine Showalter",
+        "Sandra Gilbert",
+        "Susan Gubar",
+        "Julia Kristeva"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Who wrote The Madwoman in the Attic with Susan Gubar?",
+      "options": [
+        "Sandra Gilbert",
+        "Elaine Showalter",
+        "Kate Millett",
+        "Toril Moi"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "The concept of différance is associated with:",
+      "options": [
+        "Jacques Derrida",
+        "Jacques Lacan",
+        "Louis Althusser",
+        "Mikhail Bakhtin"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Who developed the idea of the 'author function'?",
+      "options": [
+        "Michel Foucault",
+        "Roland Barthes",
+        "Gérard Genette",
+        "Paul de Man"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "The phrase 'the death of the author' is associated with:",
+      "options": [
+        "Roland Barthes",
+        "Michel Foucault",
+        "Jacques Lacan",
+        "Terry Eagleton"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 1
+    },
+    {
+      "q": "Who wrote Practical Criticism?",
+      "options": [
+        "I. A. Richards",
+        "F. R. Leavis",
+        "William Empson",
+        "Cleanth Brooks"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Seven Types of Ambiguity was written by:",
+      "options": [
+        "William Empson",
+        "I. A. Richards",
+        "T. S. Eliot",
+        "Northrop Frye"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "The term 'defamiliarization' is associated with:",
+      "options": [
+        "Russian Formalism",
+        "New Historicism",
+        "Reader-response theory",
+        "Archetypal criticism"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Who wrote Anatomy of Criticism?",
+      "options": [
+        "Northrop Frye",
+        "Cleanth Brooks",
+        "Terry Eagleton",
+        "Georg Lukács"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "The concept of dialogism is associated with:",
+      "options": [
+        "Mikhail Bakhtin",
+        "Roman Jakobson",
+        "Ferdinand de Saussure",
+        "Noam Chomsky"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "A morpheme is:",
+      "options": [
+        "The smallest grammatical unit of meaning",
+        "The smallest speech sound contrast",
+        "A complete paragraph",
+        "A type of sentence stress"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "The branch of linguistics concerned with sentence structure is:",
+      "options": [
+        "Syntax",
+        "Semantics",
+        "Phonetics",
+        "Pragmatics"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "The study of language use in context is:",
+      "options": [
+        "Pragmatics",
+        "Phonology",
+        "Morphology",
+        "Graphology"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "Which scholar is associated with the distinction between competence and performance?",
+      "options": [
+        "Noam Chomsky",
+        "Dell Hymes",
+        "M. A. K. Halliday",
+        "J. R. Firth"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 2
+    },
+    {
+      "q": "The International Phonetic Alphabet is used to:",
+      "options": [
+        "Represent speech sounds consistently",
+        "Classify literary genres",
+        "Mark sentence clauses only",
+        "Record semantic fields"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "A minimal pair demonstrates a contrast between:",
+      "options": [
+        "Two phonemes in a language",
+        "Two genres of fiction",
+        "Two writing systems only",
+        "Two dialect dictionaries"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 2
+    },
+    {
+      "q": "Which method of language teaching emphasises meaningful interaction and communicative competence?",
+      "options": [
+        "Communicative Language Teaching",
+        "Grammar Translation only",
+        "Silent copying",
+        "Mechanical dictation only"
+      ],
+      "answer": 0,
+      "t": "English Language Teaching",
+      "d": 1
+    },
+    {
+      "q": "In second-language acquisition, interlanguage refers to:",
+      "options": [
+        "A learner's developing language system",
+        "A fully native-like final grammar",
+        "A language family",
+        "A translation dictionary"
+      ],
+      "answer": 0,
+      "t": "English Language Teaching",
+      "d": 2
+    },
+    {
+      "q": "Which of the following is a receptive language skill?",
+      "options": [
+        "Reading",
+        "Speaking",
+        "Writing",
+        "Presenting"
+      ],
+      "answer": 0,
+      "t": "English Language Teaching",
+      "d": 1
+    },
+    {
+      "q": "A corpus in corpus linguistics is:",
+      "options": [
+        "A systematically collected body of language data",
+        "A list of literary awards",
+        "A single grammar rule",
+        "A translation theory"
+      ],
+      "answer": 0,
+      "t": "Language and Linguistics",
+      "d": 1
+    },
+    {
+      "q": "Who wrote The Location of Culture?",
+      "options": [
+        "Homi K. Bhabha",
+        "Edward Said",
+        "Stuart Hall",
+        "Gayatri Spivak"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 2
+    },
+    {
+      "q": "Cultural materialism in British literary studies is strongly associated with:",
+      "options": [
+        "Raymond Williams",
+        "Jacques Derrida",
+        "Northrop Frye",
+        "Harold Bloom"
+      ],
+      "answer": 0,
+      "t": "Cultural Studies",
+      "d": 2
+    },
+    {
+      "q": "New Historicism is associated with:",
+      "options": [
+        "Stephen Greenblatt",
+        "Cleanth Brooks",
+        "I. A. Richards",
+        "F. R. Leavis"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Reader-response criticism gives central importance to:",
+      "options": [
+        "The reader's role in producing meaning",
+        "The author's biography alone",
+        "The publisher's marketing strategy",
+        "The metre alone"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 1
+    },
+    {
+      "q": "The term 'heteroglossia' is associated with:",
+      "options": [
+        "Mikhail Bakhtin",
+        "Roland Barthes",
+        "T. S. Eliot",
+        "Jacques Derrida"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Who wrote The Prelude?",
+      "options": [
+        "William Wordsworth",
+        "Samuel Taylor Coleridge",
+        "Lord Byron",
+        "John Keats"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "The phrase 'spots of time' appears in the writings of:",
+      "options": [
+        "William Wordsworth",
+        "John Keats",
+        "P. B. Shelley",
+        "William Blake"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Who wrote 'Ode to the West Wind'?",
+      "options": [
+        "P. B. Shelley",
+        "John Keats",
+        "Lord Byron",
+        "William Wordsworth"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "The phrase 'art for art's sake' is commonly linked with:",
+      "options": [
+        "Aestheticism",
+        "Puritanism",
+        "Classicism only",
+        "Naturalism"
+      ],
+      "answer": 0,
+      "t": "Literary History",
+      "d": 2
+    },
+    {
+      "q": "Who wrote The Picture of Dorian Gray?",
+      "options": [
+        "Oscar Wilde",
+        "Walter Pater",
+        "George Moore",
+        "Arthur Symons"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 1
+    },
+    {
+      "q": "The term 'pathetic fallacy' was coined by:",
+      "options": [
+        "John Ruskin",
+        "Matthew Arnold",
+        "John Ruskin's contemporary Walter Pater",
+        "Samuel Johnson"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 3
+    },
+    {
+      "q": "Which work is a major example of an epistolary novel?",
+      "options": [
+        "Clarissa",
+        "Ulysses",
+        "The Waste Land",
+        "Waiting for Godot"
+      ],
+      "answer": 0,
+      "t": "Fiction and Short Story",
+      "d": 2
+    },
+    {
+      "q": "Who wrote The English Patient?",
+      "options": [
+        "Michael Ondaatje",
+        "Kazuo Ishiguro",
+        "J. M. Coetzee",
+        "V. S. Naipaul"
+      ],
+      "answer": 0,
+      "t": "World Literature",
+      "d": 1
     }
   ],
   "paper2_tamil": [
@@ -3603,6 +6003,1206 @@
       "answer": 2,
       "t": "நவீன இலக்கியம்",
       "d": 3
+    },
+    {
+      "q": "எட்டுத்தொகை நூல்களில் ஒன்றான குறுந்தொகை எந்த இலக்கிய வகையைச் சார்ந்தது?",
+      "options": [
+        "அகம்",
+        "புறம்",
+        "காப்பியம்",
+        "பக்தி"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பத்துப்பாட்டில் இடம்பெறும் பட்டினப்பாலை நூலின் ஆசிரியர் யார்?",
+      "options": [
+        "கடியலூர் உருத்திரங்கண்ணனார்",
+        "நக்கீரர்",
+        "கபிலர்",
+        "மாங்குடி மருதனார்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தொல்காப்பியத்தின் மூன்று அதிகாரங்கள் எவை?",
+      "options": [
+        "எழுத்து, சொல், பொருள்",
+        "அறம், பொருள், இன்பம்",
+        "அகம், புறம், களவு",
+        "இயல், இசை, நாடகம்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "அகத்திணைகளின் எண்ணிக்கை எத்தனை?",
+      "options": [
+        "ஐந்து",
+        "ஆறு",
+        "ஏழு",
+        "எட்டு"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "குறிஞ்சித் திணைக்குரிய உரிப்பொருள் எது?",
+      "options": [
+        "இருத்தல்",
+        "பிரிதல்",
+        "புணர்தல்",
+        "இரங்கல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "புறநானூறு எந்தத் தொகுப்பில் அடங்கும்?",
+      "options": [
+        "எட்டுத்தொகை",
+        "பத்துப்பாட்டு",
+        "பதினெண்கீழ்க்கணக்கு",
+        "ஐம்பெருங்காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளில் மொத்தம் எத்தனை குறள்கள் உள்ளன?",
+      "options": [
+        "1000",
+        "1200",
+        "1330",
+        "1500"
+      ],
+      "answer": 2,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் மூன்று பெரும் பிரிவுகள் எவை?",
+      "options": [
+        "அறம், பொருள், இன்பம்",
+        "அகம், புறம், வீடு",
+        "இயல், இசை, நாடகம்",
+        "களவு, கற்பு, ஊடல்"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "சிலப்பதிகாரத்தின் மூன்று காண்டங்கள் எவை?",
+      "options": [
+        "புகார், மதுரை, வஞ்சி",
+        "அயோத்தி, கிட்கிந்தை, இலங்கை",
+        "கடல், மலை, காடு",
+        "அறம், பொருள், இன்பம்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "மணிமேகலையின் ஆசிரியர் யார்?",
+      "options": [
+        "சீத்தலைச் சாத்தனார்",
+        "இளங்கோ அடிகள்",
+        "திருத்தக்கதேவர்",
+        "கம்பர்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "சீவகசிந்தாமணி எந்தச் சமய மரபுடன் தொடர்புடையது?",
+      "options": [
+        "சமணம்",
+        "பௌத்தம்",
+        "சைவம்",
+        "வைணவம்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "கம்பராமாயணம் எந்த வடமொழிக் காப்பியத்தைத் தமிழில் மறுவடிவமைக்கிறது?",
+      "options": [
+        "மகாபாரதம்",
+        "இராமாயணம்",
+        "பாகவதம்",
+        "குமாரசம்பவம்"
+      ],
+      "answer": 1,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பெரியபுராணத்தை இயற்றியவர் யார்?",
+      "options": [
+        "சேக்கிழார்",
+        "ஒட்டக்கூத்தர்",
+        "கம்பர்",
+        "புகழேந்தி"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "தேவாரம் பாடிய மூவர் என அழைக்கப்படுவோர் யார்?",
+      "options": [
+        "சம்பந்தர், அப்பர், சுந்தரர்",
+        "ஆண்டாள், நம்மாழ்வார், பெரியாழ்வார்",
+        "மாணிக்கவாசகர், பட்டினத்தார், திருமூலர்",
+        "கம்பர், சேக்கிழார், ஒட்டக்கூத்தர்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருவாசகத்தை இயற்றியவர் யார்?",
+      "options": [
+        "மாணிக்கவாசகர்",
+        "திருநாவுக்கரசர்",
+        "திருஞானசம்பந்தர்",
+        "சுந்தரர்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நாலாயிர திவ்யப் பிரபந்தம் எந்த மரபைச் சார்ந்தது?",
+      "options": [
+        "சைவம்",
+        "வைணவம்",
+        "சமணம்",
+        "பௌத்தம்"
+      ],
+      "answer": 1,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நன்னூலை இயற்றியவர் யார்?",
+      "options": [
+        "பவணந்தி முனிவர்",
+        "தொல்காப்பியர்",
+        "பரிமேலழகர்",
+        "நச்சினார்க்கினியர்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "யாப்பிலக்கணம் எதனைப் பற்றிக் கூறுகிறது?",
+      "options": [
+        "செய்யுள் அமைப்பு",
+        "சொற்பொருள்",
+        "ஒலியியல் மட்டும்",
+        "உரைநடை வரலாறு"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "அணி இலக்கணம் முதன்மையாக எதனை விளக்குகிறது?",
+      "options": [
+        "அலங்கார உத்திகள்",
+        "வேற்றுமை உருபுகள்",
+        "எழுத்துகளின் பிறப்பு",
+        "வினைமுற்றுகள்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "கலித்தொகை எந்த யாப்பு வகையுடன் தொடர்புடையது?",
+      "options": [
+        "கலி",
+        "வெண்பா",
+        "ஆசிரியப்பா",
+        "வஞ்சிப்பா"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதியாரின் 'பாஞ்சாலி சபதம்' எந்த இதிகாச நிகழ்வை மையமாகக் கொண்டது?",
+      "options": [
+        "சூதாட்டமும் பாஞ்சாலியின் அவமதிப்பும்",
+        "இராமனின் வனவாசம்",
+        "கண்ணனின் பிறப்பு",
+        "கர்ணனின் தானம்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புதுமைப்பித்தன் பெரும்பாலும் எந்த இலக்கிய வடிவத்திற்காகப் புகழ்பெற்றவர்?",
+      "options": [
+        "சிறுகதை",
+        "காப்பியம்",
+        "உலா",
+        "பிள்ளைத்தமிழ்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "மணிக்கொடி இயக்கம் முதன்மையாக எந்த இலக்கிய வளர்ச்சியுடன் தொடர்புடையது?",
+      "options": [
+        "நவீன சிறுகதை மற்றும் இலக்கியப் புதுமை",
+        "சங்கப் பாடல் தொகுப்பு",
+        "பக்தி இயக்கம்",
+        "இலக்கண உரை மரபு"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "திராவிட இயக்க எழுத்துகளில் முக்கியமாக வலியுறுத்தப்பட்ட கருத்து எது?",
+      "options": [
+        "சமூக நீதி மற்றும் சாதி எதிர்ப்பு",
+        "அரச மரபின் புகழ்ச்சி மட்டும்",
+        "இயற்கை வழிபாடு மட்டும்",
+        "போர்க் கலை"
+      ],
+      "answer": 0,
+      "t": "தமிழர் பண்பாடு மற்றும் சமூக வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "உவமை அணி என்பது:",
+      "options": [
+        "ஒன்றை மற்றொன்றுடன் ஒப்பிட்டு கூறுதல்",
+        "ஒரு சொல்லை நீக்குதல்",
+        "எதிர்மறை வினை அமைத்தல்",
+        "சொற்களை வரிசைப்படுத்துதல்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பதினெண்கீழ்க்கணக்கு நூல்களில் அறநூலாகப் போற்றப்படுவது எது?",
+      "options": [
+        "நாலடியார்",
+        "பத்துப்பாட்டு",
+        "பரிபாடல்",
+        "பட்டினப்பாலை"
+      ],
+      "answer": 0,
+      "t": "அற இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "ஆண்டாள் இயற்றிய நூல்கள் எவை?",
+      "options": [
+        "திருப்பாவை, நாச்சியார் திருமொழி",
+        "தேவாரம், திருவாசகம்",
+        "திருக்குறள், நாலடியார்",
+        "பெரியபுராணம், கந்தபுராணம்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தமிழில் முதல் நாவலாகப் பொதுவாகக் குறிப்பிடப்படுவது எது?",
+      "options": [
+        "பிரதாப முதலியார் சரித்திரம்",
+        "கமலாம்பாள் சரித்திரம்",
+        "பொன்னியின் செல்வன்",
+        "பத்மாவதி சரித்திரம்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தமிழ் உரைநடை வளர்ச்சியில் அச்சு மற்றும் இதழ்களின் பங்கு முக்கியமானது எந்தக் காலத்தில் அதிகரித்தது?",
+      "options": [
+        "பத்தொன்பதாம் நூற்றாண்டு",
+        "சங்க காலம்",
+        "சோழர் காலம் மட்டும்",
+        "பல்லவர் காலம் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "இலக்கியத் திறனாய்வில் 'உருவவியல் அணுகுமுறை' முதன்மையாக எதனை ஆராய்கிறது?",
+      "options": [
+        "படைப்பின் வடிவம் மற்றும் கட்டமைப்பு",
+        "ஆசிரியரின் வருமானம்",
+        "வாசகரின் வயது மட்டும்",
+        "பதிப்பகத்தின் விற்பனை"
+      ],
+      "answer": 0,
+      "t": "தமிழ் திறனாய்வு",
+      "d": 3
+    },
+    {
+      "q": "அகநானூறு எந்தத் தொகுப்பைச் சேர்ந்தது?",
+      "options": [
+        "எட்டுத்தொகை",
+        "பத்துப்பாட்டு",
+        "பதினெண்கீழ்க்கணக்கு",
+        "ஐம்பெருங்காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நற்றிணை எந்த இலக்கியத் தொகுப்பில் இடம்பெறுகிறது?",
+      "options": [
+        "எட்டுத்தொகை",
+        "பத்துப்பாட்டு",
+        "ஐஞ்சிறுங்காப்பியம்",
+        "பதினெண்மேல்கணக்கு அல்ல"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பரிபாடல் எந்தத் தொகுப்பைச் சேர்ந்தது?",
+      "options": [
+        "எட்டுத்தொகை",
+        "பத்துப்பாட்டு",
+        "பதினெண்கீழ்க்கணக்கு",
+        "ஐம்பெருங்காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "முல்லைத் திணைக்குரிய உரிப்பொருள் எது?",
+      "options": [
+        "இருத்தல்",
+        "புணர்தல்",
+        "ஊடல்",
+        "இரங்கல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "மருதத் திணைக்குரிய உரிப்பொருள் எது?",
+      "options": [
+        "ஊடல்",
+        "பிரிதல்",
+        "இருத்தல்",
+        "புணர்தல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நெய்தல் திணை எந்த நிலத்தைக் குறிக்கிறது?",
+      "options": [
+        "கடலும் கடற்கரைப் பகுதியும்",
+        "மலையும் மலை சார்ந்த இடமும்",
+        "காடும் காடு சார்ந்த இடமும்",
+        "வயலும் வயல் சார்ந்த இடமும்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பாலைத் திணை பொதுவாக எதனுடன் தொடர்புடையது?",
+      "options": [
+        "பிரிதல்",
+        "இருத்தல்",
+        "ஊடல்",
+        "புணர்தல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "புறத்திணைகளில் வெட்சி என்பது:",
+      "options": [
+        "ஆநிரை கவர்தல்",
+        "கோட்டை முற்றுகை",
+        "வெற்றி கொண்டாடுதல்",
+        "போர் தவிர்த்தல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புறநானூற்றில் பாடப்பட்டுள்ள முக்கியமான பொருள் எது?",
+      "options": [
+        "புறவாழ்வு, வீரம், கொடை, புகழ்",
+        "அகக்காதல் மட்டும்",
+        "இலக்கண விதிகள் மட்டும்",
+        "பக்தி வழிபாடு மட்டும்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பத்துப்பாட்டில் இடம்பெறும் திருமுருகாற்றுப்படையின் ஆசிரியர் யார்?",
+      "options": [
+        "நக்கீரர்",
+        "கபிலர்",
+        "பரணர்",
+        "மாங்குடி மருதனார்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பதிற்றுப்பத்து முக்கியமாக எந்த அரச மரபைப் பற்றிப் பாடுகிறது?",
+      "options": [
+        "சேரர்",
+        "சோழர்",
+        "பாண்டியர்",
+        "பல்லவர்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பட்டினப்பாலை எந்த நகரின் சிறப்பை எடுத்துரைக்கிறது?",
+      "options": [
+        "காவிரிப்பூம்பட்டினம்",
+        "மதுரை",
+        "வஞ்சி",
+        "காஞ்சிபுரம்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தொல்காப்பியத்தில் பொருளதிகாரம் முதன்மையாக எதனை விளக்குகிறது?",
+      "options": [
+        "அகப்பொருள், புறப்பொருள் மற்றும் வாழ்வியல் மரபுகள்",
+        "எழுத்துகளின் வரிசை மட்டும்",
+        "சொற்களின் புணர்ச்சி மட்டும்",
+        "யாப்பின் வகைகள் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "தொல்காப்பியத்தில் எழுத்ததிகாரம் எதனை ஆராய்கிறது?",
+      "options": [
+        "எழுத்து மற்றும் ஒலியமைப்பு சார்ந்த விதிகள்",
+        "அரசாட்சி முறைகள்",
+        "காப்பியக் கதை அமைப்பு",
+        "பக்தி மரபுகள்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பெயர்ச்சொல் எதைக் குறிக்கிறது?",
+      "options": [
+        "ஒரு பொருள், நபர், இடம் அல்லது கருத்தின் பெயர்",
+        "செயலை மட்டும்",
+        "இணைப்பை மட்டும்",
+        "காலத்தை மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "வினைச்சொல் பொதுவாக எதைக் குறிக்கிறது?",
+      "options": [
+        "செயல் அல்லது நிகழ்வு",
+        "ஒரு நபரின் பெயர் மட்டும்",
+        "இடப்பெயர் மட்டும்",
+        "உருபு மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "வேற்றுமை உருபுகள் எதனுடன் தொடர்புடையவை?",
+      "options": [
+        "பெயர்ச்சொல்லின் இலக்கண உறவுகள்",
+        "வினையின் காலம் மட்டும்",
+        "யாப்பின் அடி எண்ணிக்கை",
+        "அணியின் வகைகள் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "வெண்பாவின் அடிப்படை ஓசை எது?",
+      "options": [
+        "செப்பலோசை",
+        "அகவலோசை",
+        "துள்ளலோசை",
+        "தூங்கலோசை"
+      ],
+      "answer": 0,
+      "t": "யாப்பிலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "ஆசிரியப்பாவிற்கு உரிய ஓசை எது?",
+      "options": [
+        "அகவலோசை",
+        "செப்பலோசை",
+        "துள்ளலோசை",
+        "தூங்கலோசை"
+      ],
+      "answer": 0,
+      "t": "யாப்பிலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "கலிப்பாவிற்கு உரிய ஓசை எது?",
+      "options": [
+        "துள்ளலோசை",
+        "செப்பலோசை",
+        "அகவலோசை",
+        "தூங்கலோசை"
+      ],
+      "answer": 0,
+      "t": "யாப்பிலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "வஞ்சிப்பாவிற்கு உரிய ஓசை எது?",
+      "options": [
+        "தூங்கலோசை",
+        "செப்பலோசை",
+        "அகவலோசை",
+        "துள்ளலோசை"
+      ],
+      "answer": 0,
+      "t": "யாப்பிலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "சிலப்பதிகாரத்தில் கோவலன் கொல்லப்படும் நகரம் எது?",
+      "options": [
+        "மதுரை",
+        "புகார்",
+        "வஞ்சி",
+        "உறையூர்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "சிலப்பதிகாரத்தின் ஆசிரியர் என மரபில் குறிப்பிடப்படுபவர் யார்?",
+      "options": [
+        "இளங்கோ அடிகள்",
+        "சீத்தலைச் சாத்தனார்",
+        "திருத்தக்கதேவர்",
+        "சேக்கிழார்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "மணிமேகலைக் காப்பியத்தின் மையக் கதாபாத்திரம் யார்?",
+      "options": [
+        "மணிமேகலை",
+        "கண்ணகி",
+        "மாதவி",
+        "கோப்பெருந்தேவி"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "குண்டலகேசி எந்தச் சமய மரபுடன் தொடர்புடைய காப்பியமாகக் கருதப்படுகிறது?",
+      "options": [
+        "பௌத்தம்",
+        "சைவம்",
+        "வைணவம்",
+        "சமணம்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "வளையாபதி எந்த வகைத் தமிழ்க் காப்பியமாக வகைப்படுத்தப்படுகிறது?",
+      "options": [
+        "ஐம்பெருங்காப்பியம்",
+        "ஐஞ்சிறுங்காப்பியம்",
+        "பக்திக் காப்பியம்",
+        "நாட்டுப்புறக் காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "திருக்குறளுக்கு உரை எழுதிய புகழ்பெற்ற உரையாசிரியர்களில் ஒருவர் யார்?",
+      "options": [
+        "பரிமேலழகர்",
+        "நச்சினார்க்கினியர்",
+        "அடியார்க்குநல்லார்",
+        "இளம்பூரணர்"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "நாலடியார் எந்தத் தொகுப்பைச் சேர்ந்தது?",
+      "options": [
+        "பதினெண்கீழ்க்கணக்கு",
+        "எட்டுத்தொகை",
+        "பத்துப்பாட்டு",
+        "ஐம்பெருங்காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "அற இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "இன்னா நாற்பது நூலின் ஆசிரியர் யார்?",
+      "options": [
+        "கபிலர்",
+        "பூதஞ்சேந்தனார்",
+        "முன்றுறையரையனார்",
+        "கணிமேதாவியார்"
+      ],
+      "answer": 0,
+      "t": "அற இலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "இனியவை நாற்பது நூலின் ஆசிரியர் யார்?",
+      "options": [
+        "பூதஞ்சேந்தனார்",
+        "கபிலர்",
+        "பவணந்தி",
+        "சேக்கிழார்"
+      ],
+      "answer": 0,
+      "t": "அற இலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "திருமந்திரத்தை இயற்றியவர் யார்?",
+      "options": [
+        "திருமூலர்",
+        "மாணிக்கவாசகர்",
+        "அப்பர்",
+        "சுந்தரர்"
+      ],
+      "answer": 0,
+      "t": "சைவ சித்தாந்தம் மற்றும் பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருப்பாவையில் மொத்தம் எத்தனை பாடல்கள் உள்ளன?",
+      "options": [
+        "30",
+        "20",
+        "40",
+        "50"
+      ],
+      "answer": 0,
+      "t": "வைணவ பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நம்மாழ்வார் இயற்றிய திருவாய்மொழி எதில் இடம்பெறுகிறது?",
+      "options": [
+        "நாலாயிர திவ்யப் பிரபந்தம்",
+        "தேவாரம்",
+        "திருவாசகம்",
+        "பெரியபுராணம்"
+      ],
+      "answer": 0,
+      "t": "வைணவ பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருப்புகழைப் பாடியவர் யார்?",
+      "options": [
+        "அருணகிரிநாதர்",
+        "பட்டினத்தார்",
+        "தாயுமானவர்",
+        "குமரகுருபரர்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "கந்தபுராணத்தைத் தமிழில் இயற்றியவர் யார்?",
+      "options": [
+        "கச்சியப்ப சிவாச்சாரியார்",
+        "கம்பர்",
+        "ஒட்டக்கூத்தர்",
+        "சேக்கிழார்"
+      ],
+      "answer": 0,
+      "t": "காப்பிய இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "மூவருலா நூல்களை இயற்றியவர் எனப் புகழ்பெற்றவர் யார்?",
+      "options": [
+        "ஒட்டக்கூத்தர்",
+        "கம்பர்",
+        "புகழேந்தி",
+        "செயங்கொண்டார்"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "கலிங்கத்துப்பரணி நூலின் ஆசிரியர் யார்?",
+      "options": [
+        "செயங்கொண்டார்",
+        "ஒட்டக்கூத்தர்",
+        "கம்பர்",
+        "பரணர்"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பிள்ளைத்தமிழ் இலக்கியத்தின் மையக் கூறு எது?",
+      "options": [
+        "குழந்தைப் பருவ வளர்ச்சியைப் பருவங்களாகப் பாடுதல்",
+        "போரின் வெற்றியைப் பாடுதல்",
+        "அரசரின் வரலாற்றை மட்டும் கூறுதல்",
+        "இலக்கண விதிகளை விளக்குதல்"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "குறவஞ்சி இலக்கியத்தில் பொதுவாக இடம்பெறும் பாத்திரம் எது?",
+      "options": [
+        "குறத்தி",
+        "தூதன் மட்டும்",
+        "போர்வீரன் மட்டும்",
+        "அமைச்சர் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தமிழில் முதல் நாவலாகப் பொதுவாக ஏற்றுக்கொள்ளப்படுவது எது?",
+      "options": [
+        "பிரதாப முதலியார் சரித்திரம்",
+        "கமலாம்பாள் சரித்திரம்",
+        "பொன்னியின் செல்வன்",
+        "பார்த்திபன் கனவு"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பிரதாப முதலியார் சரித்திரத்தை எழுதியவர் யார்?",
+      "options": [
+        "மாயூரம் வேதநாயகம் பிள்ளை",
+        "பி. ஆர். ராஜம் ஐயர்",
+        "அ. மாதவையா",
+        "கல்கி"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "கமலாம்பாள் சரித்திரம் எழுதியவர் யார்?",
+      "options": [
+        "பி. ஆர். ராஜம் ஐயர்",
+        "மாயூரம் வேதநாயகம் பிள்ளை",
+        "அ. மாதவையா",
+        "கல்கி"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பொன்னியின் செல்வன் நாவலின் ஆசிரியர் யார்?",
+      "options": [
+        "கல்கி",
+        "சாண்டில்யன்",
+        "அகிலன்",
+        "ஜெயகாந்தன்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "சாகித்ய அகாதெமி விருது பெற்ற முதல் தமிழ் நூல் எது?",
+      "options": [
+        "சில நேரங்களில் சில மனிதர்கள்",
+        "அலை ஓசை",
+        "வெள்ளைப் பறவை",
+        "சக்கரவர்த்தித் திருமகன்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "ஜெயகாந்தனின் படைப்புகளில் முக்கியமாக வெளிப்படும் சமூகப் பார்வை எது?",
+      "options": [
+        "நகர்ப்புற விளிம்புநிலை மக்களின் வாழ்க்கை மற்றும் சமூக முரண்பாடுகள்",
+        "சங்ககால அரச மரபு மட்டும்",
+        "புராணப் போர்கள் மட்டும்",
+        "இலக்கண வரலாறு மட்டும்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதிதாசனின் இயற்பெயர் என்ன?",
+      "options": [
+        "கனகசுப்புரத்தினம்",
+        "சுப்பிரமணியன்",
+        "வேங்கடசாமி",
+        "முத்துசாமி"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "சுப்பிரமணிய பாரதியார் பிறந்த ஊர் எது?",
+      "options": [
+        "எட்டயபுரம்",
+        "திருவையாறு",
+        "கும்பகோணம்",
+        "மதுரை"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "தமிழ் சிறுகதை வளர்ச்சியில் முன்னோடியாகக் கருதப்படுபவர் யார்?",
+      "options": [
+        "வ. வே. சு. ஐயர்",
+        "கம்பர்",
+        "சேக்கிழார்",
+        "பவணந்தி"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புதுமைப்பித்தனின் இயற்பெயர் என்ன?",
+      "options": [
+        "சொ. விருத்தாசலம்",
+        "கனகசுப்புரத்தினம்",
+        "ராமலிங்கம்",
+        "சுப்பிரமணியன்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தமிழ் புதுக்கவிதை வளர்ச்சியுடன் தொடர்புடைய இதழ்களில் ஒன்று எது?",
+      "options": [
+        "எழுத்து",
+        "மணிமேகலை மட்டும்",
+        "சிலப்பதிகாரம்",
+        "தொல்காப்பியம்"
+      ],
+      "answer": 0,
+      "t": "நவீன தமிழ் இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "திராவிட இயக்கத்தின் இலக்கியப் பங்களிப்பில் முக்கியமான கரு எது?",
+      "options": [
+        "சமத்துவம், பகுத்தறிவு, சமூக மாற்றம்",
+        "மன்னர் வழிபாடு மட்டும்",
+        "காதல் அகப்பாடல் மட்டும்",
+        "வேத யாக மரபு மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழர் பண்பாடு மற்றும் சமூக வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "தமிழ் செம்மொழி என இந்திய அரசால் அறிவிக்கப்பட்ட ஆண்டு எது?",
+      "options": [
+        "2004",
+        "1998",
+        "2010",
+        "2014"
+      ],
+      "answer": 0,
+      "t": "தமிழ் மொழி வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "தமிழ் பிராமி கல்வெட்டுகள் முதன்மையாக எதற்கான சான்றுகளாகப் பயன்படுகின்றன?",
+      "options": [
+        "பழந்தமிழ் எழுத்து மற்றும் மொழி வரலாறு",
+        "நவீன அச்சுத்தொழில்",
+        "இன்றைய இணையப் பயன்பாடு",
+        "ஐரோப்பிய மறுமலர்ச்சி"
+      ],
+      "answer": 0,
+      "t": "தமிழ் மொழி வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "சங்ககாலத் தமிழர் வாணிகத் தொடர்புகளுக்கான தொல்லியல் சான்றுகளில் ஒன்று எது?",
+      "options": [
+        "ரோம நாணயங்கள் மற்றும் துறைமுகச் சான்றுகள்",
+        "அச்சு இயந்திரங்கள்",
+        "நவீன ரயில் பாதைகள்",
+        "கணினி வலைப்பின்னல்கள்"
+      ],
+      "answer": 0,
+      "t": "தமிழர் பண்பாடு மற்றும் சமூக வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "தமிழ் இலக்கியத் திறனாய்வில் மார்க்சிய அணுகுமுறை முதன்மையாக எதனை ஆராய்கிறது?",
+      "options": [
+        "வர்க்க உறவுகள் மற்றும் பொருளாதார-சமூகச் சூழல்",
+        "ஒலியமைப்பு மட்டும்",
+        "யாப்பு விதிகள் மட்டும்",
+        "ஆசிரியரின் பிறந்த நாள் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் திறனாய்வு",
+      "d": 2
+    },
+    {
+      "q": "பெண்ணியத் திறனாய்வு இலக்கியத்தில் முதன்மையாக எதனை ஆராய்கிறது?",
+      "options": [
+        "பாலின அதிகார உறவுகள் மற்றும் பெண்களின் பிரதிநிதித்துவம்",
+        "சொற்களின் அகர வரிசை",
+        "அச்சுப் பிழைகள் மட்டும்",
+        "பாடலின் எழுத்து எண்ணிக்கை மட்டும்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் திறனாய்வு",
+      "d": 2
+    },
+    {
+      "q": "ஒப்பிலக்கிய ஆய்வு என்பது:",
+      "options": [
+        "இரண்டு அல்லது அதற்கு மேற்பட்ட இலக்கிய மரபுகளை ஒப்பிட்டு ஆராய்தல்",
+        "ஒரு நூலின் எழுத்துப்பிழைகளை மட்டும் திருத்துதல்",
+        "ஒரு மொழியின் ஒலிகளை மட்டும் வகைப்படுத்துதல்",
+        "நூலகப் பட்டியல் தயாரித்தல்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் திறனாய்வு",
+      "d": 1
+    },
+    {
+      "q": "உரைநடை இலக்கியத்தின் முக்கிய அம்சம் எது?",
+      "options": [
+        "இயல்பான தொடரமைப்பில் கருத்தை வெளிப்படுத்துதல்",
+        "யாப்பு கட்டுப்பாடு கட்டாயம்",
+        "எதுகை மோனை கட்டாயம்",
+        "அனைத்தும் செய்யுள் வடிவில் இருத்தல்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வடிவங்கள்",
+      "d": 1
+    },
+    {
+      "q": "நாட்டுப்புறவியல் ஆய்வில் வாய்மொழி மரபுகள் ஏன் முக்கியம்?",
+      "options": [
+        "சமூக நினைவுகள், நம்பிக்கைகள் மற்றும் வாழ்வியல் தகவல்களைப் பாதுகாக்கின்றன",
+        "அவை வரலாற்றுச் சான்றாக ஒருபோதும் பயன்படாது",
+        "அவை எழுத்து இலக்கியத்தை முழுமையாக நீக்குகின்றன",
+        "அவை மொழியுடன் தொடர்பற்றவை"
+      ],
+      "answer": 0,
+      "t": "நாட்டுப்புறவியல்",
+      "d": 2
+    },
+    {
+      "q": "தமிழ் மொழியின் திராவிட மொழிக்குடும்பச் சார்பை முறையாக ஆய்வு செய்த அறிஞர்களில் ஒருவர் யார்?",
+      "options": [
+        "ராபர்ட் கால்டுவெல்",
+        "மாக்ஸ் முல்லர்",
+        "ஃபெர்டினாண்ட் டி சசூர்",
+        "நோம் சாம்ஸ்கி"
+      ],
+      "answer": 0,
+      "t": "தமிழ் மொழியியல்",
+      "d": 2
+    },
+    {
+      "q": "திராவிட மொழிகளின் ஒப்பிலக்கண ஆய்வு நூலை எழுதியவர் யார்?",
+      "options": [
+        "ராபர்ட் கால்டுவெல்",
+        "ஜி. யு. போப்",
+        "வீரமாமுனிவர்",
+        "உ. வே. சாமிநாதையர்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் மொழியியல்",
+      "d": 2
+    },
+    {
+      "q": "உ. வே. சாமிநாதையர் தமிழ் இலக்கிய வரலாற்றில் சிறப்பாக நினைவுகூரப்படுவதற்குக் காரணம் என்ன?",
+      "options": [
+        "பழந்தமிழ் ஓலைச்சுவடிகளைத் தேடி பதிப்பித்தல்",
+        "தமிழ் பிராமி எழுத்தை உருவாக்குதல்",
+        "முதல் தமிழ் நாவலை எழுதுதல்",
+        "தேவாரத்தை இயற்றுதல்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "தமிழ் இலக்கியப் பதிப்பியல் ஆய்வில் 'ஓலைச்சுவடி' என்பது:",
+      "options": [
+        "பனை ஓலையில் எழுதப்பட்ட கையெழுத்துப் பிரதிகள்",
+        "அச்சிடப்பட்ட செய்தித்தாள்",
+        "கணினி தரவுத்தளம்",
+        "கல் சிற்பம் மட்டும்"
+      ],
+      "answer": 0,
+      "t": "ஆய்வியல் முறைகள்",
+      "d": 1
+    },
+    {
+      "q": "ஆய்வில் முதன்மைத் தரவு என்பதற்கு எடுத்துக்காட்டு எது?",
+      "options": [
+        "ஆய்வாளர் நேரடியாக நடத்தும் நேர்காணல்",
+        "ஏற்கெனவே வெளியான ஆய்வுக் கட்டுரை",
+        "பாடநூல் சுருக்கம்",
+        "கலைக்களஞ்சியப் பதிவு"
+      ],
+      "answer": 0,
+      "t": "ஆய்வியல் முறைகள்",
+      "d": 1
+    },
+    {
+      "q": "ஆய்வுக் கட்டுரையில் மேற்கோள் பட்டியல் வழங்கப்படுவதன் முக்கிய நோக்கம் என்ன?",
+      "options": [
+        "பயன்படுத்திய ஆதாரங்களைத் தெளிவாகக் காட்டுதல்",
+        "கட்டுரையின் பக்க எண்ணிக்கையை அதிகரித்தல்",
+        "முடிவுகளை மறைத்தல்",
+        "ஆய்வின் தலைப்பை மாற்றுதல்"
+      ],
+      "answer": 0,
+      "t": "ஆய்வியல் முறைகள்",
+      "d": 1
+    },
+    {
+      "q": "உரைநடை ஆய்வில் உள்ளடக்கப் பகுப்பாய்வு எதனைச் செய்கிறது?",
+      "options": [
+        "உரையில் காணப்படும் கருப்பொருள் மற்றும் வடிவங்களை முறையாக வகைப்படுத்துதல்",
+        "நூலின் விலையை மட்டும் கணக்கிடுதல்",
+        "எழுத்துருவை மட்டும் மாற்றுதல்",
+        "ஆசிரியரின் கையொப்பத்தைச் சரிபார்த்தல்"
+      ],
+      "answer": 0,
+      "t": "ஆய்வியல் முறைகள்",
+      "d": 2
+    },
+    {
+      "q": "பழந்தமிழ் இலக்கியத்தில் 'அறம்' என்ற கருத்து பொதுவாக எதனுடன் தொடர்புடையது?",
+      "options": [
+        "ஒழுக்கம் மற்றும் நெறியான வாழ்வு",
+        "போர்த் தொழில்நுட்பம் மட்டும்",
+        "வாணிக வரி மட்டும்",
+        "இசைக்கருவி மட்டும்"
+      ],
+      "answer": 0,
+      "t": "அற இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "தமிழில் 'மெய்ப்பாடு' பற்றிய விரிவான விளக்கம் இடம்பெறும் தொல்காப்பிய அதிகாரம் எது?",
+      "options": [
+        "பொருளதிகாரம்",
+        "எழுத்ததிகாரம்",
+        "சொல்லதிகாரம்",
+        "யாப்பதிகாரம்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "புறநானூற்றில் 'யாதும் ஊரே யாவரும் கேளிர்' என்ற பாடலைப் பாடியவர் யார்?",
+      "options": [
+        "கணியன் பூங்குன்றனார்",
+        "கபிலர்",
+        "பரணர்",
+        "ஔவையார்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "தமிழ் ஆய்வில் கள ஆய்வு (Field Study) முதன்மையாக எதனை உள்ளடக்குகிறது?",
+      "options": [
+        "ஆய்வுப் பகுதியில் நேரடியாகச் சென்று தரவுகளைச் சேகரித்தல்",
+        "முன்னைய நூல்களின் தலைப்புகளை மட்டும் பட்டியலிடுதல்",
+        "முடிவுகளை முன்கூட்டியே தீர்மானித்தல்",
+        "மேற்கோள்களை நீக்குதல்"
+      ],
+      "answer": 0,
+      "t": "ஆய்வியல் முறைகள்",
+      "d": 1
     }
   ]
 }
