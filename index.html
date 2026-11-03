@@ -66,7 +66,7 @@ body::before{
 }
 
 /* ============================================================
-   TOP BAR (user chip + actions)
+   TOP BAR
    ============================================================ */
 .topbar{
   width:100%;max-width:980px;
@@ -150,7 +150,7 @@ h1 .badge{
 .card.elevated{background:var(--surface)}
 
 /* ============================================================
-   FORM ELEMENTS
+   FORM
    ============================================================ */
 label{
   font-weight:600;color:var(--text);font-size:.88rem;
@@ -196,7 +196,7 @@ button.block{width:100%}
 button.sm{padding:.5rem .9rem;font-size:.82rem}
 
 /* ============================================================
-   LAYOUT HELPERS
+   LAYOUT
    ============================================================ */
 .flex{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center}
 .flex.between{justify-content:space-between}
@@ -218,7 +218,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .msg.warn{background:rgba(184,118,26,.12);color:var(--warn)}
 
 /* ============================================================
-   PAPER SELECT TILES
+   PAPER TILES
    ============================================================ */
 .paper-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
 @media(max-width:560px){.paper-grid{grid-template-columns:1fr}}
@@ -285,7 +285,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   padding:.9rem 1.15rem;border-radius:var(--radius-sm);
   background:var(--surface);border:1.5px solid var(--border);
   cursor:pointer;transition:var(--transition);
-  font-size:.98rem;
+  font-size:.98rem;position:relative;
 }
 .opt:hover{background:var(--surface-2);border-color:var(--primary-light)}
 .opt.sel{
@@ -365,16 +365,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 @keyframes toastIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
 
 /* ============================================================
-   LOADING
-   ============================================================ */
-.spinner{
-  width:18px;height:18px;border:2.5px solid rgba(255,255,255,.3);
-  border-top-color:#fff;border-radius:50%;
-  animation:spin .7s linear infinite;display:inline-block;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
-
-/* ============================================================
    RESPONSIVE
    ============================================================ */
 @media(max-width:600px){
@@ -389,10 +379,8 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 </head>
 <body>
 
-<!-- Toast container -->
 <div class="toast-wrap" id="toasts"></div>
 
-<!-- Top bar -->
 <div class="topbar" id="topbar" style="visibility:hidden">
   <div class="chip" id="userChip">
     <div class="avatar" id="userAvatar">?</div>
@@ -402,7 +390,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   <button class="icon-btn signout" id="signOutBtn" title="Sign out">⎋</button>
 </div>
 
-<!-- App shell -->
 <div class="app" id="app">
 
   <!-- ============ SIGNUP ============ -->
@@ -499,8 +486,8 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
     <div id="reviewList"></div>
 
     <div class="flex mt">
-      <button class="ghost block" onclick="location.hash=''">🏠 Back to home</button>
-      <button class="success block" onclick="location.reload()">🔄 Retake</button>
+      <button class="ghost block" onclick="goHome()">🏠 Back to home</button>
+      <button class="success block" onclick="retakeQuiz()">🔄 Retake</button>
     </div>
   </div>
 
@@ -632,7 +619,7 @@ $('themeToggle').onclick = ()=>{
 };
 
 /* ============================================================
-   USER SESSION
+   USER
    ============================================================ */
 function getStoredUser(){
   try { return JSON.parse(localStorage.getItem('netUser')||'null'); } catch { return null; }
@@ -649,10 +636,10 @@ function renderTopbar(){
 $('signOutBtn').onclick = ()=>{
   localStorage.removeItem('netUser');
   session = null;
+  history.replaceState(null,'',location.pathname);
   toast('Signed out', 'success');
   renderTopbar();
   show('v-signup');
-  location.hash = '';
 };
 
 /* ============================================================
@@ -668,7 +655,7 @@ async function loadQuestions(){
       paper2_english: j.paper2_english || [],
       paper2_tamil: j.paper2_tamil || []
     };
-  }catch(e){ /* keep empty */ }
+  }catch(e){ /* keep empty sets */ }
 }
 
 /* ============================================================
@@ -691,7 +678,7 @@ $('btnSignup').onclick = ()=>{
 };
 
 /* ============================================================
-   PAPER TILES
+   PAPER SELECTION
    ============================================================ */
 document.querySelectorAll('.paper-tile').forEach(tile=>{
   tile.onclick = ()=>{
@@ -717,6 +704,7 @@ function startQuiz(subjectKey, label){
     const m = $('msgPaper');
     m.classList.remove('hidden'); m.className='msg';
     m.textContent = `No questions yet for "${label}". Open admin to add some.`;
+    show('v-paper');
     return;
   }
   const shuffled = [...pool].sort(()=>Math.random()-0.5).slice(0, Math.min(QUESTIONS_PER_TEST, pool.length));
@@ -834,6 +822,29 @@ function finishQuiz(auto){
   show('v-result');
   if(auto) toast('⏰ Time up — auto-submitted', 'warn');
   else toast('Test submitted', 'success');
+}
+
+/* ============================================================
+   NAVIGATION HELPERS (FIX)
+   ============================================================ */
+function goHome(){
+  session = null;
+  history.replaceState(null, '', location.pathname);
+  const u = getStoredUser();
+  if(u){
+    $('hiName').textContent = u.name.split(' ')[0];
+    show('v-paper');
+  } else {
+    show('v-signup');
+  }
+}
+
+function retakeQuiz(){
+  if(!session) return goHome();
+  const { subject, label } = session;
+  session = null;
+  history.replaceState(null, '', location.pathname);
+  startQuiz(subject, label);
 }
 
 /* ============================================================
