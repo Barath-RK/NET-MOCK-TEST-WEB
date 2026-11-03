@@ -1,0 +1,28 @@
+{
+  "paper1": [
+    {
+      "q": "Which of the following is the primary source of energy for the Earth?",
+      "options": ["Moon", "Sun", "Wind", "Coal"],
+      "answer": 1
+    },
+    {
+      "q": "The term 'pedagogy' refers to:",
+      "options": ["Study of children", "Method of teaching", "Child psychology", "Educational policy"],
+      "answer": 1
+    }
+  ],
+  "paper2_english": [
+    {
+      "q": "Choose the correct synonym of 'benevolent':",
+      "options": ["Cruel", "Kind", "Angry", "Lazy"],
+      "answer": 1
+    }
+  ],
+  "paper2_tamil": [
+    {
+      "q": "தமிழின் முதல் இலக்கண நூல் எது?",
+      "options": ["தொல்காப்பியம்", "நன்னூல்", "இலக்கண விளக்கம்", "வீரசோழியம்"],
+      "answer": 0
+    }
+  ]
+}
