@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <meta name="theme-color" content="#1e4d8c" />
 <title>NET Mock Test · Premium</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,8 +46,8 @@ body{
   background:var(--bg-1);color:var(--text);line-height:1.5;
   -webkit-font-smoothing:antialiased;
   transition:background var(--transition),color var(--transition);
-  min-height:100vh;display:flex;flex-direction:column;align-items:center;
-  padding:0 1rem 0;
+  min-height:100vh;
+  padding-bottom:0;
 }
 body::before{
   content:'';position:fixed;inset:0;z-index:-1;
@@ -58,51 +58,68 @@ body::before{
   transition:background var(--transition);
 }
 
-/* TOPBAR */
+/* ============================================================
+   TOPBAR — fixed at top, full width
+   ============================================================ */
 .topbar{
-  width:100%;max-width:1000px;
-  display:flex;justify-content:flex-end;align-items:center;gap:.6rem;
-  padding:1.2rem .2rem .8rem;
+  position:sticky;top:0;z-index:100;
+  width:100%;
+  background:rgba(255,255,255,.85);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  display:flex;justify-content:space-between;align-items:center;
+  padding:.7rem 1.2rem;
+  gap:.6rem;
 }
+[data-theme="dark"] .topbar{background:rgba(19,42,69,.85)}
+.topbar .brand{
+  display:flex;align-items:center;gap:.5rem;
+  font-weight:800;font-size:.95rem;color:var(--text);
+  letter-spacing:-.01em;
+}
+.topbar .brand .logo{
+  width:28px;height:28px;border-radius:8px;
+  background:linear-gradient(135deg,var(--primary),var(--primary-light));
+  display:flex;align-items:center;justify-content:center;
+  font-size:.9rem;
+}
+.topbar .topbar-right{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
 .chip{
   display:flex;align-items:center;gap:.55rem;
-  background:var(--surface);padding:.4rem .9rem .4rem .4rem;
+  background:var(--surface);padding:.35rem .85rem .35rem .35rem;
   border-radius:var(--radius-pill);border:1px solid var(--border);
-  box-shadow:var(--shadow-sm);font-size:.88rem;font-weight:600;color:var(--text);
+  box-shadow:var(--shadow-sm);font-size:.85rem;font-weight:600;color:var(--text);
   transition:var(--transition);
 }
 .chip .avatar{
-  width:30px;height:30px;border-radius:50%;
+  width:28px;height:28px;border-radius:50%;
   background:linear-gradient(135deg,var(--primary),var(--primary-light));
   color:#fff;display:flex;align-items:center;justify-content:center;
-  font-weight:700;font-size:.8rem;
+  font-weight:700;font-size:.75rem;
 }
 .icon-btn{
-  height:38px;border-radius:var(--radius-pill);
+  height:36px;border-radius:var(--radius-pill);
   background:var(--surface);border:1px solid var(--border);
   color:var(--text);cursor:pointer;
   display:flex;align-items:center;justify-content:center;gap:.4rem;
-  padding:0 .95rem;
-  font-size:.85rem;font-weight:600;
+  padding:0 .9rem;
+  font-size:.83rem;font-weight:600;
   transition:var(--transition);box-shadow:var(--shadow-sm);
+  font-family:inherit;
 }
 .icon-btn:hover{background:var(--surface-2);transform:translateY(-1px);box-shadow:var(--shadow-md)}
 .icon-btn.signout{color:var(--danger)}
 .icon-btn.signout:hover{background:var(--danger-bg);border-color:var(--danger)}
 
-/* APP SHELL */
-.app{
-  width:100%;max-width:1000px;background:var(--surface);
-  border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);
-  padding:2.4rem 2.1rem;border:1px solid var(--border);
-  transition:var(--transition);animation:fadeUp .35s ease;
-  position:relative;overflow:hidden;
-  margin-bottom:2rem;
-}
-.app::before{
-  content:'';position:absolute;top:-60%;left:-20%;width:80%;height:120%;
-  background:radial-gradient(circle, rgba(58,123,213,.06), transparent 60%);
-  pointer-events:none;
+/* ============================================================
+   PAGE — full-screen content wrapper
+   ============================================================ */
+.page{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:2rem 1.5rem 3rem;
+  animation:fadeUp .3s ease;
 }
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
@@ -120,19 +137,22 @@ h1 .badge{
   box-shadow:0 3px 10px -3px rgba(30,77,140,.5);
 }
 .subhead{
-  color:var(--text-soft);font-size:1rem;margin-bottom:1.8rem;
+  color:var(--text-soft);font-size:.98rem;margin-bottom:1.8rem;
   padding-left:.9rem;border-left:3px solid var(--primary-light);
   line-height:1.55;
 }
 
 /* CARDS */
 .card{
-  background:var(--surface-2);border-radius:var(--radius-md);
-  padding:1.6rem 1.4rem;box-shadow:var(--shadow-sm);
-  border:1px solid var(--border);margin-bottom:1.1rem;
+  background:var(--surface);
+  border-radius:var(--radius-md);
+  padding:1.6rem 1.4rem;
+  box-shadow:var(--shadow-sm);
+  border:1px solid var(--border);
+  margin-bottom:1.1rem;
   transition:var(--transition);
 }
-.card.elevated{background:var(--surface)}
+.card.flat{background:var(--surface-2)}
 
 /* FORM */
 label{
@@ -165,8 +185,8 @@ button{
 button:hover{background:var(--primary-dark);transform:translateY(-1px);box-shadow:0 6px 16px -4px rgba(30,77,140,.5)}
 button:active{transform:translateY(0)}
 button:disabled{opacity:.45;pointer-events:none;box-shadow:none}
-button.ghost{background:var(--surface-2);color:var(--primary);border:1.5px solid var(--border);box-shadow:none}
-button.ghost:hover{background:var(--border);color:var(--primary-dark);transform:none;box-shadow:none}
+button.ghost{background:var(--surface);color:var(--primary);border:1.5px solid var(--border);box-shadow:none}
+button.ghost:hover{background:var(--surface-2);color:var(--primary-dark);transform:none;box-shadow:none}
 button.success{background:var(--success);box-shadow:0 3px 10px -3px rgba(31,122,61,.4)}
 button.success:hover{background:var(--success-dark)}
 button.danger{background:var(--danger);box-shadow:0 3px 10px -3px rgba(177,62,62,.4)}
@@ -309,7 +329,9 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   animation:labelFade .8s 2s forwards;opacity:0;
 }
 
-/* QUIZ */
+/* ============================================================
+   QUIZ LAYOUT — full width
+   ============================================================ */
 .quiz-header{
   display:flex;align-items:center;justify-content:space-between;
   gap:.8rem;flex-wrap:wrap;margin-bottom:1.2rem;
@@ -349,12 +371,12 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .progress-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--primary),var(--primary-light));border-radius:var(--radius-pill);transition:width .35s cubic-bezier(.4,0,.2,1)}
 
 .q-card{
-  background:var(--surface-2);
+  background:var(--surface);
   border-radius:var(--radius-md);
-  padding:1.3rem 1.2rem;
+  padding:1.6rem 1.5rem;
   border:1px solid var(--border);
   margin-bottom:1rem;
-  padding-bottom:1.3rem;
+  box-shadow:var(--shadow-sm);
 }
 .q-topline{
   display:flex;justify-content:space-between;align-items:center;
@@ -372,7 +394,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .flag-btn.active{background:var(--warn-bg);border-color:var(--warn);color:var(--warn)}
 
 .q-text{
-  font-size:1.15rem;font-weight:600;line-height:1.55;
+  font-size:1.2rem;font-weight:600;line-height:1.55;
   color:var(--text);margin-bottom:1.2rem;
   padding-bottom:.9rem;border-bottom:1px dashed var(--border);
 }
@@ -386,18 +408,18 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .opt{
   display:flex;align-items:center;gap:.85rem;
   padding:.9rem 1.15rem;border-radius:var(--radius-sm);
-  background:var(--surface);border:1.5px solid var(--border);
+  background:var(--surface-2);border:1.5px solid var(--border);
   cursor:pointer;transition:var(--transition);
   font-size:.98rem;position:relative;
   width:100%;
   min-height:52px;
   margin:0;
 }
-.opt:hover{background:var(--surface-2);border-color:var(--primary-light)}
+.opt:hover{background:var(--surface);border-color:var(--primary-light)}
 .opt.sel{background:rgba(58,123,213,.08);border-color:var(--primary-light);box-shadow:0 0 0 2px rgba(58,123,213,.18)}
 .opt .letter{
   width:28px;height:28px;border-radius:50%;
-  background:var(--surface-2);color:var(--text-soft);
+  background:var(--surface);color:var(--text-soft);
   display:flex;align-items:center;justify-content:center;
   font-weight:700;font-size:.82rem;flex-shrink:0;transition:var(--transition);
 }
@@ -405,20 +427,20 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .opt input[type=radio]{position:absolute;opacity:0;pointer-events:none}
 .opt .o-text{flex:1;color:var(--text);line-height:1.45;min-width:0}
 
-.quiz-bottom-spacer{height:90px}
+.quiz-bottom-spacer{height:100px}
 .fixed-nav{
   position:fixed;
   left:0;right:0;bottom:0;
   background:var(--surface);
   border-top:1px solid var(--border);
   box-shadow:0 -8px 30px -10px rgba(10,40,80,.15);
-  padding:.75rem 1rem;
+  padding:.75rem 1.2rem;
   display:flex;align-items:center;justify-content:center;gap:.7rem;
   z-index:9997;
   flex-wrap:wrap;
 }
 .fixed-nav-inner{
-  width:100%;max-width:1000px;
+  width:100%;max-width:1200px;
   display:flex;gap:.6rem;align-items:center;justify-content:space-between;
   flex-wrap:wrap;
 }
@@ -486,12 +508,12 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .nav-q-btn.current.flagged{background:var(--warn);color:#fff}
 
 /* ============================================================
-   RESULT
+   RESULT — full width, spacious
    ============================================================ */
 .result-hero{
   background:linear-gradient(135deg,var(--primary),var(--primary-light));
   color:#fff;border-radius:var(--radius-md);
-  padding:1.8rem 1.6rem;margin-bottom:1.4rem;
+  padding:2rem 1.8rem;margin-bottom:1.4rem;
   display:flex;align-items:center;justify-content:space-between;
   flex-wrap:wrap;gap:1rem;box-shadow:var(--shadow-md);
   position:relative;overflow:hidden;
@@ -500,17 +522,17 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   content:'';position:absolute;top:-50%;right:-20%;width:60%;height:200%;
   background:radial-gradient(circle, rgba(255,255,255,.15), transparent 60%);
 }
-.result-score{font-size:3.2rem;font-weight:800;line-height:1;letter-spacing:-.02em;position:relative}
-.result-score .denom{font-size:1.4rem;font-weight:600;opacity:.75}
+.result-score{font-size:3.4rem;font-weight:800;line-height:1;letter-spacing:-.02em;position:relative}
+.result-score .denom{font-size:1.5rem;font-weight:600;opacity:.75}
 .result-pct{font-size:1.1rem;font-weight:600;margin-top:.4rem;opacity:.95;position:relative}
 .result-right{text-align:right;position:relative}
 .result-pill{background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:var(--radius-pill);font-size:.8rem;font-weight:600;backdrop-filter:blur(4px);display:inline-block;margin-top:.5rem}
 .grade-badge{
   display:inline-flex;align-items:center;justify-content:center;
-  width:76px;height:76px;border-radius:50%;
+  width:80px;height:80px;border-radius:50%;
   background:rgba(255,255,255,.2);backdrop-filter:blur(6px);
   border:2px solid rgba(255,255,255,.4);
-  font-size:2rem;font-weight:900;color:#fff;
+  font-size:2.1rem;font-weight:900;color:#fff;
   box-shadow:0 8px 24px -6px rgba(0,0,0,.2);
 }
 
@@ -520,16 +542,15 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 }
 @media(max-width:700px){.result-stats{grid-template-columns:repeat(2,1fr)}}
 .stat-box{
-  background:var(--surface-2);border:1px solid var(--border);
-  border-radius:12px;padding:.85rem 1rem;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:.9rem 1rem;
 }
 .stat-label{font-size:.7rem;color:var(--text-soft);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-.stat-value{font-size:1.35rem;font-weight:800;color:var(--text);margin-top:.2rem}
+.stat-value{font-size:1.4rem;font-weight:800;color:var(--text);margin-top:.2rem}
 .stat-value.ok{color:var(--success)}
 .stat-value.bad{color:var(--danger)}
 .stat-value.info{color:var(--primary)}
 
-/* Progress bar chart */
 .result-chart{
   display:flex;height:14px;border-radius:var(--radius-pill);
   overflow:hidden;margin-bottom:1.3rem;
@@ -541,7 +562,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .result-chart .bar.wrong{background:var(--danger)}
 .result-chart .bar.skipped{background:var(--text-dim)}
 
-/* Filter chips */
 .filter-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
 .filter-chip{
   padding:.4rem .9rem;border-radius:var(--radius-pill);
@@ -549,6 +569,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   border:1.5px solid var(--border);background:var(--surface);
   color:var(--text-soft);box-shadow:none;
   transition:var(--transition);
+  font-family:inherit;
 }
 .filter-chip:hover{background:var(--surface-2);transform:none;box-shadow:none}
 .filter-chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
@@ -573,7 +594,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .history-meta{color:var(--text-soft);font-size:.75rem}
 .history-score{font-weight:700;color:var(--primary)}
 
-/* Keyboard help tooltip */
+/* Keyboard help */
 .kbd-help{
   position:fixed;bottom:110px;right:1.5rem;z-index:9996;
   background:var(--text);color:#fff;
@@ -600,47 +621,60 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .admin-search{display:flex;gap:.5rem;margin-bottom:.8rem}
 
 /* TOAST */
-.toast-wrap{position:fixed;top:1.2rem;left:50%;transform:translateX(-50%);z-index:99999;display:flex;flex-direction:column;gap:.5rem;pointer-events:none}
+.toast-wrap{position:fixed;top:70px;left:50%;transform:translateX(-50%);z-index:99999;display:flex;flex-direction:column;gap:.5rem;pointer-events:none}
 .toast{background:var(--text);color:#fff;padding:.8rem 1.3rem;border-radius:var(--radius-pill);font-size:.88rem;font-weight:500;box-shadow:var(--shadow-lg);animation:toastIn .25s ease;pointer-events:auto;display:flex;align-items:center;gap:.5rem;max-width:90vw}
 .toast.success{background:var(--success)}
 .toast.danger{background:var(--danger)}
 .toast.warn{background:var(--warn)}
 @keyframes toastIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
 
-@media(max-width:600px){
-  .app{padding:1.6rem 1.1rem;border-radius:20px;margin-bottom:1rem}
-  h1{font-size:1.6rem}
-  .subhead{font-size:.92rem;margin-bottom:1.4rem}
+@media(max-width:700px){
+  .page{padding:1.3rem 1rem 2rem}
+  h1{font-size:1.65rem}
+  .subhead{font-size:.9rem;margin-bottom:1.4rem}
   .result-score{font-size:2.4rem}
+  .grade-badge{width:64px;height:64px;font-size:1.7rem}
   .tamil-reveal{font-size:3.6rem}
   .flag-reveal{font-size:4rem}
   .nav-grid{grid-template-columns:repeat(4,1fr)}
   .icon-btn .lbl{display:none}
-  .icon-btn{padding:0;width:38px}
+  .icon-btn{padding:0;width:36px}
   .kbd-help{display:none}
+  .topbar{padding:.6rem .9rem}
+  .topbar .brand span{display:none}
 }
 </style>
 </head>
 <body>
 
-<div class="toast-wrap" id="toasts"></div>
-
-<div class="topbar" id="topbar" style="visibility:hidden">
-  <div class="chip" id="userChip">
-    <div class="avatar" id="userAvatar">?</div>
-    <span id="userChipName">Guest</span>
+<!-- ============================================================
+     TOPBAR — fixed, full width
+     ============================================================ -->
+<div class="topbar" id="topbar" style="display:none">
+  <div class="brand">
+    <div class="logo">📚</div>
+    <span>NET Mock</span>
   </div>
-  <button class="icon-btn" id="themeToggle" title="Toggle theme">🌙 <span class="lbl">Theme</span></button>
-  <button class="icon-btn signout" id="signOutBtn" title="Sign out">⎋ <span class="lbl">Sign out</span></button>
+  <div class="topbar-right">
+    <div class="chip" id="userChip">
+      <div class="avatar" id="userAvatar">?</div>
+      <span id="userChipName">Guest</span>
+    </div>
+    <button class="icon-btn" id="themeToggle" title="Toggle theme">🌙 <span class="lbl">Theme</span></button>
+    <button class="icon-btn signout" id="signOutBtn" title="Sign out">⎋ <span class="lbl">Sign out</span></button>
+  </div>
 </div>
 
-<div class="app" id="app">
+<!-- ============================================================
+     PAGE — full-width content
+     ============================================================ -->
+<div class="page" id="app">
 
   <!-- SIGNUP -->
   <div id="v-signup">
     <h1>📚 NET Mock Test <span class="badge">Premium</span></h1>
     <div class="subhead">Sign up to access timed UGC-NET pattern practice tests.</div>
-    <div class="card elevated">
+    <div class="card">
       <label>Full name</label>
       <input id="uName" placeholder="e.g. Ravi Kumar" autocomplete="name" />
       <label>Email</label>
@@ -818,9 +852,9 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
     <div id="reviewList"></div>
 
     <div class="flex mt" style="justify-content:space-between;gap:.6rem;flex-wrap:wrap">
-      <button class="ghost" onclick="goHome()" style="flex:1;min-width:140px">🏠 Back to home</button>
+      <button class="ghost" id="btnBackHome" style="flex:1;min-width:140px">🏠 Back to home</button>
       <button class="ghost" onclick="shareResult()" style="flex:1;min-width:140px">📤 Share</button>
-      <button class="success" onclick="retakeQuiz()" style="flex:1;min-width:140px">🔄 Retake</button>
+      <button class="success" id="btnRetake" style="flex:1;min-width:140px">🔄 Retake</button>
     </div>
   </div>
 
@@ -828,7 +862,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   <div id="v-admin" class="hidden">
     <h1>🔐 Admin panel</h1>
     <div class="subhead">Add, edit, export questions. Upload JSON to GitHub to publish.</div>
-    <div class="card elevated" id="adminLogin">
+    <div class="card" id="adminLogin">
       <label>Admin password</label>
       <input type="password" id="admPass" placeholder="Enter password" />
       <div class="flex mt"><button id="btnLogin" class="block">Unlock</button></div>
@@ -897,7 +931,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 
 </div>
 
-<!-- FIXED BOTTOM NAV (only visible in quiz) -->
+<!-- FIXED BOTTOM NAV -->
 <div class="fixed-nav hidden" id="fixedNav">
   <div class="fixed-nav-inner">
     <div class="nav-group">
@@ -962,6 +996,7 @@ function show(id){
   const fixedNav = $('fixedNav');
   if(id === 'v-quiz') fixedNav.classList.remove('hidden');
   else fixedNav.classList.add('hidden');
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function toast(msg, kind=''){
@@ -989,20 +1024,28 @@ function getStoredUser(){
 function renderTopbar(){
   const u = getStoredUser();
   const bar = $('topbar');
-  if(!u){ bar.style.visibility='hidden'; return; }
-  bar.style.visibility='visible';
+  if(!u){ bar.style.display='none'; return; }
+  bar.style.display='flex';
   $('userChipName').textContent = u.name.split(' ')[0];
   const initials = u.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
   $('userAvatar').textContent = initials;
 }
 $('signOutBtn').onclick = ()=>{
   localStorage.removeItem('netUser');
-  session = null; selectedMode = null; lastResultData = null;
+  resetSession();
   history.replaceState(null,'',location.pathname);
   toast('Signed out', 'success');
   renderTopbar();
   show('v-signup');
 };
+
+function resetSession(){
+  if(session && session.timerId) clearInterval(session.timerId);
+  session = null;
+  selectedMode = null;
+  lastResultData = null;
+  currentFilter = 'all';
+}
 
 /* HISTORY */
 function getHistory(){
@@ -1352,7 +1395,7 @@ document.addEventListener('keydown', (e)=>{
   else if(e.key === '?'){ showKbdHint(); }
 });
 
-/* FINISH — with rich result analytics */
+/* FINISH */
 function finishQuiz(auto){
   if(session.timerId) clearInterval(session.timerId);
   session.finished = true;
@@ -1377,14 +1420,12 @@ function finishQuiz(auto){
   const accuracy = (correct + wrong) > 0 ? Math.round(correct/(correct + wrong) * 100) : 0;
   const grade = getGrade(pct);
 
-  // Hero
   $('scoreBig').innerHTML = `${score}<span class="denom">/${maxMarks}</span>`;
   $('scorePct').textContent = `${pct}% · ${correct}/${total} correct`;
   $('scoreTag').textContent = `${session.label} · ${MODES[session.mode].label}`;
   $('gradeBadge').textContent = grade;
   $('gradeBadge').style.color = getGradeColor(grade);
 
-  // Stats
   $('statCorrect').textContent = correct;
   $('statWrong').textContent = wrong;
   $('statSkipped').textContent = skipped;
@@ -1392,32 +1433,26 @@ function finishQuiz(auto){
   const secs = session.timeTaken % 60;
   $('statTime').textContent = `${mins}:${String(secs).padStart(2,'0')}`;
 
-  // Progress bars
-  const pctCorrect = (correct/total)*100;
-  const pctWrong = (wrong/total)*100;
-  const pctSkipped = (skipped/total)*100;
+  const pctCorrect = total > 0 ? (correct/total)*100 : 0;
+  const pctWrong = total > 0 ? (wrong/total)*100 : 0;
+  const pctSkipped = total > 0 ? (skipped/total)*100 : 0;
   $('barCorrect').style.width = pctCorrect + '%';
   $('barWrong').style.width = pctWrong + '%';
   $('barSkipped').style.width = pctSkipped + '%';
 
-  // Filter counts
   $('fcAll').textContent = total;
   $('fcCorrect').textContent = correct;
   $('fcWrong').textContent = wrong;
   $('fcSkipped').textContent = skipped;
 
-  // Subhead with accuracy
   $('resultSubhead').textContent = `+${MARKS_PER_CORRECT} per correct · No negative marking · Accuracy: ${accuracy}% · Avg time: ${Math.round(session.timeTaken/total)}s/Q`;
 
-  // Store result for filter + share
   lastResultData = { reviewItems, letters, score, maxMarks, pct, correct, wrong, skipped, accuracy, timeTaken: session.timeTaken, label: session.label, modeLabel: MODES[session.mode].label };
 
-  // Render with default filter
   currentFilter = 'all';
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.toggle('active', c.dataset.filter === 'all'));
   renderReview();
 
-  // Save attempt
   saveAttempt({
     label: session.label,
     mode: session.mode,
@@ -1429,7 +1464,6 @@ function finishQuiz(auto){
   show('v-result');
   if(auto) toast('⏰ Time up — auto-submitted', 'warn');
   else toast('Test submitted', 'success');
-  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function getGrade(pct){
@@ -1446,7 +1480,6 @@ function getGradeColor(grade){
   return colors[grade] || '#fff';
 }
 
-/* Filter review */
 document.querySelectorAll('.filter-chip').forEach(chip=>{
   chip.onclick = ()=>{
     currentFilter = chip.dataset.filter;
@@ -1484,7 +1517,7 @@ function renderReview(){
   }
 }
 
-/* SHARE RESULT */
+/* SHARE */
 function shareResult(){
   if(!lastResultData) return;
   const u = getStoredUser();
@@ -1502,18 +1535,18 @@ function shareResult(){
     navigator.clipboard.writeText(text).then(()=>{
       toast('Result copied to clipboard', 'success');
     }).catch(()=>{
-      toast('Could not copy', 'danger');
+      prompt('Copy your result:', text);
     });
   } else {
     prompt('Copy your result:', text);
   }
 }
 
-/* NAV HELPERS */
+/* ============================================================
+   NAVIGATION — FIXED back to home
+   ============================================================ */
 function goHome(){
-  session = null;
-  selectedMode = null;
-  lastResultData = null;
+  resetSession();
   history.replaceState(null, '', location.pathname);
   const u = getStoredUser();
   if(u){
@@ -1526,15 +1559,28 @@ function goHome(){
   }
 }
 
+$('btnBackHome').onclick = goHome;
+
 function retakeQuiz(){
-  if(!session) return goHome();
-  const { subject, label, paperType, mode } = session;
+  if(!session && !lastResultData){
+    return goHome();
+  }
+  // Try to grab from lastResultData or session
+  let subj, lbl, ptype, mode;
+  if(session){
+    subj = session.subject; lbl = session.label;
+    ptype = session.paperType; mode = session.mode;
+  } else {
+    // Fallback: go home
+    return goHome();
+  }
   selectedMode = MODES[mode];
-  session = null;
-  lastResultData = null;
+  resetSession();
   history.replaceState(null, '', location.pathname);
-  startQuiz(subject, label, paperType);
+  startQuiz(subj, lbl, ptype);
 }
+
+$('btnRetake').onclick = retakeQuiz;
 
 /* ADMIN */
 $('btnLogin').onclick = ()=>{
