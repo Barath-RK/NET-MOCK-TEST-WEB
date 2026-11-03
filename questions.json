@@ -1,506 +1,3608 @@
 {
- "paper1": [
-  {
-   "q": "Which of the following is a probability sampling method?",
-   "options": [
-    "Quota sampling",
-    "Snowball sampling",
-    "Purposive sampling",
-    "Stratified random sampling"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "A hypothesis stating that there is no relationship between two variables is called the:",
-   "options": [
-    "Alternative hypothesis",
-    "Null hypothesis",
-    "Directional hypothesis",
-    "Research hypothesis"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "UGC stands for:",
-   "options": [
-    "Union Grants Commission",
-    "University Grants Council",
-    "University Grants Commission",
-    "Universal Grants Commission"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "In the revised Bloom's taxonomy (2001), the highest level of the cognitive domain is:",
-   "options": [
-    "Evaluate",
-    "Apply",
-    "Analyse",
-    "Create"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "The theory of Multiple Intelligences was proposed by:",
-   "options": [
-    "Charles Spearman",
-    "Howard Gardner",
-    "Alfred Binet",
-    "L. L. Thurstone"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "The mean of 2, 4, 6, 8 and 10 is:",
-   "options": [
-    "5",
-    "7",
-    "6",
-    "8"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "The median of 3, 7, 9, 1, 5 is:",
-   "options": [
-    "3",
-    "5",
-    "7",
-    "9"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Which of the following is a form of non-verbal communication?",
-   "options": [
-    "Telephone conversation",
-    "Gestures",
-    "Radio talk",
-    "Written report"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Research aimed at solving an immediate practical problem in a given situation is called:",
-   "options": [
-    "Fundamental research",
-    "Historical research",
-    "Action research",
-    "Philosophical research"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
-   "options": [
-    "40",
-    "44",
-    "46",
-    "42"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "If A=1, B=2, C=3 and so on, the sum of the letter values of BAD is:",
-   "options": [
-    "6",
-    "7",
-    "8",
-    "9"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Which gas is the main contributor to human-caused global warming?",
-   "options": [
-    "Carbon dioxide",
-    "Nitrogen",
-    "Oxygen",
-    "Argon"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "The ozone layer is found in the:",
-   "options": [
-    "Troposphere",
-    "Mesosphere",
-    "Stratosphere",
-    "Thermosphere"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "ICT stands for:",
-   "options": [
-    "Information and Communication Technology",
-    "International Computer Technology",
-    "Internet and Computer Tools",
-    "Information and Computer Training"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "1 Gigabyte (GB) is equal to:",
-   "options": [
-    "1000 KB",
-    "1024 MB",
-    "1024 KB",
-    "100 MB"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Which of the following is an input device?",
-   "options": [
-    "Monitor",
-    "Printer",
-    "Speaker",
-    "Scanner"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Under NEP 2020, the new school structure is:",
-   "options": [
-    "10+2",
-    "5+3+3+4",
-    "6+3+3",
-    "8+4"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "The Right to Education Act (2009) provides free and compulsory education to children aged:",
-   "options": [
-    "3 to 10 years",
-    "6 to 14 years",
-    "5 to 15 years",
-    "6 to 18 years"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "All dogs are animals. All animals are mortal. Which conclusion definitely follows?",
-   "options": [
-    "All mortals are dogs",
-    "All animals are dogs",
-    "All dogs are mortal",
-    "No dog is mortal"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "20% of 250 is:",
-   "options": [
-    "40",
-    "60",
-    "25",
-    "50"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "If A:B = 2:3 and B:C = 4:5, then A:C is:",
-   "options": [
-    "8:15",
-    "2:5",
-    "6:5",
-    "4:15"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "The simple interest on Rs. 1000 at 5% per annum for 2 years is:",
-   "options": [
-    "Rs. 50",
-    "Rs. 100",
-    "Rs. 150",
-    "Rs. 200"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "The average of five numbers is 20. Their sum is:",
-   "options": [
-    "80",
-    "90",
-    "100",
-    "120"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "Evaluation conducted during the course of instruction to improve learning is called:",
-   "options": [
-    "Summative evaluation",
-    "Placement evaluation",
-    "Formative evaluation",
-    "Terminal evaluation"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "A good research problem should be:",
-   "options": [
-    "Vague",
-    "Researchable",
-    "Already solved",
-    "Unrelated to existing knowledge"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Presenting another person's work or ideas as one's own without acknowledgement is called:",
-   "options": [
-    "Paraphrasing",
-    "Plagiarism",
-    "Citation",
-    "Referencing"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "The variable that is measured to see the effect of the independent variable is the:",
-   "options": [
-    "Dependent variable",
-    "Extraneous variable",
-    "Control variable",
-    "Moderator variable"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "The level of significance most commonly used in social science research is:",
-   "options": [
-    "0.50",
-    "0.10",
-    "0.05",
-    "0.90"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "The chi-square test is mainly used to test:",
-   "options": [
-    "Difference between two means",
-    "Correlation between two continuous variables",
-    "Variance of a population",
-    "Association between categorical variables"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Who is regarded as the 'Father of the Computer'?",
-   "options": [
-    "Alan Turing",
-    "George Boole",
-    "Isaac Newton",
-    "Charles Babbage"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Pedagogy refers to:",
-   "options": [
-    "The science and art of teaching",
-    "The study of children's diseases",
-    "The history of education",
-    "The study of the mind only"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "The highest need in Maslow's hierarchy of needs is:",
-   "options": [
-    "Safety",
-    "Esteem",
-    "Self-actualization",
-    "Belongingness"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "According to Piaget, children aged about 7 to 11 years are in the:",
-   "options": [
-    "Sensorimotor stage",
-    "Preoperational stage",
-    "Formal operational stage",
-    "Concrete operational stage"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Operant conditioning is associated with:",
-   "options": [
-    "Ivan Pavlov",
-    "B. F. Skinner",
-    "Albert Bandura",
-    "Jean Piaget"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Classical conditioning was first demonstrated by:",
-   "options": [
-    "Ivan Pavlov",
-    "Edward Thorndike",
-    "B. F. Skinner",
-    "Lev Vygotsky"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "The concept of the 'Zone of Proximal Development' was given by:",
-   "options": [
-    "Piaget",
-    "Bruner",
-    "Vygotsky",
-    "Kohlberg"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "Assessment and accreditation of higher education institutions in India is done by:",
-   "options": [
-    "AICTE",
-    "NAAC",
-    "NCERT",
-    "UGC-NET"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "NIRF stands for:",
-   "options": [
-    "National Institutional Ranking Framework",
-    "National Institute Research Fund",
-    "National Index of Ranking Forum",
-    "New India Ranking Framework"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "SWAYAM is:",
-   "options": [
-    "A scholarship scheme",
-    "A university entrance exam",
-    "A platform for online courses (MOOCs) by the Government of India",
-    "A research journal database only"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "Which of the following is a renewable source of energy?",
-   "options": [
-    "Coal",
-    "Petroleum",
-    "Natural gas",
-    "Solar energy"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Which of the following is a recognised biodiversity hotspot in India?",
-   "options": [
-    "Thar Desert",
-    "Western Ghats",
-    "Deccan Plateau interior",
-    "Indo-Gangetic plain"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "World Environment Day is observed on:",
-   "options": [
-    "22 April",
-    "5 June",
-    "16 September",
-    "21 March"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "The Kyoto Protocol is concerned with:",
-   "options": [
-    "Protection of wetlands",
-    "Trade in endangered species",
-    "Reducing greenhouse gas emissions",
-    "Control of ozone-depleting substances"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "In the Shannon-Weaver model of communication, 'noise' refers to:",
-   "options": [
-    "The message itself",
-    "The feedback",
-    "The channel",
-    "Any interference that distorts the message"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Using technical jargon with a lay audience is an example of which communication barrier?",
-   "options": [
-    "Semantic barrier",
-    "Physical barrier",
-    "Psychological barrier",
-    "Organisational barrier"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Deductive reasoning proceeds from:",
-   "options": [
-    "Particular to general",
-    "General to particular",
-    "Particular to particular",
-    "Observation to hypothesis only"
-   ],
-   "answer": 1
-  },
-  {
-   "q": "Attacking the person instead of the argument is the fallacy called:",
-   "options": [
-    "Straw man",
-    "Begging the question",
-    "Ad hominem",
-    "Appeal to authority"
-   ],
-   "answer": 2
-  },
-  {
-   "q": "The probability of getting a head when a fair coin is tossed once is:",
-   "options": [
-    "1/2",
-    "1/3",
-    "1/4",
-    "1"
-   ],
-   "answer": 0
-  },
-  {
-   "q": "Doctor : Hospital :: Teacher : ?",
-   "options": [
-    "Student",
-    "Book",
-    "Classroom only",
-    "School"
-   ],
-   "answer": 3
-  },
-  {
-   "q": "Find the odd one out: Mercury, Venus, Moon, Mars",
-   "options": [
-    "Mercury",
-    "Venus",
-    "Moon",
-    "Mars"
-   ],
-   "answer": 2
-  }
- ],
- "paper2_english": [],
- "paper2_tamil": []
+  "paper1": [
+    {
+      "q": "The most learner-centred method என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Dictation method",
+        "Lecture method",
+        "Rote drill",
+        "Project method"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The most learner-centred method குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Rote drill",
+        "Dictation method",
+        "Project method",
+        "Lecture method"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The most learner-centred method என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Lecture method",
+        "Rote drill",
+        "Dictation method",
+        "Project method"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The primary purpose of formative assessment என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "To certify final achievement only",
+        "To rank institutions",
+        "To improve learning during instruction",
+        "To select teachers"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The primary purpose of formative assessment குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "To certify final achievement only",
+        "To rank institutions",
+        "To select teachers",
+        "To improve learning during instruction"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The primary purpose of formative assessment என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "To certify final achievement only",
+        "To select teachers",
+        "To rank institutions",
+        "To improve learning during instruction"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A teacher who encourages students to construct meaning follows என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Authoritarianism",
+        "Behaviourism only",
+        "Constructivism",
+        "Mimetic instruction"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A teacher who encourages students to construct meaning follows குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Behaviourism only",
+        "Mimetic instruction",
+        "Constructivism",
+        "Authoritarianism"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A teacher who encourages students to construct meaning follows என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Constructivism",
+        "Authoritarianism",
+        "Behaviourism only",
+        "Mimetic instruction"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The highest level in the revised Bloom taxonomy என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Understand",
+        "Apply",
+        "Create",
+        "Remember"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The highest level in the revised Bloom taxonomy குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Understand",
+        "Remember",
+        "Apply",
+        "Create"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The highest level in the revised Bloom taxonomy என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Apply",
+        "Understand",
+        "Remember",
+        "Create"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A diagnostic test is mainly used to என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Measure attendance",
+        "Award degrees",
+        "Identify specific learning difficulties",
+        "Compare universities"
+      ],
+      "answer": 2,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A diagnostic test is mainly used to குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Compare universities",
+        "Measure attendance",
+        "Award degrees",
+        "Identify specific learning difficulties"
+      ],
+      "answer": 3,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A diagnostic test is mainly used to என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Identify specific learning difficulties",
+        "Award degrees",
+        "Measure attendance",
+        "Compare universities"
+      ],
+      "answer": 0,
+      "t": "Teaching Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A tentative statement that can be tested empirically என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Abstract",
+        "Hypothesis",
+        "Appendix",
+        "Bibliography"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A tentative statement that can be tested empirically குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Bibliography",
+        "Abstract",
+        "Appendix",
+        "Hypothesis"
+      ],
+      "answer": 3,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A tentative statement that can be tested empirically என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Bibliography",
+        "Abstract",
+        "Hypothesis",
+        "Appendix"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A study that manipulates an independent variable என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Document analysis",
+        "Ethnography",
+        "Historical research",
+        "Experimental research"
+      ],
+      "answer": 3,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A study that manipulates an independent variable குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Experimental research",
+        "Historical research",
+        "Ethnography",
+        "Document analysis"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A study that manipulates an independent variable என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Experimental research",
+        "Ethnography",
+        "Document analysis",
+        "Historical research"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Selecting every tenth name from a list is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Systematic sampling",
+        "Convenience sampling",
+        "Snowball sampling",
+        "Cluster sampling"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "Selecting every tenth name from a list is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Cluster sampling",
+        "Convenience sampling",
+        "Snowball sampling",
+        "Systematic sampling"
+      ],
+      "answer": 3,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் Selecting every tenth name from a list is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Snowball sampling",
+        "Convenience sampling",
+        "Systematic sampling",
+        "Cluster sampling"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The variable manipulated by the researcher என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Extraneous result",
+        "Independent variable",
+        "Dependent variable",
+        "Control score"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "The variable manipulated by the researcher குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Dependent variable",
+        "Control score",
+        "Independent variable",
+        "Extraneous result"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The variable manipulated by the researcher என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Control score",
+        "Extraneous result",
+        "Dependent variable",
+        "Independent variable"
+      ],
+      "answer": 3,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A research design based on an in-depth study of one case என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Meta-analysis",
+        "Laboratory experiment",
+        "Case study",
+        "Survey census"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "A research design based on an in-depth study of one case குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Laboratory experiment",
+        "Meta-analysis",
+        "Case study",
+        "Survey census"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A research design based on an in-depth study of one case என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Case study",
+        "Meta-analysis",
+        "Survey census",
+        "Laboratory experiment"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 2
+    },
+    {
+      "q": "The section that acknowledges sources used என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Findings",
+        "References",
+        "Title page",
+        "Methodology"
+      ],
+      "answer": 1,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "The section that acknowledges sources used குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "References",
+        "Title page",
+        "Findings",
+        "Methodology"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The section that acknowledges sources used என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "References",
+        "Methodology",
+        "Findings",
+        "Title page"
+      ],
+      "answer": 0,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A measure that represents the middle score என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Mean",
+        "Range",
+        "Median",
+        "Mode"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "A measure that represents the middle score குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Mean",
+        "Mode",
+        "Median",
+        "Range"
+      ],
+      "answer": 2,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A measure that represents the middle score என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Mean",
+        "Mode",
+        "Range",
+        "Median"
+      ],
+      "answer": 3,
+      "t": "Research Aptitude",
+      "d": 1
+    },
+    {
+      "q": "Communication through facial expressions is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Written communication",
+        "Non-verbal communication",
+        "Mass communication",
+        "Intrapersonal writing"
+      ],
+      "answer": 1,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "Communication through facial expressions is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Non-verbal communication",
+        "Mass communication",
+        "Written communication",
+        "Intrapersonal writing"
+      ],
+      "answer": 0,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் Communication through facial expressions is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Written communication",
+        "Non-verbal communication",
+        "Intrapersonal writing",
+        "Mass communication"
+      ],
+      "answer": 1,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "The receiver's response to a message is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Noise",
+        "Encoding",
+        "Channel",
+        "Feedback"
+      ],
+      "answer": 3,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "The receiver's response to a message is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Noise",
+        "Encoding",
+        "Feedback",
+        "Channel"
+      ],
+      "answer": 2,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The receiver's response to a message is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Channel",
+        "Encoding",
+        "Feedback",
+        "Noise"
+      ],
+      "answer": 2,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "A barrier caused by ambiguous words is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Physiological barrier",
+        "Physical barrier",
+        "Mechanical barrier",
+        "Semantic barrier"
+      ],
+      "answer": 3,
+      "t": "Communication",
+      "d": 2
+    },
+    {
+      "q": "A barrier caused by ambiguous words is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Physiological barrier",
+        "Semantic barrier",
+        "Mechanical barrier",
+        "Physical barrier"
+      ],
+      "answer": 1,
+      "t": "Communication",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A barrier caused by ambiguous words is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Physical barrier",
+        "Semantic barrier",
+        "Physiological barrier",
+        "Mechanical barrier"
+      ],
+      "answer": 1,
+      "t": "Communication",
+      "d": 2
+    },
+    {
+      "q": "Communication with oneself is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Group communication",
+        "Intrapersonal communication",
+        "Mass communication",
+        "Interpersonal communication"
+      ],
+      "answer": 1,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "Communication with oneself is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Mass communication",
+        "Interpersonal communication",
+        "Group communication",
+        "Intrapersonal communication"
+      ],
+      "answer": 3,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் Communication with oneself is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Interpersonal communication",
+        "Group communication",
+        "Intrapersonal communication",
+        "Mass communication"
+      ],
+      "answer": 2,
+      "t": "Communication",
+      "d": 1
+    },
+    {
+      "q": "The next number in 2, 6, 12, 20, 30 is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "48",
+        "42",
+        "40",
+        "的是44"
+      ],
+      "answer": 1,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The next number in 2, 6, 12, 20, 30 is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "40",
+        "的是44",
+        "48",
+        "42"
+      ],
+      "answer": 3,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The next number in 2, 6, 12, 20, 30 is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "48",
+        "40",
+        "的是44",
+        "42"
+      ],
+      "answer": 3,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "If a price of 800 is reduced by 15%, the new price is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "720",
+        "700",
+        "660",
+        "680"
+      ],
+      "answer": 3,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "If a price of 800 is reduced by 15%, the new price is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "680",
+        "700",
+        "660",
+        "720"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் If a price of 800 is reduced by 15%, the new price is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "680",
+        "660",
+        "700",
+        "720"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The average of 4, 8, 10 and 18 is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "8"
+      ],
+      "answer": 1,
+      "t": "Mathematical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "The average of 4, 8, 10 and 18 is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The average of 4, 8, 10 and 18 is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "t": "Mathematical Reasoning",
+      "d": 1
+    },
+    {
+      "q": "If all roses are flowers and some flowers fade quickly, which conclusion is certain? என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "All roses fade quickly",
+        "No rose fades quickly",
+        "Some roses are not flowers",
+        "All roses are flowers"
+      ],
+      "answer": 3,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "If all roses are flowers and some flowers fade quickly, which conclusion is certain? குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "No rose fades quickly",
+        "Some roses are not flowers",
+        "All roses fade quickly",
+        "All roses are flowers"
+      ],
+      "answer": 3,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் If all roses are flowers and some flowers fade quickly, which conclusion is certain? என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Some roses are not flowers",
+        "All roses are flowers",
+        "No rose fades quickly",
+        "All roses fade quickly"
+      ],
+      "answer": 1,
+      "t": "Mathematical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "An argument is valid when என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Its premises are popular",
+        "Its conclusion is lengthy",
+        "It contains an example",
+        "Its conclusion follows logically from its premises"
+      ],
+      "answer": 3,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "An argument is valid when குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "It contains an example",
+        "Its conclusion is lengthy",
+        "Its conclusion follows logically from its premises",
+        "Its premises are popular"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் An argument is valid when என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Its premises are popular",
+        "It contains an example",
+        "Its conclusion follows logically from its premises",
+        "Its conclusion is lengthy"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The fallacy of attacking the speaker instead of the argument என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Ad hominem",
+        "Straw man",
+        "Slippery slope",
+        "False dilemma"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The fallacy of attacking the speaker instead of the argument குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Slippery slope",
+        "Ad hominem",
+        "False dilemma",
+        "Straw man"
+      ],
+      "answer": 1,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The fallacy of attacking the speaker instead of the argument என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "False dilemma",
+        "Straw man",
+        "Ad hominem",
+        "Slippery slope"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "In categorical logic, the proposition 'All S are P' is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "E-type",
+        "I-type",
+        "A-type",
+        "O-type"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "In categorical logic, the proposition 'All S are P' is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "O-type",
+        "E-type",
+        "I-type",
+        "A-type"
+      ],
+      "answer": 3,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் In categorical logic, the proposition 'All S are P' is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "A-type",
+        "O-type",
+        "E-type",
+        "I-type"
+      ],
+      "answer": 0,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The immediate inference that swaps subject and predicate is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Obversion",
+        "Conversion",
+        "Contraposition",
+        "Division"
+      ],
+      "answer": 1,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "The immediate inference that swaps subject and predicate is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Contraposition",
+        "Obversion",
+        "Division",
+        "Conversion"
+      ],
+      "answer": 3,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The immediate inference that swaps subject and predicate is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Obversion",
+        "Division",
+        "Conversion",
+        "Contraposition"
+      ],
+      "answer": 2,
+      "t": "Logical Reasoning",
+      "d": 2
+    },
+    {
+      "q": "A pie chart is most suitable for showing என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Geographical routes only",
+        "A written argument",
+        "Parts of a whole",
+        "A process sequence"
+      ],
+      "answer": 2,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "A pie chart is most suitable for showing குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Geographical routes only",
+        "Parts of a whole",
+        "A written argument",
+        "A process sequence"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A pie chart is most suitable for showing என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "A written argument",
+        "Parts of a whole",
+        "A process sequence",
+        "Geographical routes only"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "A value that is 25% of 240 is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "55",
+        "75",
+        "50",
+        "60"
+      ],
+      "answer": 3,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "A value that is 25% of 240 is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "50",
+        "75",
+        "55",
+        "60"
+      ],
+      "answer": 3,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A value that is 25% of 240 is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "50",
+        "55",
+        "75",
+        "60"
+      ],
+      "answer": 3,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "The difference between the highest and lowest values is என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Range",
+        "Mode",
+        "Median",
+        "Variance"
+      ],
+      "answer": 0,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "The difference between the highest and lowest values is குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Mode",
+        "Range",
+        "Variance",
+        "Median"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The difference between the highest and lowest values is என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Mode",
+        "Range",
+        "Variance",
+        "Median"
+      ],
+      "answer": 1,
+      "t": "Data Interpretation",
+      "d": 1
+    },
+    {
+      "q": "The protocol used to securely browse websites என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "HTTPS",
+        "HTTP only",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "The protocol used to securely browse websites குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "HTTPS",
+        "SMTP",
+        "FTP",
+        "HTTP only"
+      ],
+      "answer": 0,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The protocol used to securely browse websites என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "HTTP only",
+        "SMTP",
+        "HTTPS",
+        "FTP"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "A network device that forwards packets between networks என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Plotter",
+        "Keyboard",
+        "Router",
+        "Repeater"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "A network device that forwards packets between networks குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Repeater",
+        "Plotter",
+        "Router",
+        "Keyboard"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A network device that forwards packets between networks என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Repeater",
+        "Router",
+        "Keyboard",
+        "Plotter"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "The process of converting readable data into coded form என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Compression",
+        "Indexing",
+        "Formatting",
+        "Encryption"
+      ],
+      "answer": 3,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "The process of converting readable data into coded form குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Indexing",
+        "Formatting",
+        "Encryption",
+        "Compression"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The process of converting readable data into coded form என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Formatting",
+        "Encryption",
+        "Indexing",
+        "Compression"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "A fraudulent attempt to obtain sensitive information by impersonation என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Mirroring",
+        "Phishing",
+        "Patching",
+        "Defragmentation"
+      ],
+      "answer": 1,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "A fraudulent attempt to obtain sensitive information by impersonation குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Mirroring",
+        "Patching",
+        "Defragmentation",
+        "Phishing"
+      ],
+      "answer": 3,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் A fraudulent attempt to obtain sensitive information by impersonation என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Mirroring",
+        "Defragmentation",
+        "Phishing",
+        "Patching"
+      ],
+      "answer": 2,
+      "t": "ICT",
+      "d": 1
+    },
+    {
+      "q": "The major anthropogenic greenhouse gas from fossil-fuel combustion என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Carbon dioxide",
+        "Neon",
+        "Argon",
+        "Helium"
+      ],
+      "answer": 0,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "The major anthropogenic greenhouse gas from fossil-fuel combustion குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Neon",
+        "Helium"
+      ],
+      "answer": 0,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The major anthropogenic greenhouse gas from fossil-fuel combustion என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Neon",
+        "Carbon dioxide",
+        "Helium",
+        "Argon"
+      ],
+      "answer": 1,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "The 3Rs of waste management are என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "Read, record, report",
+        "Refuse, repair, return",
+        "Recover, remove, replace",
+        "Reduce, reuse, recycle"
+      ],
+      "answer": 3,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "The 3Rs of waste management are குறித்து சரியான தேர்வை அடையாளம் காண்க.",
+      "options": [
+        "Recover, remove, replace",
+        "Refuse, repair, return",
+        "Read, record, report",
+        "Reduce, reuse, recycle"
+      ],
+      "answer": 3,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "பின்வரும் கருத்தில் The 3Rs of waste management are என்பதற்கு பொருந்துவது எது?",
+      "options": [
+        "Refuse, repair, return",
+        "Recover, remove, replace",
+        "Reduce, reuse, recycle",
+        "Read, record, report"
+      ],
+      "answer": 2,
+      "t": "People and Environment",
+      "d": 1
+    },
+    {
+      "q": "The statutory body responsible for coordination and standards in Indian university education என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "AICTE only",
+        "NCERT",
+        "NCTE only",
+        "UGC"
+      ],
+      "answer": 3,
+      "t": "Higher Education",
+      "d": 2
+    }
+  ],
+  "paper2_english": [
+    {
+      "q": "Which is the correct answer concerning The playwright of Hamlet?",
+      "options": [
+        "John Webster",
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Ben Jonson"
+      ],
+      "answer": 2,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The playwright of Hamlet.",
+      "options": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Webster",
+        "Ben Jonson"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The playwright of Hamlet is associated with which option?",
+      "options": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Webster",
+        "Ben Jonson"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Doctor Faustus?",
+      "options": [
+        "Thomas Kyd",
+        "Christopher Marlowe",
+        "John Lyly",
+        "William Shakespeare"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The author of Doctor Faustus.",
+      "options": [
+        "William Shakespeare",
+        "John Lyly",
+        "Thomas Kyd",
+        "Christopher Marlowe"
+      ],
+      "answer": 3,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The author of Doctor Faustus is associated with which option?",
+      "options": [
+        "John Lyly",
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "Thomas Kyd"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The dramatist associated with The Importance of Being Earnest?",
+      "options": [
+        "Harold Pinter",
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "J. M. Synge"
+      ],
+      "answer": 2,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The dramatist associated with The Importance of Being Earnest.",
+      "options": [
+        "J. M. Synge",
+        "Oscar Wilde",
+        "George Bernard Shaw",
+        "Harold Pinter"
+      ],
+      "answer": 1,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The dramatist associated with The Importance of Being Earnest is associated with which option?",
+      "options": [
+        "Harold Pinter",
+        "George Bernard Shaw",
+        "J. M. Synge",
+        "Oscar Wilde"
+      ],
+      "answer": 3,
+      "t": "Drama",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning Waiting for Godot is commonly associated with?",
+      "options": [
+        "Comedy of manners",
+        "Kitchen-sink realism",
+        "Theatre of the Absurd",
+        "Restoration tragedy"
+      ],
+      "answer": 2,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Waiting for Godot is commonly associated with.",
+      "options": [
+        "Kitchen-sink realism",
+        "Comedy of manners",
+        "Theatre of the Absurd",
+        "Restoration tragedy"
+      ],
+      "answer": 2,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Waiting for Godot is commonly associated with is associated with which option?",
+      "options": [
+        "Theatre of the Absurd",
+        "Kitchen-sink realism",
+        "Restoration tragedy",
+        "Comedy of manners"
+      ],
+      "answer": 0,
+      "t": "Drama",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The poet who wrote Paradise Lost?",
+      "options": [
+        "Edmund Spenser",
+        "John Milton",
+        "John Dryden",
+        "Alexander Pope"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The poet who wrote Paradise Lost.",
+      "options": [
+        "Edmund Spenser",
+        "John Dryden",
+        "Alexander Pope",
+        "John Milton"
+      ],
+      "answer": 3,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The poet who wrote Paradise Lost is associated with which option?",
+      "options": [
+        "John Dryden",
+        "Alexander Pope",
+        "Edmund Spenser",
+        "John Milton"
+      ],
+      "answer": 3,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The author of The Waste Land?",
+      "options": [
+        "W. B. Yeats",
+        "Ezra Pound",
+        "T. S. Eliot",
+        "W. H. Auden"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The author of The Waste Land.",
+      "options": [
+        "W. H. Auden",
+        "T. S. Eliot",
+        "W. B. Yeats",
+        "Ezra Pound"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The author of The Waste Land is associated with which option?",
+      "options": [
+        "W. B. Yeats",
+        "W. H. Auden",
+        "T. S. Eliot",
+        "Ezra Pound"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The phrase 'negative capability' is associated with?",
+      "options": [
+        "Lord Byron",
+        "P. B. Shelley",
+        "William Wordsworth",
+        "John Keats"
+      ],
+      "answer": 3,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The phrase 'negative capability' is associated with.",
+      "options": [
+        "Lord Byron",
+        "P. B. Shelley",
+        "John Keats",
+        "William Wordsworth"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The phrase 'negative capability' is associated with is associated with which option?",
+      "options": [
+        "P. B. Shelley",
+        "John Keats",
+        "Lord Byron",
+        "William Wordsworth"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning Lyrical Ballads (1798) was jointly published by?",
+      "options": [
+        "Wordsworth and Coleridge",
+        "Eliot and Pound",
+        "Keats and Shelley",
+        "Blake and Burns"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Lyrical Ballads (1798) was jointly published by.",
+      "options": [
+        "Blake and Burns",
+        "Wordsworth and Coleridge",
+        "Keats and Shelley",
+        "Eliot and Pound"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Lyrical Ballads (1798) was jointly published by is associated with which option?",
+      "options": [
+        "Blake and Burns",
+        "Eliot and Pound",
+        "Wordsworth and Coleridge",
+        "Keats and Shelley"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The poet of Songs of Innocence and of Experience?",
+      "options": [
+        "Gerard Manley Hopkins",
+        "John Donne",
+        "William Blake",
+        "Philip Larkin"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The poet of Songs of Innocence and of Experience.",
+      "options": [
+        "Gerard Manley Hopkins",
+        "Philip Larkin",
+        "William Blake",
+        "John Donne"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The poet of Songs of Innocence and of Experience is associated with which option?",
+      "options": [
+        "Philip Larkin",
+        "William Blake",
+        "John Donne",
+        "Gerard Manley Hopkins"
+      ],
+      "answer": 1,
+      "t": "Poetry",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The term 'metaphysical poets' was popularised by?",
+      "options": [
+        "F. R. Leavis",
+        "I. A. Richards",
+        "Samuel Johnson",
+        "Matthew Arnold"
+      ],
+      "answer": 2,
+      "t": "Poetry",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The term 'metaphysical poets' was popularised by.",
+      "options": [
+        "Samuel Johnson",
+        "I. A. Richards",
+        "Matthew Arnold",
+        "F. R. Leavis"
+      ],
+      "answer": 0,
+      "t": "Poetry",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The term 'metaphysical poets' was popularised by is associated with which option?",
+      "options": [
+        "F. R. Leavis",
+        "I. A. Richards",
+        "Matthew Arnold",
+        "Samuel Johnson"
+      ],
+      "answer": 3,
+      "t": "Poetry",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Pride and Prejudice?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Brontë",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The author of Pride and Prejudice.",
+      "options": [
+        "George Eliot",
+        "Charlotte Brontë",
+        "Mary Shelley",
+        "Jane Austen"
+      ],
+      "answer": 3,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The author of Pride and Prejudice is associated with which option?",
+      "options": [
+        "Jane Austen",
+        "Mary Shelley",
+        "George Eliot",
+        "Charlotte Brontë"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning Heart of Darkness was written by?",
+      "options": [
+        "D. H. Lawrence",
+        "E. M. Forster",
+        "James Joyce",
+        "Joseph Conrad"
+      ],
+      "answer": 3,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Heart of Darkness was written by.",
+      "options": [
+        "Joseph Conrad",
+        "E. M. Forster",
+        "James Joyce",
+        "D. H. Lawrence"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Heart of Darkness was written by is associated with which option?",
+      "options": [
+        "E. M. Forster",
+        "Joseph Conrad",
+        "D. H. Lawrence",
+        "James Joyce"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The narrator of Great Expectations is?",
+      "options": [
+        "David Copperfield",
+        "Pip",
+        "Nick Carraway",
+        "Stephen Dedalus"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The narrator of Great Expectations is.",
+      "options": [
+        "Stephen Dedalus",
+        "David Copperfield",
+        "Pip",
+        "Nick Carraway"
+      ],
+      "answer": 2,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The narrator of Great Expectations is is associated with which option?",
+      "options": [
+        "David Copperfield",
+        "Stephen Dedalus",
+        "Nick Carraway",
+        "Pip"
+      ],
+      "answer": 3,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning Things Fall Apart was written by?",
+      "options": [
+        "Ben Okri",
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Wole Soyinka"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Things Fall Apart was written by.",
+      "options": [
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Ben Okri",
+        "Wole Soyinka"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Things Fall Apart was written by is associated with which option?",
+      "options": [
+        "Ben Okri",
+        "Ngũgĩ wa Thiong'o",
+        "Wole Soyinka",
+        "Chinua Achebe"
+      ],
+      "answer": 3,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Midnight's Children?",
+      "options": [
+        "Salman Rushdie",
+        "Amitav Ghosh",
+        "Vikram Seth",
+        "R. K. Narayan"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The author of Midnight's Children.",
+      "options": [
+        "Salman Rushdie",
+        "Vikram Seth",
+        "Amitav Ghosh",
+        "R. K. Narayan"
+      ],
+      "answer": 0,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The author of Midnight's Children is associated with which option?",
+      "options": [
+        "R. K. Narayan",
+        "Vikram Seth",
+        "Salman Rushdie",
+        "Amitav Ghosh"
+      ],
+      "answer": 2,
+      "t": "Fiction",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The novel Mrs Dalloway is associated with?",
+      "options": [
+        "Doris Lessing",
+        "Virginia Woolf",
+        "Katherine Mansfield",
+        "Jean Rhys"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The novel Mrs Dalloway is associated with.",
+      "options": [
+        "Jean Rhys",
+        "Virginia Woolf",
+        "Doris Lessing",
+        "Katherine Mansfield"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The novel Mrs Dalloway is associated with is associated with which option?",
+      "options": [
+        "Jean Rhys",
+        "Virginia Woolf",
+        "Doris Lessing",
+        "Katherine Mansfield"
+      ],
+      "answer": 1,
+      "t": "Fiction",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Poetics?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Longinus",
+        "Horace"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The author of Poetics.",
+      "options": [
+        "Aristotle",
+        "Longinus",
+        "Plato",
+        "Horace"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The author of Poetics is associated with which option?",
+      "options": [
+        "Aristotle",
+        "Horace",
+        "Longinus",
+        "Plato"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The concept of the 'objective correlative' is associated with?",
+      "options": [
+        "Cleanth Brooks",
+        "T. S. Eliot",
+        "William Empson",
+        "Matthew Arnold"
+      ],
+      "answer": 1,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The concept of the 'objective correlative' is associated with.",
+      "options": [
+        "T. S. Eliot",
+        "Matthew Arnold",
+        "Cleanth Brooks",
+        "William Empson"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The concept of the 'objective correlative' is associated with is associated with which option?",
+      "options": [
+        "William Empson",
+        "Matthew Arnold",
+        "Cleanth Brooks",
+        "T. S. Eliot"
+      ],
+      "answer": 3,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The essay 'The Function of Criticism at the Present Time' was written by?",
+      "options": [
+        "John Ruskin",
+        "F. R. Leavis",
+        "Matthew Arnold",
+        "T. S. Eliot"
+      ],
+      "answer": 2,
+      "t": "Literary Criticism",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The essay 'The Function of Criticism at the Present Time' was written by.",
+      "options": [
+        "T. S. Eliot",
+        "F. R. Leavis",
+        "John Ruskin",
+        "Matthew Arnold"
+      ],
+      "answer": 3,
+      "t": "Literary Criticism",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The essay 'The Function of Criticism at the Present Time' was written by is associated with which option?",
+      "options": [
+        "T. S. Eliot",
+        "Matthew Arnold",
+        "F. R. Leavis",
+        "John Ruskin"
+      ],
+      "answer": 1,
+      "t": "Literary Criticism",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning Practical criticism is strongly associated with?",
+      "options": [
+        "Terry Eagleton",
+        "I. A. Richards",
+        "Northrop Frye",
+        "Raymond Williams"
+      ],
+      "answer": 1,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Practical criticism is strongly associated with.",
+      "options": [
+        "I. A. Richards",
+        "Terry Eagleton",
+        "Northrop Frye",
+        "Raymond Williams"
+      ],
+      "answer": 0,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Practical criticism is strongly associated with is associated with which option?",
+      "options": [
+        "Raymond Williams",
+        "Terry Eagleton",
+        "I. A. Richards",
+        "Northrop Frye"
+      ],
+      "answer": 2,
+      "t": "Literary Criticism",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The distinction between langue and parole was proposed by?",
+      "options": [
+        "Noam Chomsky",
+        "Mikhail Bakhtin",
+        "Roman Jakobson",
+        "Ferdinand de Saussure"
+      ],
+      "answer": 3,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The distinction between langue and parole was proposed by.",
+      "options": [
+        "Ferdinand de Saussure",
+        "Mikhail Bakhtin",
+        "Noam Chomsky",
+        "Roman Jakobson"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The distinction between langue and parole was proposed by is associated with which option?",
+      "options": [
+        "Roman Jakobson",
+        "Mikhail Bakhtin",
+        "Noam Chomsky",
+        "Ferdinand de Saussure"
+      ],
+      "answer": 3,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The term 'différance' is associated with?",
+      "options": [
+        "Roland Barthes",
+        "Jacques Lacan",
+        "Michel Foucault",
+        "Jacques Derrida"
+      ],
+      "answer": 3,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The term 'différance' is associated with.",
+      "options": [
+        "Jacques Derrida",
+        "Michel Foucault",
+        "Roland Barthes",
+        "Jacques Lacan"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The term 'différance' is associated with is associated with which option?",
+      "options": [
+        "Jacques Derrida",
+        "Michel Foucault",
+        "Roland Barthes",
+        "Jacques Lacan"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning The concept of the panopticon is central to the work of?",
+      "options": [
+        "Jacques Derrida",
+        "Louis Althusser",
+        "Michel Foucault",
+        "Edward Said"
+      ],
+      "answer": 2,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The concept of the panopticon is central to the work of.",
+      "options": [
+        "Jacques Derrida",
+        "Michel Foucault",
+        "Louis Althusser",
+        "Edward Said"
+      ],
+      "answer": 1,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The concept of the panopticon is central to the work of is associated with which option?",
+      "options": [
+        "Michel Foucault",
+        "Louis Althusser",
+        "Edward Said",
+        "Jacques Derrida"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning Orientalism was written by?",
+      "options": [
+        "Edward Said",
+        "Gayatri Spivak",
+        "Frantz Fanon",
+        "Homi K. Bhabha"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: Orientalism was written by.",
+      "options": [
+        "Frantz Fanon",
+        "Homi K. Bhabha",
+        "Gayatri Spivak",
+        "Edward Said"
+      ],
+      "answer": 3,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, Orientalism was written by is associated with which option?",
+      "options": [
+        "Edward Said",
+        "Gayatri Spivak",
+        "Frantz Fanon",
+        "Homi K. Bhabha"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The concept of hybridity is closely associated with?",
+      "options": [
+        "Edward Said",
+        "Homi K. Bhabha",
+        "Julia Kristeva",
+        "Terry Eagleton"
+      ],
+      "answer": 1,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The concept of hybridity is closely associated with.",
+      "options": [
+        "Julia Kristeva",
+        "Terry Eagleton",
+        "Homi K. Bhabha",
+        "Edward Said"
+      ],
+      "answer": 2,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The concept of hybridity is closely associated with is associated with which option?",
+      "options": [
+        "Edward Said",
+        "Homi K. Bhabha",
+        "Terry Eagleton",
+        "Julia Kristeva"
+      ],
+      "answer": 1,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning The term 'gynocriticism' was introduced by?",
+      "options": [
+        "Kate Millett",
+        "Sandra Gilbert",
+        "Elaine Showalter",
+        "Virginia Woolf"
+      ],
+      "answer": 2,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Identify the correct response: The term 'gynocriticism' was introduced by.",
+      "options": [
+        "Elaine Showalter",
+        "Kate Millett",
+        "Virginia Woolf",
+        "Sandra Gilbert"
+      ],
+      "answer": 0,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "In literary and language studies, The term 'gynocriticism' was introduced by is associated with which option?",
+      "options": [
+        "Virginia Woolf",
+        "Kate Millett",
+        "Elaine Showalter",
+        "Sandra Gilbert"
+      ],
+      "answer": 2,
+      "t": "Literary Theory",
+      "d": 3
+    },
+    {
+      "q": "Which is the correct answer concerning The smallest distinctive sound unit in a language?",
+      "options": [
+        "Lexeme",
+        "Phoneme",
+        "Morpheme",
+        "Clause"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The smallest distinctive sound unit in a language.",
+      "options": [
+        "Lexeme",
+        "Phoneme",
+        "Morpheme",
+        "Clause"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The smallest distinctive sound unit in a language is associated with which option?",
+      "options": [
+        "Phoneme",
+        "Clause",
+        "Morpheme",
+        "Lexeme"
+      ],
+      "answer": 0,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The study of meaning in language?",
+      "options": [
+        "Phonetics",
+        "Semantics",
+        "Morphology",
+        "Syntax"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The study of meaning in language.",
+      "options": [
+        "Morphology",
+        "Phonetics",
+        "Semantics",
+        "Syntax"
+      ],
+      "answer": 2,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The study of meaning in language is associated with which option?",
+      "options": [
+        "Morphology",
+        "Semantics",
+        "Phonetics",
+        "Syntax"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The study of sentence structure?",
+      "options": [
+        "Syntax",
+        "Phonology",
+        "Pragmatics",
+        "Lexicography"
+      ],
+      "answer": 0,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The study of sentence structure.",
+      "options": [
+        "Phonology",
+        "Syntax",
+        "Lexicography",
+        "Pragmatics"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The study of sentence structure is associated with which option?",
+      "options": [
+        "Phonology",
+        "Lexicography",
+        "Pragmatics",
+        "Syntax"
+      ],
+      "answer": 3,
+      "t": "Language",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning A minimal meaningful unit of language?",
+      "options": [
+        "Syllable",
+        "Phoneme",
+        "Allophone",
+        "Morpheme"
+      ],
+      "answer": 3,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: A minimal meaningful unit of language.",
+      "options": [
+        "Allophone",
+        "Morpheme",
+        "Syllable",
+        "Phoneme"
+      ],
+      "answer": 1,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, A minimal meaningful unit of language is associated with which option?",
+      "options": [
+        "Syllable",
+        "Allophone",
+        "Phoneme",
+        "Morpheme"
+      ],
+      "answer": 3,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The variety of language used in a particular social context?",
+      "options": [
+        "Grapheme",
+        "Idiolect only",
+        "Register",
+        "Phoneme"
+      ],
+      "answer": 2,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The variety of language used in a particular social context.",
+      "options": [
+        "Register",
+        "Grapheme",
+        "Idiolect only",
+        "Phoneme"
+      ],
+      "answer": 0,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The variety of language used in a particular social context is associated with which option?",
+      "options": [
+        "Register",
+        "Grapheme",
+        "Idiolect only",
+        "Phoneme"
+      ],
+      "answer": 0,
+      "t": "Language",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Kanthapura?",
+      "options": [
+        "R. K. Narayan",
+        "Anita Desai",
+        "Mulk Raj Anand",
+        "Raja Rao"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 2
+    },
+    {
+      "q": "Identify the correct response: The author of Kanthapura.",
+      "options": [
+        "R. K. Narayan",
+        "Anita Desai",
+        "Mulk Raj Anand",
+        "Raja Rao"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 2
+    },
+    {
+      "q": "In literary and language studies, The author of Kanthapura is associated with which option?",
+      "options": [
+        "Mulk Raj Anand",
+        "Anita Desai",
+        "R. K. Narayan",
+        "Raja Rao"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 2
+    },
+    {
+      "q": "Which is the correct answer concerning The poet of 'Where the Mind is Without Fear'?",
+      "options": [
+        "Sarojini Naidu",
+        "Toru Dutt",
+        "Sri Aurobindo",
+        "Rabindranath Tagore"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 1
+    },
+    {
+      "q": "Identify the correct response: The poet of 'Where the Mind is Without Fear'.",
+      "options": [
+        "Sarojini Naidu",
+        "Sri Aurobindo",
+        "Toru Dutt",
+        "Rabindranath Tagore"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 1
+    },
+    {
+      "q": "In literary and language studies, The poet of 'Where the Mind is Without Fear' is associated with which option?",
+      "options": [
+        "Toru Dutt",
+        "Sri Aurobindo",
+        "Rabindranath Tagore",
+        "Sarojini Naidu"
+      ],
+      "answer": 2,
+      "t": "Indian Writing",
+      "d": 1
+    },
+    {
+      "q": "Which is the correct answer concerning The author of Untouchable?",
+      "options": [
+        "Raja Rao",
+        "Khushwant Singh",
+        "R. K. Narayan",
+        "Mulk Raj Anand"
+      ],
+      "answer": 3,
+      "t": "Indian Writing",
+      "d": 2
+    }
+  ],
+  "paper2_tamil": [
+    {
+      "q": "சிலப்பதிகாரத்தின் ஆசிரியர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இளங்கோ அடிகள்",
+        "சீத்தலைச் சாத்தனார்",
+        "கம்பர்",
+        "சேக்கிழார்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "சிலப்பதிகாரத்தின் ஆசிரியர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "சீத்தலைச் சாத்தனார்",
+        "சேக்கிழார்",
+        "இளங்கோ அடிகள்",
+        "கம்பர்"
+      ],
+      "answer": 2,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் சிலப்பதிகாரத்தின் ஆசிரியர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "கம்பர்",
+        "இளங்கோ அடிகள்",
+        "சேக்கிழார்",
+        "சீத்தலைச் சாத்தனார்"
+      ],
+      "answer": 1,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "மணிமேகலையின் ஆசிரியர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "கம்பர்",
+        "திருத்தக்கதேவர்",
+        "இளங்கோ அடிகள்",
+        "சீத்தலைச் சாத்தனார்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "மணிமேகலையின் ஆசிரியர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இளங்கோ அடிகள்",
+        "சீத்தலைச் சாத்தனார்",
+        "திருத்தக்கதேவர்",
+        "கம்பர்"
+      ],
+      "answer": 1,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் மணிமேகலையின் ஆசிரியர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "இளங்கோ அடிகள்",
+        "கம்பர்",
+        "திருத்தக்கதேவர்",
+        "சீத்தலைச் சாத்தனார்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "கம்பராமாயணத்தை இயற்றியவர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "சேக்கிழார்",
+        "ஒட்டக்கூத்தர்",
+        "புகழேந்தி",
+        "கம்பர்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "கம்பராமாயணத்தை இயற்றியவர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "ஒட்டக்கூத்தர்",
+        "சேக்கிழார்",
+        "புகழேந்தி",
+        "கம்பர்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் கம்பராமாயணத்தை இயற்றியவர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "கம்பர்",
+        "ஒட்டக்கூத்தர்",
+        "சேக்கிழார்",
+        "புகழேந்தி"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 1
+    },
+    {
+      "q": "பெரியபுராணத்தின் ஆசிரியர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "திருத்தக்கதேவர்",
+        "கம்பர்",
+        "சேக்கிழார்",
+        "அருணகிரிநாதர்"
+      ],
+      "answer": 2,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "பெரியபுராணத்தின் ஆசிரியர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "திருத்தக்கதேவர்",
+        "அருணகிரிநாதர்",
+        "கம்பர்",
+        "சேக்கிழார்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பெரியபுராணத்தின் ஆசிரியர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "திருத்தக்கதேவர்",
+        "அருணகிரிநாதர்",
+        "கம்பர்",
+        "சேக்கிழார்"
+      ],
+      "answer": 3,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 2
+    },
+    {
+      "q": "தேம்பாவணியின் ஆசிரியர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "உமறுப்புலவர்",
+        "வீரமாமுனிவர்",
+        "குணங்குடி மஸ்தான்",
+        "கம்பர்"
+      ],
+      "answer": 1,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 3
+    },
+    {
+      "q": "தேம்பாவணியின் ஆசிரியர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "குணங்குடி மஸ்தான்",
+        "உமறுப்புலவர்",
+        "வீரமாமுனிவர்",
+        "கம்பர்"
+      ],
+      "answer": 2,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 3
+    },
+    {
+      "q": "பின்வருவனவற்றில் தேம்பாவணியின் ஆசிரியர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "வீரமாமுனிவர்",
+        "குணங்குடி மஸ்தான்",
+        "உமறுப்புலவர்",
+        "கம்பர்"
+      ],
+      "answer": 0,
+      "t": "தமிழ் இலக்கிய வரலாறு",
+      "d": 3
+    },
+    {
+      "q": "எட்டுத்தொகையில் இடம்பெறும் நூல் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "சிலப்பதிகாரம்",
+        "அகநானூறு",
+        "திருக்குறள்",
+        "நாலடியார்"
+      ],
+      "answer": 1,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "எட்டுத்தொகையில் இடம்பெறும் நூல் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "சிலப்பதிகாரம்",
+        "நாலடியார்",
+        "திருக்குறள்",
+        "அகநானூறு"
+      ],
+      "answer": 3,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் எட்டுத்தொகையில் இடம்பெறும் நூல் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "அகநானூறு",
+        "நாலடியார்",
+        "சிலப்பதிகாரம்",
+        "திருக்குறள்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பத்துப்பாட்டில் இடம்பெறும் நூல் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "நற்றிணை",
+        "புறநானூறு",
+        "மதுரைக்காஞ்சி",
+        "குறுந்தொகை"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பத்துப்பாட்டில் இடம்பெறும் நூல் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "நற்றிணை",
+        "புறநானூறு",
+        "மதுரைக்காஞ்சி",
+        "குறுந்தொகை"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பத்துப்பாட்டில் இடம்பெறும் நூல் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "மதுரைக்காஞ்சி",
+        "குறுந்தொகை",
+        "நற்றிணை",
+        "புறநானூறு"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "அகப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "காதல் மற்றும் உள்ளுணர்வுகள்",
+        "வணிகம்",
+        "போர் மற்றும் புகழ்",
+        "அரசாட்சி"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "அகப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "போர் மற்றும் புகழ்",
+        "வணிகம்",
+        "அரசாட்சி",
+        "காதல் மற்றும் உள்ளுணர்வுகள்"
+      ],
+      "answer": 3,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் அகப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "அரசாட்சி",
+        "போர் மற்றும் புகழ்",
+        "வணிகம்",
+        "காதல் மற்றும் உள்ளுணர்வுகள்"
+      ],
+      "answer": 3,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புறப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "காதல் உணர்வு",
+        "வீரம், போர் மற்றும் சமூக வாழ்வு",
+        "கனவு",
+        "தனிப்பட்ட பிரிவு"
+      ],
+      "answer": 1,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புறப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "வீரம், போர் மற்றும் சமூக வாழ்வு",
+        "காதல் உணர்வு",
+        "கனவு",
+        "தனிப்பட்ட பிரிவு"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் புறப்பொருள் முதன்மையாகக் குறிக்கும் பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "காதல் உணர்வு",
+        "கனவு",
+        "வீரம், போர் மற்றும் சமூக வாழ்வு",
+        "தனிப்பட்ட பிரிவு"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "குறிஞ்சி நிலத்தின் உரிப்பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இரங்கல்",
+        "பிரிதல்",
+        "புணர்தல்",
+        "இருத்தல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "குறிஞ்சி நிலத்தின் உரிப்பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "புணர்தல்",
+        "இருத்தல்",
+        "இரங்கல்",
+        "பிரிதல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் குறிஞ்சி நிலத்தின் உரிப்பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "புணர்தல்",
+        "பிரிதல்",
+        "இருத்தல்",
+        "இரங்கல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "முல்லை நிலத்தின் உரிப்பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இருத்தல்",
+        "புணர்தல்",
+        "ஊடல்",
+        "பிரிதல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "முல்லை நிலத்தின் உரிப்பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இருத்தல்",
+        "புணர்தல்",
+        "பிரிதல்",
+        "ஊடல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் முல்லை நிலத்தின் உரிப்பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "இருத்தல்",
+        "பிரிதல்",
+        "புணர்தல்",
+        "ஊடல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "மருத நிலத்தின் உரிப்பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இருத்தல்",
+        "புணர்தல்",
+        "ஊடல்",
+        "இரங்கல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "மருத நிலத்தின் உரிப்பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இரங்கல்",
+        "இருத்தல்",
+        "ஊடல்",
+        "புணர்தல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் மருத நிலத்தின் உரிப்பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "புணர்தல்",
+        "இருத்தல்",
+        "ஊடல்",
+        "இரங்கல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "நெய்தல் நிலத்தின் உரிப்பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இரங்கல்",
+        "ஊடல்",
+        "புணர்தல்",
+        "பிரிதல்"
+      ],
+      "answer": 0,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "நெய்தல் நிலத்தின் உரிப்பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "பிரிதல்",
+        "ஊடல்",
+        "புணர்தல்",
+        "இரங்கல்"
+      ],
+      "answer": 3,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் நெய்தல் நிலத்தின் உரிப்பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "பிரிதல்",
+        "இரங்கல்",
+        "புணர்தல்",
+        "ஊடல்"
+      ],
+      "answer": 1,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாலை நிலத்தின் உரிப்பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "இருத்தல்",
+        "இரங்கல்",
+        "பிரிதல்",
+        "ஊடல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாலை நிலத்தின் உரிப்பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இருத்தல்",
+        "இரங்கல்",
+        "பிரிதல்",
+        "ஊடல்"
+      ],
+      "answer": 2,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பாலை நிலத்தின் உரிப்பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "இருத்தல்",
+        "பிரிதல்",
+        "இரங்கல்",
+        "ஊடல்"
+      ],
+      "answer": 1,
+      "t": "சங்க இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தொல்காப்பியம் எந்த வகை நூல் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "காப்பிய நூல்",
+        "பக்தி நூல்",
+        "தமிழின் தொன்மையான இலக்கண நூல்",
+        "சிற்றிலக்கிய நூல்"
+      ],
+      "answer": 2,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "தொல்காப்பியம் எந்த வகை நூல் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "தமிழின் தொன்மையான இலக்கண நூல்",
+        "சிற்றிலக்கிய நூல்",
+        "காப்பிய நூல்",
+        "பக்தி நூல்"
+      ],
+      "answer": 0,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் தொல்காப்பியம் எந்த வகை நூல் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "பக்தி நூல்",
+        "தமிழின் தொன்மையான இலக்கண நூல்",
+        "காப்பிய நூல்",
+        "சிற்றிலக்கிய நூல்"
+      ],
+      "answer": 1,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "தொல்காப்பியத்தின் மூன்று அதிகாரங்கள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "அகம், புறம், உரை",
+        "இயல், இசை, நாடகம்",
+        "அறம், பொருள், இன்பம்",
+        "எழுத்து, சொல், பொருள்"
+      ],
+      "answer": 3,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "தொல்காப்பியத்தின் மூன்று அதிகாரங்கள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இயல், இசை, நாடகம்",
+        "அறம், பொருள், இன்பம்",
+        "அகம், புறம், உரை",
+        "எழுத்து, சொல், பொருள்"
+      ],
+      "answer": 3,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் தொல்காப்பியத்தின் மூன்று அதிகாரங்கள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "அறம், பொருள், இன்பம்",
+        "இயல், இசை, நாடகம்",
+        "எழுத்து, சொல், பொருள்",
+        "அகம், புறம், உரை"
+      ],
+      "answer": 2,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "உயிரெழுத்துகளின் எண்ணிக்கை என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "18",
+        "216",
+        "12",
+        "10"
+      ],
+      "answer": 2,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "உயிரெழுத்துகளின் எண்ணிக்கை தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "10",
+        "18",
+        "216",
+        "12"
+      ],
+      "answer": 3,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் உயிரெழுத்துகளின் எண்ணிக்கை என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "10",
+        "12",
+        "18",
+        "216"
+      ],
+      "answer": 1,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "மெய்யெழுத்துகளின் எண்ணிக்கை என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "18",
+        "30",
+        "12",
+        "216"
+      ],
+      "answer": 0,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "மெய்யெழுத்துகளின் எண்ணிக்கை தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "18",
+        "12",
+        "216",
+        "30"
+      ],
+      "answer": 0,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் மெய்யெழுத்துகளின் எண்ணிக்கை என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "12",
+        "18",
+        "216",
+        "30"
+      ],
+      "answer": 1,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "ஆய்த எழுத்து என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "அ",
+        "க்",
+        "ஔ",
+        "ஃ"
+      ],
+      "answer": 3,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "ஆய்த எழுத்து தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "அ",
+        "ஃ",
+        "ஔ",
+        "க்"
+      ],
+      "answer": 1,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் ஆய்த எழுத்து என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "ஔ",
+        "க்",
+        "ஃ",
+        "அ"
+      ],
+      "answer": 2,
+      "t": "இலக்கணம்",
+      "d": 1
+    },
+    {
+      "q": "தமிழில் உயிர்மெய் எழுத்துகளின் எண்ணிக்கை என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "12",
+        "18",
+        "247",
+        "216"
+      ],
+      "answer": 3,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "தமிழில் உயிர்மெய் எழுத்துகளின் எண்ணிக்கை தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "216",
+        "18",
+        "12",
+        "247"
+      ],
+      "answer": 0,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் தமிழில் உயிர்மெய் எழுத்துகளின் எண்ணிக்கை என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "12",
+        "247",
+        "216",
+        "18"
+      ],
+      "answer": 2,
+      "t": "இலக்கணம்",
+      "d": 2
+    },
+    {
+      "q": "திருக்குறளின் மொத்தக் குறள்கள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "1330",
+        "1300",
+        "1400",
+        "1335"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் மொத்தக் குறள்கள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "1300",
+        "1335",
+        "1330",
+        "1400"
+      ],
+      "answer": 2,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருக்குறளின் மொத்தக் குறள்கள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "1300",
+        "1330",
+        "1400",
+        "1335"
+      ],
+      "answer": 1,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளில் உள்ள அதிகாரங்கள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "108",
+        "130",
+        "133",
+        "150"
+      ],
+      "answer": 2,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளில் உள்ள அதிகாரங்கள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "130",
+        "133",
+        "150",
+        "108"
+      ],
+      "answer": 1,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருக்குறளில் உள்ள அதிகாரங்கள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "108",
+        "130",
+        "150",
+        "133"
+      ],
+      "answer": 3,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் பால் பிரிவுகள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "அறத்துப்பால், பொருட்பால், காமத்துப்பால்",
+        "அகம், புறம், களவு",
+        "எழுத்து, சொல், பொருள்",
+        "இயல், இசை, நாடகம்"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் பால் பிரிவுகள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "இயல், இசை, நாடகம்",
+        "அகம், புறம், களவு",
+        "அறத்துப்பால், பொருட்பால், காமத்துப்பால்",
+        "எழுத்து, சொல், பொருள்"
+      ],
+      "answer": 2,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருக்குறளின் பால் பிரிவுகள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "அறத்துப்பால், பொருட்பால், காமத்துப்பால்",
+        "அகம், புறம், களவு",
+        "எழுத்து, சொல், பொருள்",
+        "இயல், இசை, நாடகம்"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் முதல் அதிகாரம் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "கடவுள் வாழ்த்து",
+        "வான்சிறப்பு",
+        "அறன் வலியுறுத்தல்",
+        "நீத்தார் பெருமை"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "திருக்குறளின் முதல் அதிகாரம் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "வான்சிறப்பு",
+        "நீத்தார் பெருமை",
+        "கடவுள் வாழ்த்து",
+        "அறன் வலியுறுத்தல்"
+      ],
+      "answer": 2,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருக்குறளின் முதல் அதிகாரம் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "கடவுள் வாழ்த்து",
+        "வான்சிறப்பு",
+        "நீத்தார் பெருமை",
+        "அறன் வலியுறுத்தல்"
+      ],
+      "answer": 0,
+      "t": "திருக்குறள்",
+      "d": 1
+    },
+    {
+      "q": "தேவாரம் பாடிய மூவர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "ஆண்டாள், காரைக்கால் அம்மையார், மாணிக்கவாசகர்",
+        "அவ்வையார், கபிலர், பரணர்",
+        "சம்பந்தர், அப்பர், சுந்தரர்",
+        "கம்பர், சேக்கிழார், ஒட்டக்கூத்தர்"
+      ],
+      "answer": 2,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "தேவாரம் பாடிய மூவர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "அவ்வையார், கபிலர், பரணர்",
+        "சம்பந்தர், அப்பர், சுந்தரர்",
+        "கம்பர், சேக்கிழார், ஒட்டக்கூத்தர்",
+        "ஆண்டாள், காரைக்கால் அம்மையார், மாணிக்கவாசகர்"
+      ],
+      "answer": 1,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் தேவாரம் பாடிய மூவர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "ஆண்டாள், காரைக்கால் அம்மையார், மாணிக்கவாசகர்",
+        "சம்பந்தர், அப்பர், சுந்தரர்",
+        "அவ்வையார், கபிலர், பரணர்",
+        "கம்பர், சேக்கிழார், ஒட்டக்கூத்தர்"
+      ],
+      "answer": 1,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "திருவாசகத்தின் ஆசிரியர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "மாணிக்கவாசகர்",
+        "சம்பந்தர்",
+        "சுந்தரர்",
+        "அப்பர்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருவாசகத்தின் ஆசிரியர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "சுந்தரர்",
+        "அப்பர்",
+        "மாணிக்கவாசகர்",
+        "சம்பந்தர்"
+      ],
+      "answer": 2,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருவாசகத்தின் ஆசிரியர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "சம்பந்தர்",
+        "அப்பர்",
+        "மாணிக்கவாசகர்",
+        "சுந்தரர்"
+      ],
+      "answer": 2,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருப்பாவையை இயற்றியவர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "ஆண்டாள்",
+        "ஒளவையார்",
+        "அவ்வையார்",
+        "காரைக்கால் அம்மையார்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "திருப்பாவையை இயற்றியவர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "அவ்வையார்",
+        "ஆண்டாள்",
+        "ஒளவையார்",
+        "காரைக்கால் அம்மையார்"
+      ],
+      "answer": 1,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் திருப்பாவையை இயற்றியவர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "ஆண்டாள்",
+        "காரைக்கால் அம்மையார்",
+        "ஒளவையார்",
+        "அவ்வையார்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "நாலாயிர திவ்யப் பிரபந்தம் தொடர்புடையோர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "ஆழ்வார்கள்",
+        "சித்தர்கள்",
+        "நாயன்மார்கள்",
+        "சங்கப் புலவர்கள்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "நாலாயிர திவ்யப் பிரபந்தம் தொடர்புடையோர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "சித்தர்கள்",
+        "சங்கப் புலவர்கள்",
+        "நாயன்மார்கள்",
+        "ஆழ்வார்கள்"
+      ],
+      "answer": 3,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் நாலாயிர திவ்யப் பிரபந்தம் தொடர்புடையோர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "ஆழ்வார்கள்",
+        "சங்கப் புலவர்கள்",
+        "நாயன்மார்கள்",
+        "சித்தர்கள்"
+      ],
+      "answer": 0,
+      "t": "பக்தி இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "கலம்பகம் என்பது என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "நாடக மேடை அமைப்பு",
+        "பழமொழித் தொகுப்பு",
+        "ஒரு வகை இலக்கண உரை",
+        "பலவகைச் செய்யுள் உறுப்புகள் கலந்த சிற்றிலக்கியம்"
+      ],
+      "answer": 3,
+      "t": "சிற்றிலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "கலம்பகம் என்பது தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "நாடக மேடை அமைப்பு",
+        "பலவகைச் செய்யுள் உறுப்புகள் கலந்த சிற்றிலக்கியம்",
+        "ஒரு வகை இலக்கண உரை",
+        "பழமொழித் தொகுப்பு"
+      ],
+      "answer": 1,
+      "t": "சிற்றிலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "பின்வருவனவற்றில் கலம்பகம் என்பது என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "பலவகைச் செய்யுள் உறுப்புகள் கலந்த சிற்றிலக்கியம்",
+        "பழமொழித் தொகுப்பு",
+        "நாடக மேடை அமைப்பு",
+        "ஒரு வகை இலக்கண உரை"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 3
+    },
+    {
+      "q": "பிள்ளைத்தமிழ் இலக்கியத்தின் மையப் பொருள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "ஒருவரின் குழந்தைப் பருவத்தைப் பாடுதல்",
+        "போர்க்கள வருணனை",
+        "கடல் வாணிகம்",
+        "அரச மரபு"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பிள்ளைத்தமிழ் இலக்கியத்தின் மையப் பொருள் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "கடல் வாணிகம்",
+        "போர்க்கள வருணனை",
+        "அரச மரபு",
+        "ஒருவரின் குழந்தைப் பருவத்தைப் பாடுதல்"
+      ],
+      "answer": 3,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பிள்ளைத்தமிழ் இலக்கியத்தின் மையப் பொருள் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "ஒருவரின் குழந்தைப் பருவத்தைப் பாடுதல்",
+        "கடல் வாணிகம்",
+        "அரச மரபு",
+        "போர்க்கள வருணனை"
+      ],
+      "answer": 0,
+      "t": "சிற்றிலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதியாரின் இயற்பெயர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "கனகசுப்புரத்தினம்",
+        "வேங்கடசாமி",
+        "சுப்பிரமணியன்",
+        "சின்னசாமி"
+      ],
+      "answer": 2,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதியாரின் இயற்பெயர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "சின்னசாமி",
+        "சுப்பிரமணியன்",
+        "வேங்கடசாமி",
+        "கனகசுப்புரத்தினம்"
+      ],
+      "answer": 1,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பாரதியாரின் இயற்பெயர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "கனகசுப்புரத்தினம்",
+        "சுப்பிரமணியன்",
+        "சின்னசாமி",
+        "வேங்கடசாமி"
+      ],
+      "answer": 1,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதிதாசனின் இயற்பெயர் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "சுப்பிரமணியன்",
+        "முத்துசாமி",
+        "கனகசுப்புரத்தினம்",
+        "இராமலிங்கம்"
+      ],
+      "answer": 2,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பாரதிதாசனின் இயற்பெயர் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "முத்துசாமி",
+        "இராமலிங்கம்",
+        "சுப்பிரமணியன்",
+        "கனகசுப்புரத்தினம்"
+      ],
+      "answer": 3,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "பின்வருவனவற்றில் பாரதிதாசனின் இயற்பெயர் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "கனகசுப்புரத்தினம்",
+        "முத்துசாமி",
+        "இராமலிங்கம்",
+        "சுப்பிரமணியன்"
+      ],
+      "answer": 0,
+      "t": "நவீன இலக்கியம்",
+      "d": 2
+    },
+    {
+      "q": "புதுமைப்பித்தன் புகழ்பெற்ற இலக்கிய வடிவம் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "சிறுகதை",
+        "பிள்ளைத்தமிழ்",
+        "காப்பியம்",
+        "உலா"
+      ],
+      "answer": 0,
+      "t": "நவீன இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "புதுமைப்பித்தன் புகழ்பெற்ற இலக்கிய வடிவம் தொடர்பான சரியான விடையைத் தேர்ந்தெடுக்கவும்.",
+      "options": [
+        "உலா",
+        "காப்பியம்",
+        "சிறுகதை",
+        "பிள்ளைத்தமிழ்"
+      ],
+      "answer": 2,
+      "t": "நவீன இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "பின்வருவனவற்றில் புதுமைப்பித்தன் புகழ்பெற்ற இலக்கிய வடிவம் என்பதுடன் பொருந்துவது எது?",
+      "options": [
+        "உலா",
+        "சிறுகதை",
+        "பிள்ளைத்தமிழ்",
+        "காப்பியம்"
+      ],
+      "answer": 1,
+      "t": "நவீன இலக்கியம்",
+      "d": 1
+    },
+    {
+      "q": "சிலப்பதிகாரத்தில் இடம்பெறும் மூன்று காண்டங்கள் என்பதற்கான சரியான விடை எது?",
+      "options": [
+        "அறம், பொருள், இன்பம்",
+        "எழுத்து, சொல், பொருள்",
+        "புகார், மதுரை, வஞ்சி",
+        "அகம், புறம், களவு"
+      ],
+      "answer": 2,
+      "t": "நவீன இலக்கியம்",
+      "d": 3
+    }
+  ]
 }
