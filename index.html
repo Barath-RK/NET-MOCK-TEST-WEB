@@ -332,7 +332,7 @@ button.block{width:100%}
 
 <script>
 /* ============================ CONFIG ============================ */
-const VERSION = '3';            // bump when you replace questions.json so browsers fetch the new file
+const VERSION = '4';            // bump when you replace questions.json so browsers fetch the new file
 const MARKS = 2;                // marks per correct answer (UGC-NET: no negative marking)
 const MODES = {
   quick:    { key:'quick',    label:'Quick Mock',    q:10,  time:15*60,  icon:'🚀', desc:'Fast revision — sharp and hard.' },
@@ -372,7 +372,7 @@ let DATA = { paper1:[], paper2_english:[], paper2_tamil:[] };
 let selectedMode = null, selectedSub = null;
 let S = null;            // live session
 let R = null;            // last result
-let timerId = null, filter = 'all', loadP = null;
+let timerId = null, filter = 'all', loadP = null, questionsLoaded = false;
 
 /* ============================ THEME / USER ============================ */
 function applyTheme(t){
@@ -410,9 +410,59 @@ $('signOutBtn').onclick = () => {
 /* ============================ QUESTION LOADING ============================ */
 function loadQuestions(){
   if(loadP) return loadP;
-  loadP = fetch('questions.json?v='+VERSION).then(r=>{ if(!r.ok) throw new Error('http'); return r.json(); }).then(j=>{
-    DATA = { paper1:j.paper1||[], paper2_english:j.paper2_english||[], paper2_tamil:j.paper2_tamil||[] };
-  }).catch(()=>{ loadP = null; toast('Could not load questions. Check your connection.','danger'); });
+
+  loadP = fetch('questions.json?v='+VERSION, { cache:'no-store' })
+    .then(response => {
+      if(!response.ok) throw new Error('HTTP '+response.status+' while loading questions.json');
+      return response.json();
+    })
+    .then(json => {
+      const keys = ['paper1','paper2_english','paper2_tamil'];
+
+      // All three subject banks must exist as arrays. This prevents a missing
+      // subject key from silently falling back to another subject's questions.
+      keys.forEach(key => {
+        if(!Object.prototype.hasOwnProperty.call(json, key) || !Array.isArray(json[key])){
+          throw new Error('Missing or invalid question bank: '+key);
+        }
+      });
+
+      // Keep only usable questions. A valid question has text, four options,
+      // and a zero-based answer index from 0 to 3.
+      const cleanBank = (bank, key) => bank.filter((q, index) => {
+        const valid = q &&
+          typeof q.q === 'string' && q.q.trim().length > 0 &&
+          Array.isArray(q.options) && q.options.length === 4 &&
+          q.options.every(option => option !== null && option !== undefined && String(option).trim() !== '') &&
+          Number.isInteger(q.answer) && q.answer >= 0 && q.answer <= 3;
+
+        if(!valid) console.warn('Skipping invalid question:', key, 'index', index, q);
+        return valid;
+      });
+
+      DATA = {
+        paper1: cleanBank(json.paper1, 'paper1'),
+        paper2_english: cleanBank(json.paper2_english, 'paper2_english'),
+        paper2_tamil: cleanBank(json.paper2_tamil, 'paper2_tamil')
+      };
+
+      questionsLoaded = true;
+      console.info('Question banks loaded:', {
+        General: DATA.paper1.length,
+        English: DATA.paper2_english.length,
+        Tamil: DATA.paper2_tamil.length
+      });
+
+      return DATA;
+    })
+    .catch(error => {
+      console.error('Question loading error:', error);
+      loadP = null;
+      questionsLoaded = false;
+      toast('Could not load questions.json. Check that the file is beside index.html and contains all three subject banks.','danger');
+      return DATA;
+    });
+
   return loadP;
 }
 
@@ -460,7 +510,18 @@ function checkResume(){
   if(s && !s.finished && s.endAt <= Date.now()){ S = s; finish(true); return false; }   // timed out while away
   return true;
 }
-$('btnResume').onclick = () => { const s = pendingResume(); if(!s){ goHome(); return; } S = s; S.last = Date.now(); show('v-quiz'); render(); startTimer(); hint(); };
+$('btnResume').onclick = () => {
+  const s = pendingResume();
+  if(!s){ goHome(); return; }
+  S = s;
+  selectedMode = MODES[S.mode] || null;
+  selectedSub = SUBJECTS[S.subject] ? S.subject : null;
+  if(!selectedMode || !selectedSub || !Array.isArray(S.qs) || !S.qs.length){
+    ls.del('netSession'); S = null; toast('The saved test is invalid and has been cleared.','danger'); goHome(); return;
+  }
+  S.last = Date.now();
+  show('v-quiz'); render(); startTimer(); hint();
+};
 $('btnDiscard').onclick = () => { if(confirm('Discard the unfinished test?')){ ls.del('netSession'); S = null; $('resumeCard').classList.add('hidden'); } };
 $('paperBack').onclick = goHome;
 $('instBack').onclick = openPaper;
@@ -473,7 +534,8 @@ async function openPaper(){
   const draw = () => {
     $('paperGrid').innerHTML = Object.entries(SUBJECTS).map(([k,s]) => {
       const n = (DATA[k]||[]).length;
-      return '<div class="tile" data-sub="'+k+'"><div class="ic">'+s.icon+'</div><div class="tt"'+(k==='paper2_tamil'?' style="font-family:\'Noto Sans Tamil\',Inter,sans-serif"':'')+'>'+s.label+'</div><div class="td">'+s.sub+'</div><div class="tags"><span class="tag">'+(loadP&&n===0&&!DATA.paper1.length?'loading…':n+' questions in bank')+'</span></div></div>';
+      const countLabel = questionsLoaded ? n+' questions in bank' : 'Loading questions…';
+      return '<div class="tile" data-sub="'+k+'"><div class="ic">'+s.icon+'</div><div class="tt"'+(k==='paper2_tamil'?' style="font-family:\'Noto Sans Tamil\',Inter,sans-serif"':'')+'>'+s.label+'</div><div class="td">'+s.sub+'</div><div class="tags"><span class="tag">'+countLabel+'</span></div></div>';
     }).join('');
     document.querySelectorAll('.tile[data-sub]').forEach(t => t.onclick = () => {
       selectedSub = t.dataset.sub;
@@ -486,7 +548,8 @@ async function openPaper(){
 async function openInst(){
   await loadQuestions();
   const pool = DATA[selectedSub] || [];
-  if(!pool.length){ toast('No questions added yet for '+SUBJECTS[selectedSub].label,'warn'); show('v-paper'); return; }
+  if(!SUBJECTS[selectedSub]){ toast('Please select a valid subject.','danger'); show('v-paper'); return; }
+  if(!pool.length){ toast('No valid questions available for '+SUBJECTS[selectedSub].label,'warn'); show('v-paper'); return; }
   const n = Math.min(selectedMode.q, pool.length), dur = Math.round(selectedMode.time*n/selectedMode.q);
   $('instSub').textContent = SUBJECTS[selectedSub].label+' · '+selectedMode.label;
   $('instList').innerHTML =
@@ -540,8 +603,9 @@ function buildQ(x){
 }
 async function startQuiz(key){
   await loadQuestions();
+  if(!SUBJECTS[key] || !selectedMode){ toast('Please select a subject and test mode first.','danger'); return; }
   const pool = DATA[key] || [];
-  if(!pool.length){ toast('No questions yet for this paper','warn'); return; }
+  if(!pool.length){ toast('No valid questions available for this paper','warn'); return; }
   const n = Math.min(selectedMode.q, pool.length), dur = Math.round(selectedMode.time*n/selectedMode.q);
   const { list, reset } = pickQuestions(key, n);
   const now = Date.now();
@@ -566,8 +630,9 @@ function tick(){
   if(left<=0){ finish(true); }
 }
 function touch(){
-  const now = Math.min(Date.now(), S.endAt);
-  if(now > S.last) S.qtime[S.cur] += (now - S.last)/1000;
+  if(!S || !Array.isArray(S.qtime) || S.cur < 0 || S.cur >= S.qtime.length) return;
+  const now = Math.min(Date.now(), S.endAt || Date.now());
+  if(typeof S.last === 'number' && now > S.last) S.qtime[S.cur] = (S.qtime[S.cur] || 0) + (now - S.last)/1000;
   S.last = now;
 }
 
@@ -644,6 +709,7 @@ window.addEventListener('beforeunload', e => { if(S && !S.finished){ e.preventDe
 /* ============================ FINISH / RESULT ============================ */
 function gradeOf(p){ return p>=90?'A+':p>=80?'A':p>=70?'B+':p>=60?'B':p>=50?'C':p>=40?'D':'F'; }
 function finish(auto){
+  if(!S || S.finished || !Array.isArray(S.qs) || !S.qs.length) return;
   stopTimer(); touch(); S.finished = true; ls.del('netSession');
   const n = S.qs.length; let c=0, w=0, s=0; const topics = {}, items = [];
   S.qs.forEach((q,i) => {
