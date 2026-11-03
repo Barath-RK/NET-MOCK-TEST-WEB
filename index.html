@@ -309,9 +309,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   animation:labelFade .8s 2s forwards;opacity:0;
 }
 
-/* ============================================================
-   QUIZ — CLEAN LAYOUT WITH FIXED BOTTOM NAV
-   ============================================================ */
+/* QUIZ */
 .quiz-header{
   display:flex;align-items:center;justify-content:space-between;
   gap:.8rem;flex-wrap:wrap;margin-bottom:1.2rem;
@@ -336,7 +334,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 }
 .pause-btn:hover{background:rgba(255,255,255,.4);transform:none;box-shadow:none}
 
-/* Progress */
 .progress-wrap{width:100%;margin-bottom:1.2rem}
 .progress-meta{
   display:flex;justify-content:space-between;align-items:center;
@@ -351,14 +348,12 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .progress-bar{height:8px;background:var(--border);border-radius:var(--radius-pill);overflow:hidden}
 .progress-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--primary),var(--primary-light));border-radius:var(--radius-pill);transition:width .35s cubic-bezier(.4,0,.2,1)}
 
-/* Question card — full control over option layout */
 .q-card{
   background:var(--surface-2);
   border-radius:var(--radius-md);
   padding:1.3rem 1.2rem;
   border:1px solid var(--border);
   margin-bottom:1rem;
-  /* Extra bottom padding so nothing overlaps fixed nav */
   padding-bottom:1.3rem;
 }
 .q-topline{
@@ -382,9 +377,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   padding-bottom:.9rem;border-bottom:1px dashed var(--border);
 }
 
-/* ============================================================
-   OPTIONS — FIXED LAYOUT (grid rows, no overlap)
-   ============================================================ */
 .opts{
   display:grid;
   grid-template-columns:1fr;
@@ -413,9 +405,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .opt input[type=radio]{position:absolute;opacity:0;pointer-events:none}
 .opt .o-text{flex:1;color:var(--text);line-height:1.45;min-width:0}
 
-/* ============================================================
-   FIXED BOTTOM NAVIGATION BAR
-   ============================================================ */
 .quiz-bottom-spacer{height:90px}
 .fixed-nav{
   position:fixed;
@@ -496,7 +485,9 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .nav-q-btn.current.answered{background:var(--success);color:#fff}
 .nav-q-btn.current.flagged{background:var(--warn);color:#fff}
 
-/* RESULT */
+/* ============================================================
+   RESULT
+   ============================================================ */
 .result-hero{
   background:linear-gradient(135deg,var(--primary),var(--primary-light));
   color:#fff;border-radius:var(--radius-md);
@@ -512,26 +503,61 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .result-score{font-size:3.2rem;font-weight:800;line-height:1;letter-spacing:-.02em;position:relative}
 .result-score .denom{font-size:1.4rem;font-weight:600;opacity:.75}
 .result-pct{font-size:1.1rem;font-weight:600;margin-top:.4rem;opacity:.95;position:relative}
-.result-pill{background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:var(--radius-pill);font-size:.8rem;font-weight:600;backdrop-filter:blur(4px);position:relative}
+.result-right{text-align:right;position:relative}
+.result-pill{background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:var(--radius-pill);font-size:.8rem;font-weight:600;backdrop-filter:blur(4px);display:inline-block;margin-top:.5rem}
+.grade-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:76px;height:76px;border-radius:50%;
+  background:rgba(255,255,255,.2);backdrop-filter:blur(6px);
+  border:2px solid rgba(255,255,255,.4);
+  font-size:2rem;font-weight:900;color:#fff;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.2);
+}
 
 .result-stats{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;
-  margin-bottom:1.4rem;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:.7rem;
+  margin-bottom:1.2rem;
 }
-@media(max-width:560px){.result-stats{grid-template-columns:1fr}}
+@media(max-width:700px){.result-stats{grid-template-columns:repeat(2,1fr)}}
 .stat-box{
   background:var(--surface-2);border:1px solid var(--border);
   border-radius:12px;padding:.85rem 1rem;
 }
-.stat-label{font-size:.72rem;color:var(--text-soft);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-.stat-value{font-size:1.4rem;font-weight:800;color:var(--text);margin-top:.2rem}
+.stat-label{font-size:.7rem;color:var(--text-soft);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.stat-value{font-size:1.35rem;font-weight:800;color:var(--text);margin-top:.2rem}
 .stat-value.ok{color:var(--success)}
 .stat-value.bad{color:var(--danger)}
+.stat-value.info{color:var(--primary)}
+
+/* Progress bar chart */
+.result-chart{
+  display:flex;height:14px;border-radius:var(--radius-pill);
+  overflow:hidden;margin-bottom:1.3rem;
+  background:var(--border);
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.08);
+}
+.result-chart .bar{height:100%;transition:width .6s cubic-bezier(.4,0,.2,1)}
+.result-chart .bar.correct{background:var(--success)}
+.result-chart .bar.wrong{background:var(--danger)}
+.result-chart .bar.skipped{background:var(--text-dim)}
+
+/* Filter chips */
+.filter-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.filter-chip{
+  padding:.4rem .9rem;border-radius:var(--radius-pill);
+  font-size:.82rem;font-weight:600;cursor:pointer;
+  border:1.5px solid var(--border);background:var(--surface);
+  color:var(--text-soft);box-shadow:none;
+  transition:var(--transition);
+}
+.filter-chip:hover{background:var(--surface-2);transform:none;box-shadow:none}
+.filter-chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
 
 .review{background:var(--surface);border-left:4px solid var(--danger);
   padding:.9rem 1.1rem;border-radius:10px;margin-bottom:.65rem;
   box-shadow:var(--shadow-sm);font-size:.9rem;border:1px solid var(--border);border-left-width:4px;}
 .review.correct{border-left-color:var(--success)}
+.review.skipped{border-left-color:var(--text-dim)}
 .review-q{font-weight:600;color:var(--text);margin-bottom:.4rem;line-height:1.4}
 .review-a{color:var(--success);font-weight:500;font-size:.86rem}
 .review-w{color:var(--danger);font-weight:500;font-size:.86rem;margin-top:.2rem}
@@ -542,9 +568,28 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   display:flex;justify-content:space-between;align-items:center;
   padding:.7rem 1rem;background:var(--surface-2);border-radius:10px;
   margin-bottom:.5rem;font-size:.85rem;border:1px solid var(--border);
+  gap:.6rem;flex-wrap:wrap;
 }
 .history-meta{color:var(--text-soft);font-size:.75rem}
 .history-score{font-weight:700;color:var(--primary)}
+
+/* Keyboard help tooltip */
+.kbd-help{
+  position:fixed;bottom:110px;right:1.5rem;z-index:9996;
+  background:var(--text);color:#fff;
+  padding:.6rem 1rem;border-radius:10px;
+  font-size:.78rem;line-height:1.6;
+  box-shadow:var(--shadow-lg);
+  opacity:0;transform:translateY(10px);
+  transition:opacity .2s, transform .2s;
+  pointer-events:none;
+}
+.kbd-help.show{opacity:1;transform:translateY(0)}
+.kbd-help kbd{
+  background:rgba(255,255,255,.2);
+  padding:.05rem .4rem;border-radius:4px;
+  font-family:'JetBrains Mono',monospace;font-size:.72rem;
+}
 
 /* ADMIN */
 .admin-q{background:var(--surface);border-radius:12px;padding:.9rem 1rem;margin-bottom:.65rem;border:1px solid var(--border);box-shadow:var(--shadow-sm)}
@@ -572,6 +617,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   .nav-grid{grid-template-columns:repeat(4,1fr)}
   .icon-btn .lbl{display:none}
   .icon-btn{padding:0;width:38px}
+  .kbd-help{display:none}
 }
 </style>
 </head>
@@ -718,7 +764,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
       <div class="opts" id="opts"></div>
     </div>
 
-    <!-- Spacer so fixed nav doesn't overlap last content -->
     <div class="quiz-bottom-spacer"></div>
   </div>
 
@@ -726,33 +771,56 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   <div id="v-result" class="hidden">
     <h1>📊 Your result</h1>
     <div class="subhead" id="resultSubhead">UGC NET pattern · +2 per correct · No negative marking</div>
+
     <div class="result-hero">
       <div>
         <div class="result-score" id="scoreBig">0<span class="denom">/0</span></div>
         <div class="result-pct" id="scorePct">0%</div>
       </div>
-      <div class="result-pill" id="scoreTag">—</div>
+      <div class="result-right">
+        <div class="grade-badge" id="gradeBadge">—</div>
+        <div class="result-pill" id="scoreTag">—</div>
+      </div>
     </div>
 
     <div class="result-stats">
       <div class="stat-box">
-        <div class="stat-label">Correct</div>
+        <div class="stat-label">✅ Correct</div>
         <div class="stat-value ok" id="statCorrect">0</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">Wrong</div>
+        <div class="stat-label">❌ Wrong</div>
         <div class="stat-value bad" id="statWrong">0</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">Skipped</div>
+        <div class="stat-label">⏭ Skipped</div>
         <div class="stat-value" id="statSkipped">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">⏱ Time taken</div>
+        <div class="stat-value info" id="statTime">0:00</div>
       </div>
     </div>
 
+    <div class="result-chart" id="resultChart">
+      <div class="bar correct" id="barCorrect" style="width:0%"></div>
+      <div class="bar wrong" id="barWrong" style="width:0%"></div>
+      <div class="bar skipped" id="barSkipped" style="width:0%"></div>
+    </div>
+
+    <div class="filter-row">
+      <button class="filter-chip active" data-filter="all">All (<span id="fcAll">0</span>)</button>
+      <button class="filter-chip" data-filter="correct">✅ Correct (<span id="fcCorrect">0</span>)</button>
+      <button class="filter-chip" data-filter="wrong">❌ Wrong (<span id="fcWrong">0</span>)</button>
+      <button class="filter-chip" data-filter="skipped">⏭ Skipped (<span id="fcSkipped">0</span>)</button>
+    </div>
+
     <div id="reviewList"></div>
-    <div class="flex mt">
-      <button class="ghost block" onclick="goHome()">🏠 Back to home</button>
-      <button class="success block" onclick="retakeQuiz()">🔄 Retake</button>
+
+    <div class="flex mt" style="justify-content:space-between;gap:.6rem;flex-wrap:wrap">
+      <button class="ghost" onclick="goHome()" style="flex:1;min-width:140px">🏠 Back to home</button>
+      <button class="ghost" onclick="shareResult()" style="flex:1;min-width:140px">📤 Share</button>
+      <button class="success" onclick="retakeQuiz()" style="flex:1;min-width:140px">🔄 Retake</button>
     </div>
   </div>
 
@@ -843,6 +911,13 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   </div>
 </div>
 
+<!-- Keyboard help -->
+<div class="kbd-help" id="kbdHelp">
+  <div><kbd>←</kbd> <kbd>→</kbd> prev / next</div>
+  <div><kbd>1</kbd>–<kbd>4</kbd> select A/B/C/D</div>
+  <div><kbd>F</kbd> flag current</div>
+</div>
+
 <!-- NAV DRAWER -->
 <div class="nav-drawer" id="navDrawer">
   <div class="drawer-head">
@@ -860,7 +935,7 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 
 <script>
 /* ============================================================
-   CONFIG — UGC NET rules
+   CONFIG
    ============================================================ */
 const ADMIN_PASS = "netadmin123";
 const MARKS_PER_CORRECT = 2;
@@ -875,6 +950,8 @@ let DATA = { paper1:[], paper2_english:[], paper2_tamil:[] };
 let session = null;
 let selectedMode = null;
 let adminUnlocked = false;
+let lastResultData = null;
+let currentFilter = 'all';
 
 const $ = id => document.getElementById(id);
 const el = (tag, cls, html) => { const e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; };
@@ -882,7 +959,6 @@ const el = (tag, cls, html) => { const e=document.createElement(tag); if(cls)e.c
 function show(id){
   document.querySelectorAll('[id^=v-]').forEach(n=>n.classList.add('hidden'));
   $(id).classList.remove('hidden');
-  // Hide fixed nav unless quiz is showing
   const fixedNav = $('fixedNav');
   if(id === 'v-quiz') fixedNav.classList.remove('hidden');
   else fixedNav.classList.add('hidden');
@@ -921,7 +997,7 @@ function renderTopbar(){
 }
 $('signOutBtn').onclick = ()=>{
   localStorage.removeItem('netUser');
-  session = null; selectedMode = null;
+  session = null; selectedMode = null; lastResultData = null;
   history.replaceState(null,'',location.pathname);
   toast('Signed out', 'success');
   renderTopbar();
@@ -1087,9 +1163,7 @@ function playReveal(lang, onDone){
   setTimeout(()=>{ stage.remove(); onDone && onDone(); }, total);
 }
 
-/* ============================================================
-   QUIZ
-   ============================================================ */
+/* QUIZ */
 function startQuiz(subjectKey, label, paperType){
   const pool = DATA[subjectKey] || [];
   if(pool.length === 0){
@@ -1116,6 +1190,7 @@ function startQuiz(subjectKey, label, paperType){
     answers: Array(shuffled.length).fill(null),
     flagged: Array(shuffled.length).fill(false),
     timeLeft: selectedMode.time,
+    timeTaken: 0,
     paused: false,
     finished: false,
     timerId: null,
@@ -1127,6 +1202,13 @@ function startQuiz(subjectKey, label, paperType){
   renderQuestion();
   renderNavGrid();
   startTimer();
+  showKbdHint();
+}
+
+function showKbdHint(){
+  const help = $('kbdHelp');
+  help.classList.add('show');
+  setTimeout(()=>help.classList.remove('show'), 4000);
 }
 
 /* TIMER */
@@ -1136,6 +1218,7 @@ function startTimer(){
   session.timerId = setInterval(()=>{
     if(session.paused) return;
     session.timeLeft--;
+    session.timeTaken++;
     updateTimerText();
     if(session.timeLeft <= 0){ clearInterval(session.timerId); finishQuiz(true); }
   }, 1000);
@@ -1223,7 +1306,7 @@ $('btnSubmit').onclick = ()=>{
   if(confirm(msg)) finishQuiz(false);
 };
 
-/* NAVIGATOR DRAWER */
+/* NAVIGATOR */
 $('btnNavToggle').onclick = ()=>{
   $('navDrawer').classList.add('open');
   renderNavGrid();
@@ -1251,8 +1334,9 @@ function renderNavGrid(){
   });
 }
 
-/* KEYBOARD SHORTCUTS */
+/* KEYBOARD */
 document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape'){ $('navDrawer').classList.remove('open'); return; }
   if(!session || session.finished) return;
   if(document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
   if(e.key === 'ArrowLeft'){ $('btnPrev').click(); }
@@ -1265,9 +1349,10 @@ document.addEventListener('keydown', (e)=>{
     }
   }
   else if(e.key === 'f' || e.key === 'F'){ $('flagBtn').click(); }
+  else if(e.key === '?'){ showKbdHint(); }
 });
 
-/* FINISH */
+/* FINISH — with rich result analytics */
 function finishQuiz(auto){
   if(session.timerId) clearInterval(session.timerId);
   session.finished = true;
@@ -1275,7 +1360,7 @@ function finishQuiz(auto){
   const total = session.questions.length;
   const letters = ['A','B','C','D'];
   let correct = 0, wrong = 0, skipped = 0;
-  const list = $('reviewList'); list.innerHTML = '';
+  const reviewItems = [];
 
   session.questions.forEach((q, i)=>{
     const given = session.answers[i];
@@ -1283,45 +1368,152 @@ function finishQuiz(auto){
     if(given === null) skipped++;
     else if(isRight) correct++;
     else wrong++;
-
-    const div = el('div', 'review' + (isRight?' correct':''));
-    div.innerHTML = `
-      <div class="review-q">Q${i+1}. ${escapeHtml(q.q)}</div>
-      <div class="review-a">✅ Correct: ${letters[q.answer]}. ${escapeHtml(q.options[q.answer])}</div>
-      ${isRight || given===null ? '' : `<div class="review-w">❌ You chose: ${letters[given]}. ${escapeHtml(q.options[given])}</div>`}
-      ${given===null ? `<div class="review-w" style="color:var(--text-soft)">⏭ Not answered</div>` : ''}
-    `;
-    list.appendChild(div);
+    reviewItems.push({ q, given, isRight });
   });
 
   const maxMarks = total * MARKS_PER_CORRECT;
   const score = correct * MARKS_PER_CORRECT;
   const pct = Math.round(correct/total*100);
+  const accuracy = (correct + wrong) > 0 ? Math.round(correct/(correct + wrong) * 100) : 0;
+  const grade = getGrade(pct);
 
+  // Hero
   $('scoreBig').innerHTML = `${score}<span class="denom">/${maxMarks}</span>`;
   $('scorePct').textContent = `${pct}% · ${correct}/${total} correct`;
   $('scoreTag').textContent = `${session.label} · ${MODES[session.mode].label}`;
+  $('gradeBadge').textContent = grade;
+  $('gradeBadge').style.color = getGradeColor(grade);
+
+  // Stats
   $('statCorrect').textContent = correct;
   $('statWrong').textContent = wrong;
   $('statSkipped').textContent = skipped;
-  $('resultSubhead').textContent = `+${MARKS_PER_CORRECT} per correct · No negative marking (real UGC-NET rule)`;
+  const mins = Math.floor(session.timeTaken / 60);
+  const secs = session.timeTaken % 60;
+  $('statTime').textContent = `${mins}:${String(secs).padStart(2,'0')}`;
 
+  // Progress bars
+  const pctCorrect = (correct/total)*100;
+  const pctWrong = (wrong/total)*100;
+  const pctSkipped = (skipped/total)*100;
+  $('barCorrect').style.width = pctCorrect + '%';
+  $('barWrong').style.width = pctWrong + '%';
+  $('barSkipped').style.width = pctSkipped + '%';
+
+  // Filter counts
+  $('fcAll').textContent = total;
+  $('fcCorrect').textContent = correct;
+  $('fcWrong').textContent = wrong;
+  $('fcSkipped').textContent = skipped;
+
+  // Subhead with accuracy
+  $('resultSubhead').textContent = `+${MARKS_PER_CORRECT} per correct · No negative marking · Accuracy: ${accuracy}% · Avg time: ${Math.round(session.timeTaken/total)}s/Q`;
+
+  // Store result for filter + share
+  lastResultData = { reviewItems, letters, score, maxMarks, pct, correct, wrong, skipped, accuracy, timeTaken: session.timeTaken, label: session.label, modeLabel: MODES[session.mode].label };
+
+  // Render with default filter
+  currentFilter = 'all';
+  document.querySelectorAll('.filter-chip').forEach(c => c.classList.toggle('active', c.dataset.filter === 'all'));
+  renderReview();
+
+  // Save attempt
   saveAttempt({
     label: session.label,
     mode: session.mode,
     score, maxMarks, correct, total,
-    date: Date.now()
+    date: Date.now(),
+    accuracy, duration: session.timeTaken
   });
 
   show('v-result');
   if(auto) toast('⏰ Time up — auto-submitted', 'warn');
   else toast('Test submitted', 'success');
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
-/* NAVIGATION HELPERS */
+function getGrade(pct){
+  if(pct >= 90) return 'A+';
+  if(pct >= 80) return 'A';
+  if(pct >= 70) return 'B+';
+  if(pct >= 60) return 'B';
+  if(pct >= 50) return 'C';
+  if(pct >= 40) return 'D';
+  return 'F';
+}
+function getGradeColor(grade){
+  const colors = { 'A+':'#4fc26c', 'A':'#6bc26c', 'B+':'#8fd44f', 'B':'#e0b763', 'C':'#e0a030', 'D':'#e07c3a', 'F':'#ef6b6b' };
+  return colors[grade] || '#fff';
+}
+
+/* Filter review */
+document.querySelectorAll('.filter-chip').forEach(chip=>{
+  chip.onclick = ()=>{
+    currentFilter = chip.dataset.filter;
+    document.querySelectorAll('.filter-chip').forEach(c => c.classList.toggle('active', c.dataset.filter === currentFilter));
+    renderReview();
+  };
+});
+
+function renderReview(){
+  if(!lastResultData) return;
+  const { reviewItems, letters } = lastResultData;
+  const list = $('reviewList'); list.innerHTML = '';
+
+  let shown = 0;
+  reviewItems.forEach((item, i)=>{
+    const { q, given, isRight } = item;
+    let itemType = 'wrong';
+    if(given === null) itemType = 'skipped';
+    else if(isRight) itemType = 'correct';
+
+    if(currentFilter !== 'all' && currentFilter !== itemType) return;
+    shown++;
+
+    const div = el('div', 'review' + (itemType === 'correct' ? ' correct' : itemType === 'skipped' ? ' skipped' : ''));
+    div.innerHTML = `
+      <div class="review-q">Q${i+1}. ${escapeHtml(q.q)}</div>
+      <div class="review-a">✅ Correct: ${letters[q.answer]}. ${escapeHtml(q.options[q.answer])}</div>
+      ${given === null ? `<div class="review-w" style="color:var(--text-soft)">⏭ Not answered</div>` : isRight ? '' : `<div class="review-w">❌ You chose: ${letters[given]}. ${escapeHtml(q.options[given])}</div>`}
+    `;
+    list.appendChild(div);
+  });
+
+  if(shown === 0){
+    list.innerHTML = `<div style="text-align:center;padding:1.5rem;color:var(--text-soft);font-size:.9rem">No questions in this category.</div>`;
+  }
+}
+
+/* SHARE RESULT */
+function shareResult(){
+  if(!lastResultData) return;
+  const u = getStoredUser();
+  const text = `📚 NET Mock Test Result
+👤 ${u ? u.name : 'Student'}
+📄 ${lastResultData.label} · ${lastResultData.modeLabel}
+🏆 Score: ${lastResultData.score}/${lastResultData.maxMarks} (${lastResultData.pct}%)
+✅ Correct: ${lastResultData.correct}
+❌ Wrong: ${lastResultData.wrong}
+⏭ Skipped: ${lastResultData.skipped}
+🎯 Accuracy: ${lastResultData.accuracy}%
+⏱ Time: ${Math.floor(lastResultData.timeTaken/60)}m ${lastResultData.timeTaken%60}s`;
+
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(text).then(()=>{
+      toast('Result copied to clipboard', 'success');
+    }).catch(()=>{
+      toast('Could not copy', 'danger');
+    });
+  } else {
+    prompt('Copy your result:', text);
+  }
+}
+
+/* NAV HELPERS */
 function goHome(){
   session = null;
   selectedMode = null;
+  lastResultData = null;
   history.replaceState(null, '', location.pathname);
   const u = getStoredUser();
   if(u){
@@ -1339,13 +1531,12 @@ function retakeQuiz(){
   const { subject, label, paperType, mode } = session;
   selectedMode = MODES[mode];
   session = null;
+  lastResultData = null;
   history.replaceState(null, '', location.pathname);
   startQuiz(subject, label, paperType);
 }
 
-/* ============================================================
-   ADMIN
-   ============================================================ */
+/* ADMIN */
 $('btnLogin').onclick = ()=>{
   const m = $('msgLogin');
   if($('admPass').value === ADMIN_PASS){
