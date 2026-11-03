@@ -4,19 +4,17 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#1e4d8c" />
-<title>NET Mock Test · Paper 1 & 2</title>
+<title>NET Mock Test · Premium</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;700&family=Noto+Sans+Tamil:wght@500;700&display=swap" rel="stylesheet">
 <style>
-/* ============================================================
-   DESIGN TOKENS
-   ============================================================ */
 :root{
   --bg-1:#eef3fb; --bg-2:#dfe9f7;
   --surface:#ffffff; --surface-2:#f7faff;
   --text:#0b2b4f; --text-soft:#4a6584; --text-dim:#7a8fa6;
   --primary:#1e4d8c; --primary-dark:#0f3a6b; --primary-light:#3a7bd5;
+  --gold:#c79a3d;
   --success:#1f7a3d; --success-dark:#165e2e; --success-bg:#e3f5e8;
   --danger:#b13e3e; --danger-bg:#fdeaea;
   --warn:#b8761a;
@@ -32,6 +30,7 @@
   --surface:#132a45; --surface-2:#1a3354;
   --text:#eaf1fb; --text-soft:#a8bddb; --text-dim:#7a90ad;
   --primary:#4a8ee0; --primary-dark:#3a7bd5; --primary-light:#6ba6ed;
+  --gold:#e0b763;
   --success:#4fc26c; --success-dark:#3aa855; --success-bg:#183a26;
   --danger:#ef6b6b; --danger-bg:#3a1a1a;
   --border:#264066;
@@ -39,21 +38,14 @@
   --shadow-md:0 8px 24px -8px rgba(0,0,0,.5);
   --shadow-lg:0 20px 45px -12px rgba(0,0,0,.6);
 }
-
-/* ============================================================
-   BASE
-   ============================================================ */
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{height:100%}
 body{
   font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
-  background:var(--bg-1);
-  color:var(--text);
-  line-height:1.5;
+  background:var(--bg-1);color:var(--text);line-height:1.5;
   -webkit-font-smoothing:antialiased;
   transition:background var(--transition),color var(--transition);
-  min-height:100vh;
-  display:flex;flex-direction:column;align-items:center;
+  min-height:100vh;display:flex;flex-direction:column;align-items:center;
   padding:0 1rem 3rem;
 }
 body::before{
@@ -65,22 +57,17 @@ body::before{
   transition:background var(--transition);
 }
 
-/* ============================================================
-   TOP BAR
-   ============================================================ */
+/* TOPBAR */
 .topbar{
-  width:100%;max-width:980px;
+  width:100%;max-width:1000px;
   display:flex;justify-content:flex-end;align-items:center;gap:.6rem;
   padding:1.2rem .2rem .8rem;
 }
 .chip{
   display:flex;align-items:center;gap:.55rem;
-  background:var(--surface);
-  padding:.4rem .9rem .4rem .4rem;
-  border-radius:var(--radius-pill);
-  border:1px solid var(--border);
-  box-shadow:var(--shadow-sm);
-  font-size:.88rem;font-weight:600;color:var(--text);
+  background:var(--surface);padding:.4rem .9rem .4rem .4rem;
+  border-radius:var(--radius-pill);border:1px solid var(--border);
+  box-shadow:var(--shadow-sm);font-size:.88rem;font-weight:600;color:var(--text);
   transition:var(--transition);
 }
 .chip .avatar{
@@ -100,26 +87,24 @@ body::before{
 .icon-btn.signout{color:var(--danger)}
 .icon-btn.signout:hover{background:var(--danger-bg)}
 
-/* ============================================================
-   APP SHELL
-   ============================================================ */
+/* APP SHELL */
 .app{
-  width:100%;max-width:980px;
-  background:var(--surface);
-  border-radius:var(--radius-lg);
-  box-shadow:var(--shadow-lg);
-  padding:2.2rem 2rem;
-  border:1px solid var(--border);
-  transition:var(--transition);
-  animation:fadeUp .35s ease;
+  width:100%;max-width:1000px;background:var(--surface);
+  border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);
+  padding:2.4rem 2.1rem;border:1px solid var(--border);
+  transition:var(--transition);animation:fadeUp .35s ease;
+  position:relative;overflow:hidden;
+}
+.app::before{
+  content:'';position:absolute;top:-60%;left:-20%;width:80%;height:120%;
+  background:radial-gradient(circle, rgba(58,123,213,.06), transparent 60%);
+  pointer-events:none;
 }
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
-/* ============================================================
-   TYPOGRAPHY
-   ============================================================ */
+/* TYPOGRAPHY */
 h1{
-  font-size:2.1rem;font-weight:800;letter-spacing:-.02em;
+  font-size:2.2rem;font-weight:800;letter-spacing:-.025em;
   color:var(--text);margin-bottom:.35rem;
   display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;
 }
@@ -128,6 +113,7 @@ h1 .badge{
   color:#fff;font-size:.7rem;font-weight:600;
   padding:.25rem .8rem;border-radius:var(--radius-pill);
   letter-spacing:.4px;text-transform:uppercase;
+  box-shadow:0 3px 10px -3px rgba(30,77,140,.5);
 }
 .subhead{
   color:var(--text-soft);font-size:1rem;margin-bottom:1.8rem;
@@ -135,23 +121,21 @@ h1 .badge{
   line-height:1.55;
 }
 
-/* ============================================================
-   CARDS
-   ============================================================ */
+/* CARDS */
 .card{
-  background:var(--surface-2);
-  border-radius:var(--radius-md);
-  padding:1.6rem 1.4rem;
-  box-shadow:var(--shadow-sm);
-  border:1px solid var(--border);
-  margin-bottom:1.1rem;
+  background:var(--surface-2);border-radius:var(--radius-md);
+  padding:1.6rem 1.4rem;box-shadow:var(--shadow-sm);
+  border:1px solid var(--border);margin-bottom:1.1rem;
   transition:var(--transition);
 }
 .card.elevated{background:var(--surface)}
+.card.glass{
+  background:rgba(255,255,255,.6);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+}
+[data-theme="dark"] .card.glass{background:rgba(26,51,84,.6)}
 
-/* ============================================================
-   FORM
-   ============================================================ */
+/* FORM */
 label{
   font-weight:600;color:var(--text);font-size:.88rem;
   display:block;margin-bottom:.4rem;margin-top:.9rem;
@@ -159,10 +143,8 @@ label{
 label:first-child{margin-top:0}
 input,select,textarea{
   width:100%;font-size:.95rem;font-family:inherit;
-  padding:.78rem 1.1rem;
-  border-radius:var(--radius-sm);
-  border:1.5px solid var(--border);
-  background:var(--surface);color:var(--text);
+  padding:.78rem 1.1rem;border-radius:var(--radius-sm);
+  border:1.5px solid var(--border);background:var(--surface);color:var(--text);
   outline:none;transition:var(--transition);
 }
 textarea{border-radius:12px;min-height:90px;resize:vertical;font-family:'JetBrains Mono',monospace;font-size:.82rem}
@@ -172,9 +154,7 @@ input:focus,select:focus,textarea:focus{
 }
 input::placeholder,textarea::placeholder{color:var(--text-dim)}
 
-/* ============================================================
-   BUTTONS
-   ============================================================ */
+/* BUTTONS */
 button{
   font-family:inherit;font-size:.92rem;font-weight:600;
   padding:.78rem 1.4rem;border:none;border-radius:var(--radius-sm);
@@ -194,32 +174,74 @@ button.danger{background:var(--danger);box-shadow:0 3px 10px -3px rgba(177,62,62
 button.danger:hover{background:#8f2e28}
 button.block{width:100%}
 button.sm{padding:.5rem .9rem;font-size:.82rem}
+button.gold{
+  background:linear-gradient(135deg,#c79a3d,#e0b763);
+  color:#3a2a10;
+  box-shadow:0 4px 14px -4px rgba(199,154,61,.6);
+}
+button.gold:hover{background:linear-gradient(135deg,#b5862e,#c79a3d)}
 
-/* ============================================================
-   LAYOUT
-   ============================================================ */
+/* LAYOUT */
 .flex{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center}
 .flex.between{justify-content:space-between}
 .mt{margin-top:1.1rem}.mb{margin-bottom:1.1rem}
 .hidden{display:none!important}
 hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 
-/* ============================================================
-   MESSAGES
-   ============================================================ */
+/* MESSAGES */
 .msg{
   padding:.75rem 1.1rem;border-radius:var(--radius-sm);
   background:var(--danger-bg);color:var(--danger);
   font-weight:500;font-size:.88rem;margin-top:.9rem;
-  display:flex;align-items:center;gap:.5rem;
-  animation:fadeUp .2s;
+  display:flex;align-items:center;gap:.5rem;animation:fadeUp .2s;
 }
 .msg.ok{background:var(--success-bg);color:var(--success)}
 .msg.warn{background:rgba(184,118,26,.12);color:var(--warn)}
 
 /* ============================================================
-   PAPER TILES
+   MODE SELECTION (Quick / Standard / Full)
    ============================================================ */
+.mode-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.2rem 0;
+}
+@media(max-width:750px){.mode-grid{grid-template-columns:1fr}}
+.mode-tile{
+  background:var(--surface);border:2px solid var(--border);
+  border-radius:var(--radius-md);padding:1.6rem 1.2rem;
+  cursor:pointer;transition:var(--transition);
+  text-align:left;display:flex;flex-direction:column;gap:.5rem;
+  box-shadow:var(--shadow-sm);position:relative;overflow:hidden;
+}
+.mode-tile:hover{
+  border-color:var(--primary-light);transform:translateY(-4px);
+  box-shadow:var(--shadow-md);
+}
+.mode-tile.featured{
+  border-color:var(--gold);
+  background:linear-gradient(135deg,var(--surface),rgba(199,154,61,.06));
+}
+.mode-tile.featured:hover{border-color:var(--gold);box-shadow:0 12px 32px -10px rgba(199,154,61,.4)}
+.mode-tile .m-icon{font-size:2.2rem;margin-bottom:.3rem}
+.mode-tile .m-title{font-size:1.1rem;font-weight:800;color:var(--text);letter-spacing:-.01em}
+.mode-tile .m-desc{font-size:.85rem;color:var(--text-soft);line-height:1.4}
+.mode-tile .m-meta{
+  display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem;
+}
+.mode-tile .m-tag{
+  font-size:.72rem;font-weight:600;padding:.2rem .65rem;
+  background:var(--surface-2);border-radius:var(--radius-pill);
+  color:var(--primary);border:1px solid var(--border);
+}
+.mode-tile.featured .m-tag{background:rgba(199,154,61,.15);color:#8a6a1e;border-color:rgba(199,154,61,.3)}
+[data-theme="dark"] .mode-tile.featured .m-tag{color:var(--gold)}
+.mode-tile .ribbon{
+  position:absolute;top:10px;right:-30px;transform:rotate(45deg);
+  background:linear-gradient(135deg,#c79a3d,#e0b763);
+  color:#3a2a10;font-size:.65rem;font-weight:800;
+  padding:.2rem 2.2rem;letter-spacing:.5px;text-transform:uppercase;
+}
+
+/* PAPER TILES */
 .paper-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
 @media(max-width:560px){.paper-grid{grid-template-columns:1fr}}
 .paper-tile{
@@ -229,17 +251,77 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   text-align:left;display:flex;flex-direction:column;gap:.4rem;
   box-shadow:var(--shadow-sm);
 }
-.paper-tile:hover{
-  border-color:var(--primary-light);transform:translateY(-3px);
-  box-shadow:var(--shadow-md);
-}
+.paper-tile:hover{border-color:var(--primary-light);transform:translateY(-3px);box-shadow:var(--shadow-md)}
 .paper-tile .tile-icon{font-size:1.8rem;margin-bottom:.2rem}
 .paper-tile .tile-title{font-size:1.05rem;font-weight:700;color:var(--text)}
 .paper-tile .tile-sub{font-size:.85rem;color:var(--text-soft)}
 
 /* ============================================================
-   QUIZ
+   CINEMATIC REVEAL — English flag / Tamil letters
    ============================================================ */
+.reveal-stage{
+  position:fixed;inset:0;z-index:9998;
+  display:flex;align-items:center;justify-content:center;
+  background:radial-gradient(circle at center, rgba(11,43,79,.95), rgba(5,20,40,.98));
+  animation:stageFade .4s ease;
+}
+@keyframes stageFade{from{opacity:0}to{opacity:1}}
+.reveal-stage.leaving{animation:stageLeave .5s ease forwards}
+@keyframes stageLeave{to{opacity:0;visibility:hidden}}
+
+.reveal-content{
+  text-align:center;color:#fff;
+  animation:contentZoom .6s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes contentZoom{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+
+/* English flag reveal */
+.flag-reveal{
+  font-size:6rem;line-height:1;
+  animation:flagSwoop .9s cubic-bezier(.34,1.56,.64,1) forwards;
+  filter:drop-shadow(0 8px 30px rgba(255,255,255,.25));
+}
+@keyframes flagSwoop{
+  0%{transform:scale(.2) rotate(-25deg);opacity:0}
+  55%{transform:scale(1.25) rotate(8deg);opacity:1}
+  100%{transform:scale(1) rotate(0);opacity:1}
+}
+.flag-label{
+  margin-top:1.2rem;font-size:1.2rem;font-weight:700;
+  letter-spacing:.15em;text-transform:uppercase;color:#e0b763;
+  animation:labelFade 1s .4s forwards;opacity:0;
+}
+@keyframes labelFade{to{opacity:1}}
+
+/* Tamil letter-by-letter cinematic reveal */
+.tamil-reveal{
+  font-family:'Noto Sans Tamil',sans-serif;
+  font-size:5.5rem;font-weight:700;color:#fff;
+  letter-spacing:.1em;
+  text-shadow:0 4px 30px rgba(224,183,99,.6);
+  display:flex;justify-content:center;gap:.05em;
+}
+.tamil-reveal span{
+  opacity:0;display:inline-block;
+  animation:letterIn .5s cubic-bezier(.34,1.56,.64,1) forwards;
+}
+@keyframes letterIn{
+  0%{opacity:0;transform:translateY(-30px) scale(1.4);color:#e0b763}
+  60%{opacity:1;transform:translateY(6px) scale(.95);color:#fff}
+  100%{opacity:1;transform:translateY(0) scale(1);color:#fff}
+}
+.tamil-label{
+  margin-top:1.4rem;font-size:1.05rem;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;color:#e0b763;
+  animation:labelFade .8s 1.6s forwards;opacity:0;
+}
+.tamil-sub{
+  margin-top:.5rem;font-size:.8rem;color:rgba(255,255,255,.6);
+  letter-spacing:.2em;text-transform:uppercase;
+  animation:labelFade .8s 2s forwards;opacity:0;
+}
+
+/* QUIZ */
 .quiz-header{
   display:flex;align-items:center;justify-content:space-between;
   gap:.8rem;flex-wrap:wrap;margin-bottom:1.2rem;
@@ -254,26 +336,11 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .timer-box.critical{background:linear-gradient(135deg,#b13e3e,#d05050);animation:pulse 1s infinite}
 @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
 .timer-box .t-icon{font-size:.95rem;opacity:.9}
-.timer-box .t-time{
-  font-family:'JetBrains Mono',monospace;font-weight:700;
-  font-size:1.15rem;letter-spacing:.5px;
-}
+.timer-box .t-time{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:1.15rem;letter-spacing:.5px}
 .progress-wrap{width:100%;margin-bottom:1.6rem}
-.progress-meta{
-  display:flex;justify-content:space-between;
-  font-size:.8rem;font-weight:600;color:var(--text-soft);
-  margin-bottom:.4rem;
-}
-.progress-bar{
-  height:8px;background:var(--border);
-  border-radius:var(--radius-pill);overflow:hidden;
-}
-.progress-fill{
-  height:100%;width:0%;
-  background:linear-gradient(90deg,var(--primary),var(--primary-light));
-  border-radius:var(--radius-pill);
-  transition:width .35s cubic-bezier(.4,0,.2,1);
-}
+.progress-meta{display:flex;justify-content:space-between;font-size:.8rem;font-weight:600;color:var(--text-soft);margin-bottom:.4rem}
+.progress-bar{height:8px;background:var(--border);border-radius:var(--radius-pill);overflow:hidden}
+.progress-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--primary),var(--primary-light));border-radius:var(--radius-pill);transition:width .35s cubic-bezier(.4,0,.2,1)}
 .q-text{
   font-size:1.2rem;font-weight:600;line-height:1.55;
   color:var(--text);margin:1rem 0 1.5rem;
@@ -288,17 +355,12 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   font-size:.98rem;position:relative;
 }
 .opt:hover{background:var(--surface-2);border-color:var(--primary-light)}
-.opt.sel{
-  background:rgba(58,123,213,.08);
-  border-color:var(--primary-light);
-  box-shadow:0 0 0 2px rgba(58,123,213,.18);
-}
+.opt.sel{background:rgba(58,123,213,.08);border-color:var(--primary-light);box-shadow:0 0 0 2px rgba(58,123,213,.18)}
 .opt .letter{
   width:26px;height:26px;border-radius:50%;
   background:var(--surface-2);color:var(--text-soft);
   display:flex;align-items:center;justify-content:center;
-  font-weight:700;font-size:.8rem;flex-shrink:0;
-  transition:var(--transition);
+  font-weight:700;font-size:.8rem;flex-shrink:0;transition:var(--transition);
 }
 .opt.sel .letter{background:var(--primary);color:#fff}
 .opt input[type=radio]{position:absolute;opacity:0;pointer-events:none}
@@ -306,23 +368,23 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .nav{display:flex;justify-content:space-between;gap:.7rem;flex-wrap:wrap}
 @media(max-width:560px){.nav{flex-direction:column}}
 
-/* ============================================================
-   RESULT
-   ============================================================ */
+/* RESULT */
 .result-hero{
   background:linear-gradient(135deg,var(--primary),var(--primary-light));
   color:#fff;border-radius:var(--radius-md);
   padding:1.8rem 1.6rem;margin-bottom:1.4rem;
   display:flex;align-items:center;justify-content:space-between;
   flex-wrap:wrap;gap:1rem;box-shadow:var(--shadow-md);
+  position:relative;overflow:hidden;
 }
-.result-score{font-size:3.2rem;font-weight:800;line-height:1;letter-spacing:-.02em}
+.result-hero::after{
+  content:'';position:absolute;top:-50%;right:-20%;width:60%;height:200%;
+  background:radial-gradient(circle, rgba(255,255,255,.15), transparent 60%);
+}
+.result-score{font-size:3.2rem;font-weight:800;line-height:1;letter-spacing:-.02em;position:relative}
 .result-score .denom{font-size:1.4rem;font-weight:600;opacity:.75}
-.result-pct{font-size:1.1rem;font-weight:600;margin-top:.4rem;opacity:.95}
-.result-pill{
-  background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:var(--radius-pill);
-  font-size:.8rem;font-weight:600;backdrop-filter:blur(4px);
-}
+.result-pct{font-size:1.1rem;font-weight:600;margin-top:.4rem;opacity:.95;position:relative}
+.result-pill{background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:var(--radius-pill);font-size:.8rem;font-weight:600;backdrop-filter:blur(4px);position:relative}
 .review{background:var(--surface);border-left:4px solid var(--danger);
   padding:.9rem 1.1rem;border-radius:10px;margin-bottom:.65rem;
   box-shadow:var(--shadow-sm);font-size:.9rem;border:1px solid var(--border);border-left-width:4px;}
@@ -331,42 +393,21 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 .review-a{color:var(--success);font-weight:500;font-size:.86rem}
 .review-w{color:var(--danger);font-weight:500;font-size:.86rem;margin-top:.2rem}
 
-/* ============================================================
-   ADMIN
-   ============================================================ */
-.admin-q{
-  background:var(--surface);border-radius:12px;
-  padding:.9rem 1rem;margin-bottom:.65rem;
-  border:1px solid var(--border);box-shadow:var(--shadow-sm);
-}
+/* ADMIN */
+.admin-q{background:var(--surface);border-radius:12px;padding:.9rem 1rem;margin-bottom:.65rem;border:1px solid var(--border);box-shadow:var(--shadow-sm)}
 .admin-q .qt{font-weight:600;color:var(--text);margin-bottom:.4rem;font-size:.92rem}
 .admin-q .meta{font-size:.8rem;color:var(--text-soft);line-height:1.5}
 .admin-q .meta b{color:var(--text)}
-.pill{
-  display:inline-block;padding:.15rem .65rem;border-radius:var(--radius-pill);
-  background:var(--surface-2);color:var(--primary);border:1px solid var(--border);
-  font-size:.76rem;font-weight:600;
-}
+.pill{display:inline-block;padding:.15rem .65rem;border-radius:var(--radius-pill);background:var(--surface-2);color:var(--primary);border:1px solid var(--border);font-size:.76rem;font-weight:600}
 .admin-search{display:flex;gap:.5rem;margin-bottom:.8rem}
 
-/* ============================================================
-   TOAST
-   ============================================================ */
-.toast-wrap{position:fixed;top:1.2rem;left:50%;transform:translateX(-50%);
-  z-index:9999;display:flex;flex-direction:column;gap:.5rem;pointer-events:none;}
-.toast{
-  background:var(--text);color:#fff;padding:.8rem 1.3rem;border-radius:var(--radius-pill);
-  font-size:.88rem;font-weight:500;box-shadow:var(--shadow-lg);
-  animation:toastIn .25s ease;pointer-events:auto;
-  display:flex;align-items:center;gap:.5rem;max-width:90vw;
-}
+/* TOAST */
+.toast-wrap{position:fixed;top:1.2rem;left:50%;transform:translateX(-50%);z-index:99999;display:flex;flex-direction:column;gap:.5rem;pointer-events:none}
+.toast{background:var(--text);color:#fff;padding:.8rem 1.3rem;border-radius:var(--radius-pill);font-size:.88rem;font-weight:500;box-shadow:var(--shadow-lg);animation:toastIn .25s ease;pointer-events:auto;display:flex;align-items:center;gap:.5rem;max-width:90vw}
 .toast.success{background:var(--success)}
 .toast.danger{background:var(--danger)}
 @keyframes toastIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
 @media(max-width:600px){
   .app{padding:1.6rem 1.1rem;border-radius:20px}
   h1{font-size:1.6rem}
@@ -374,6 +415,8 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   button{width:100%}
   .nav{flex-direction:column}
   .result-score{font-size:2.4rem}
+  .tamil-reveal{font-size:3.6rem}
+  .flag-reveal{font-size:4rem}
 }
 </style>
 </head>
@@ -394,64 +437,99 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
 
   <!-- ============ SIGNUP ============ -->
   <div id="v-signup">
-    <h1>📚 NET Mock Test <span class="badge">Paper 1 & 2</span></h1>
-    <div class="subhead">Sign up to access timed practice tests — just like the real exam.</div>
-
+    <h1>📚 NET Mock Test <span class="badge">Premium</span></h1>
+    <div class="subhead">Sign up to access timed UGC-NET pattern practice tests.</div>
     <div class="card elevated">
       <label>Full name</label>
       <input id="uName" placeholder="e.g. Ravi Kumar" autocomplete="name" />
       <label>Email</label>
       <input id="uEmail" type="email" placeholder="you@example.com" autocomplete="email" />
-      <div class="flex mt">
-        <button id="btnSignup" class="block">Continue →</button>
-      </div>
+      <div class="flex mt"><button id="btnSignup" class="block">Continue →</button></div>
       <div id="msgSignup" class="msg hidden"></div>
       <hr>
-      <div style="text-align:center">
-        <button class="ghost sm" onclick="location.hash='#admin'">🔐 Admin panel</button>
+      <div style="text-align:center"><button class="ghost sm" onclick="location.hash='#admin'">🔐 Admin panel</button></div>
+    </div>
+  </div>
+
+  <!-- ============ MODE SELECT ============ -->
+  <div id="v-mode" class="hidden">
+    <h1>Choose your mode, <span id="hiNameMode">friend</span> 👋</h1>
+    <div class="subhead">Quick practice for revision, or the full real-exam simulation.</div>
+
+    <div class="mode-grid">
+      <div class="mode-tile" data-mode="quick">
+        <div class="m-icon">🚀</div>
+        <div class="m-title">Quick Mock</div>
+        <div class="m-desc">Fast practice — perfect for a coffee-break revision.</div>
+        <div class="m-meta">
+          <span class="m-tag">⏱ 30 min</span>
+          <span class="m-tag">10 Q</span>
+          <span class="m-tag">20 marks</span>
+        </div>
+      </div>
+      <div class="mode-tile" data-mode="standard">
+        <div class="m-icon">⏱</div>
+        <div class="m-title">Standard Mock</div>
+        <div class="m-desc">Balanced test — one hour, section-wise practice.</div>
+        <div class="m-meta">
+          <span class="m-tag">⏱ 60 min</span>
+          <span class="m-tag">25 Q</span>
+          <span class="m-tag">50 marks</span>
+        </div>
+      </div>
+      <div class="mode-tile featured" data-mode="full">
+        <div class="ribbon">REAL</div>
+        <div class="m-icon">🏛</div>
+        <div class="m-title">Full Mock</div>
+        <div class="m-desc">Real UGC-NET simulation — Paper 1 + Paper 2 together.</div>
+        <div class="m-meta">
+          <span class="m-tag">⏱ 180 min</span>
+          <span class="m-tag">150 Q</span>
+          <span class="m-tag">300 marks</span>
+        </div>
       </div>
     </div>
+    <div id="msgMode" class="msg hidden"></div>
   </div>
 
   <!-- ============ PAPER SELECT ============ -->
   <div id="v-paper" class="hidden">
-    <h1>Welcome, <span id="hiName">friend</span> 👋</h1>
-    <div class="subhead">Choose a paper to begin your practice session.</div>
-
+    <h1>Choose your paper</h1>
+    <div class="subhead" id="paperSubhead">Pick a paper to begin.</div>
     <div class="paper-grid">
       <div class="paper-tile" data-paper="paper1">
         <div class="tile-icon">📘</div>
         <div class="tile-title">Paper 1 — General</div>
-        <div class="tile-sub">Teaching & research aptitude (common)</div>
+        <div class="tile-sub" id="p1Sub">Teaching & Research Aptitude</div>
       </div>
       <div class="paper-tile" data-paper="paper2">
         <div class="tile-icon">📗</div>
         <div class="tile-title">Paper 2 — Subject</div>
-        <div class="tile-sub">Choose English or Tamil below</div>
+        <div class="tile-sub" id="p2Sub">Choose English or Tamil</div>
       </div>
     </div>
-
     <div id="p2choose" class="card hidden">
       <div style="font-weight:600;color:var(--text);margin-bottom:.6rem">Select Paper 2 language</div>
       <div class="flex">
-        <button class="ghost" data-lang="paper2_english">🇬🇧 English</button>
-        <button class="ghost" data-lang="paper2_tamil">🇮🇳 தமிழ்</button>
+        <button class="ghost" data-lang="paper2_english" data-reveal="english">🇬🇧 English</button>
+        <button class="ghost" data-lang="paper2_tamil" data-reveal="tamil" style="font-family:'Noto Sans Tamil',sans-serif">🇮🇳 தமிழ்</button>
       </div>
     </div>
-
     <div id="msgPaper" class="msg hidden"></div>
   </div>
 
   <!-- ============ QUIZ ============ -->
   <div id="v-quiz" class="hidden">
     <div class="quiz-header">
-      <div class="pill" id="paperTag">Paper 1</div>
+      <div class="flex">
+        <div class="pill" id="paperTag">Paper 1</div>
+        <div class="pill" id="modeTag">Quick</div>
+      </div>
       <div class="timer-box" id="timerBox">
         <span class="t-icon">⏱</span>
-        <span class="t-time" id="timerTxt">10:00</span>
+        <span class="t-time" id="timerTxt">30:00</span>
       </div>
     </div>
-
     <div class="progress-wrap">
       <div class="progress-meta">
         <span id="qProgressLabel">Question 1 of 10</span>
@@ -459,10 +537,8 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
       </div>
       <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
     </div>
-
     <div class="q-text" id="qText">Loading…</div>
     <div class="opts" id="opts"></div>
-
     <div class="nav">
       <button class="ghost" id="btnPrev" disabled>← Previous</button>
       <button class="ghost" id="btnNext">Next →</button>
@@ -473,18 +549,15 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   <!-- ============ RESULT ============ -->
   <div id="v-result" class="hidden">
     <h1>📊 Your result</h1>
-    <div class="subhead">Review your answers below.</div>
-
+    <div class="subhead" id="resultSubhead">UGC NET pattern · +2 per correct · No negative marking</div>
     <div class="result-hero">
       <div>
         <div class="result-score" id="scoreBig">0<span class="denom">/0</span></div>
         <div class="result-pct" id="scorePct">0%</div>
       </div>
-      <div class="result-pill" id="scoreTag">Paper 1</div>
+      <div class="result-pill" id="scoreTag">—</div>
     </div>
-
     <div id="reviewList"></div>
-
     <div class="flex mt">
       <button class="ghost block" onclick="goHome()">🏠 Back to home</button>
       <button class="success block" onclick="retakeQuiz()">🔄 Retake</button>
@@ -494,15 +567,13 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
   <!-- ============ ADMIN ============ -->
   <div id="v-admin" class="hidden">
     <h1>🔐 Admin panel</h1>
-    <div class="subhead">Add, edit, export questions. Upload the JSON to GitHub to publish.</div>
-
+    <div class="subhead">Add, edit, export questions. Upload JSON to GitHub to publish.</div>
     <div class="card elevated" id="adminLogin">
       <label>Admin password</label>
       <input type="password" id="admPass" placeholder="Enter password" />
       <div class="flex mt"><button id="btnLogin" class="block">Unlock</button></div>
       <div id="msgLogin" class="msg hidden"></div>
     </div>
-
     <div id="adminBody" class="hidden">
       <div class="card">
         <label style="margin-top:0">Subject</label>
@@ -511,7 +582,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
           <option value="paper2_english">Paper 2 (English)</option>
           <option value="paper2_tamil">Paper 2 (Tamil)</option>
         </select>
-
         <hr>
         <div style="font-weight:700;color:var(--text);margin-bottom:.6rem">➕ Add new question</div>
         <label>Question</label>
@@ -531,14 +601,11 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
         </div>
         <div id="msgAdd" class="msg hidden"></div>
       </div>
-
       <div class="card">
         <div class="flex between" style="margin-bottom:.8rem">
           <div style="font-weight:700;color:var(--text)">📋 Questions <span class="pill" id="admCount">0</span></div>
         </div>
-        <div class="admin-search">
-          <input id="admSearch" placeholder="Search questions…" style="flex:1" />
-        </div>
+        <div class="admin-search"><input id="admSearch" placeholder="Search questions…" style="flex:1" /></div>
         <div id="admList"></div>
         <hr>
         <div class="flex">
@@ -547,7 +614,6 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
         </div>
         <div id="msgExport" class="msg hidden"></div>
       </div>
-
       <div class="card hidden" id="bulkBox">
         <label style="margin-top:0">Paste JSON array for selected subject</label>
         <textarea id="bulkJson" style="min-height:180px" placeholder='[{"q":"...","options":["A","B","C","D"],"answer":1}]'></textarea>
@@ -557,34 +623,36 @@ hr{border:0;height:1px;background:var(--border);margin:1.3rem 0}
         </div>
         <div id="msgBulk" class="msg hidden"></div>
       </div>
-
       <div class="card">
         <div style="font-size:.88rem;color:var(--text-soft);line-height:1.7">
           <b style="color:var(--text)">📤 How to publish:</b><br>
           1. Click <b>Export questions.json</b>.<br>
-          2. Open your GitHub repo → replace <code>questions.json</code> → commit.<br>
-          3. GitHub Pages rebuilds in ~30 s. Students get the new set.<br>
-          <b>🔑 Change the admin password</b> in the code — search for <code>ADMIN_PASS</code>.
+          2. Replace <code>questions.json</code> in your GitHub repo → commit.<br>
+          3. GitHub Pages rebuilds in ~30 s.<br>
+          <b>🔑 Change password</b> — search for <code>ADMIN_PASS</code>.
         </div>
       </div>
     </div>
   </div>
 
-</div><!-- /app -->
+</div>
 
 <script>
 /* ============================================================
-   CONFIG
+   CONFIG — UGC NET rules
    ============================================================ */
 const ADMIN_PASS = "netadmin123";
-const QUIZ_TIME_SEC = 10 * 60;
-const QUESTIONS_PER_TEST = 10;
+const MARKS_PER_CORRECT = 2;
 
-/* ============================================================
-   STATE
-   ============================================================ */
+const MODES = {
+  quick:    { key:'quick',    label:'Quick Mock',    time:30*60,  q:10,  marks:20,  desc:'Fast practice — 30 min' },
+  standard: { key:'standard', label:'Standard Mock', time:60*60,  q:25,  marks:50,  desc:'Balanced — 60 min' },
+  full:     { key:'full',     label:'Full Mock',     time:180*60, q:150, marks:300, desc:'Real UGC-NET — 3 hrs' }
+};
+
 let DATA = { paper1:[], paper2_english:[], paper2_tamil:[] };
 let session = null;
+let selectedMode = null;   // MODES.quick / standard / full
 let adminUnlocked = false;
 
 const $ = id => document.getElementById(id);
@@ -595,9 +663,6 @@ function show(id){
   $(id).classList.remove('hidden');
 }
 
-/* ============================================================
-   TOAST
-   ============================================================ */
 function toast(msg, kind=''){
   const t = el('div','toast '+kind, msg);
   $('toasts').appendChild(t);
@@ -605,9 +670,7 @@ function toast(msg, kind=''){
   setTimeout(()=>t.remove(), 2900);
 }
 
-/* ============================================================
-   THEME
-   ============================================================ */
+/* THEME */
 function applyTheme(t){
   document.documentElement.setAttribute('data-theme', t);
   $('themeToggle').textContent = t==='dark' ? '☀️' : '🌙';
@@ -618,9 +681,7 @@ $('themeToggle').onclick = ()=>{
   applyTheme(cur);
 };
 
-/* ============================================================
-   USER
-   ============================================================ */
+/* USER */
 function getStoredUser(){
   try { return JSON.parse(localStorage.getItem('netUser')||'null'); } catch { return null; }
 }
@@ -635,16 +696,14 @@ function renderTopbar(){
 }
 $('signOutBtn').onclick = ()=>{
   localStorage.removeItem('netUser');
-  session = null;
+  session = null; selectedMode = null;
   history.replaceState(null,'',location.pathname);
   toast('Signed out', 'success');
   renderTopbar();
   show('v-signup');
 };
 
-/* ============================================================
-   LOAD QUESTIONS
-   ============================================================ */
+/* LOAD QUESTIONS */
 async function loadQuestions(){
   try{
     const r = await fetch('questions.json', {cache:'no-store'});
@@ -655,12 +714,10 @@ async function loadQuestions(){
       paper2_english: j.paper2_english || [],
       paper2_tamil: j.paper2_tamil || []
     };
-  }catch(e){ /* keep empty sets */ }
+  }catch(e){ /* empty sets */ }
 }
 
-/* ============================================================
-   SIGNUP
-   ============================================================ */
+/* SIGNUP */
 $('btnSignup').onclick = ()=>{
   const name = $('uName').value.trim();
   const email = $('uEmail').value.trim();
@@ -672,33 +729,97 @@ $('btnSignup').onclick = ()=>{
   }
   localStorage.setItem('netUser', JSON.stringify({name,email}));
   renderTopbar();
-  $('hiName').textContent = name.split(' ')[0];
+  $('hiNameMode').textContent = name.split(' ')[0];
   toast('Welcome, '+name.split(' ')[0]+'!', 'success');
-  show('v-paper');
+  show('v-mode');
 };
 
-/* ============================================================
-   PAPER SELECTION
-   ============================================================ */
-document.querySelectorAll('.paper-tile').forEach(tile=>{
+/* MODE SELECTION */
+document.querySelectorAll('.mode-tile').forEach(tile=>{
   tile.onclick = ()=>{
-    const p = tile.dataset.paper;
-    if(p==='paper1'){ startQuiz('paper1','Paper 1 · General'); }
-    else { $('p2choose').classList.remove('hidden'); }
+    const key = tile.dataset.mode;
+    selectedMode = MODES[key];
+    updatePaperSubhead();
+    show('v-paper');
+    $('p2choose').classList.add('hidden');
+    $('msgPaper').classList.add('hidden');
   };
 });
+
+function updatePaperSubhead(){
+  if(!selectedMode) return;
+  $('paperSubhead').textContent = `${selectedMode.label} · ${selectedMode.time/60} min · ${selectedMode.q} questions · ${selectedMode.marks} marks`;
+  const perPaper = selectedMode.key === 'full' ? '50 questions · 100 marks' : `${Math.ceil(selectedMode.q/2)} questions`;
+  $('p1Sub').textContent = `Teaching & Research Aptitude · ${perPaper}`;
+  $('p2Sub').textContent = `Subject · ${perPaper}`;
+}
+
+/* PAPER SELECTION */
+document.querySelectorAll('.paper-tile').forEach(tile=>{
+  tile.onclick = ()=>{
+    if(!selectedMode){ show('v-mode'); return; }
+    const p = tile.dataset.paper;
+    if(p==='paper1'){
+      startQuiz('paper1', `Paper 1 · General`, 'paper1');
+    } else {
+      $('p2choose').classList.remove('hidden');
+    }
+  };
+});
+
+/* Language buttons — cinematic reveal then start */
 document.querySelectorAll('[data-lang]').forEach(btn=>{
   btn.onclick = ()=>{
     const key = btn.dataset.lang;
+    const lang = btn.dataset.reveal;   // 'english' or 'tamil'
     const label = key==='paper2_english' ? 'Paper 2 · English' : 'Paper 2 · தமிழ்';
-    startQuiz(key, label);
+    playReveal(lang, ()=>{
+      startQuiz(key, label, 'paper2');
+    });
   };
 });
 
 /* ============================================================
-   QUIZ START
+   CINEMATIC REVEAL
    ============================================================ */
-function startQuiz(subjectKey, label){
+function playReveal(lang, onDone){
+  const stage = el('div','reveal-stage');
+  stage.innerHTML = `<div class="reveal-content" id="revealContent"></div>`;
+  document.body.appendChild(stage);
+
+  const content = stage.querySelector('#revealContent');
+
+  if(lang === 'english'){
+    content.innerHTML = `
+      <div class="flag-reveal">🇬🇧</div>
+      <div class="flag-label">English</div>
+    `;
+    setTimeout(()=>{ stage.classList.add('leaving'); }, 1200);
+  } else {
+    // Tamil letters revealed one by one: த மி ழ்
+    const letters = ['த','மி','ழ்'];
+    let html = `<div class="tamil-reveal">`;
+    letters.forEach((L, i)=>{
+      html += `<span style="animation-delay:${i*0.28}s">${L}</span>`;
+    });
+    html += `</div>
+      <div class="tamil-label">தமிழ்</div>
+      <div class="tamil-sub">Tamil Paper 2</div>`;
+    content.innerHTML = html;
+    setTimeout(()=>{ stage.classList.add('leaving'); }, 2400);
+  }
+
+  const total = lang === 'english' ? 1500 : 2800;
+  setTimeout(()=>{
+    stage.remove();
+    onDone && onDone();
+  }, total);
+}
+
+/* ============================================================
+   QUIZ
+   ============================================================ */
+function startQuiz(subjectKey, label, paperType){
   const pool = DATA[subjectKey] || [];
   if(pool.length === 0){
     const m = $('msgPaper');
@@ -707,25 +828,35 @@ function startQuiz(subjectKey, label){
     show('v-paper');
     return;
   }
-  const shuffled = [...pool].sort(()=>Math.random()-0.5).slice(0, Math.min(QUESTIONS_PER_TEST, pool.length));
+
+  // Determine how many questions to pull for THIS paper
+  let countForPaper = selectedMode.q;
+  if(selectedMode.key === 'full'){
+    countForPaper = paperType === 'paper1' ? 50 : 100;
+  } else {
+    // split evenly for quick/standard
+    countForPaper = Math.ceil(selectedMode.q / 2);
+  }
+  const shuffled = [...pool].sort(()=>Math.random()-0.5).slice(0, Math.min(countForPaper, pool.length));
+
   session = {
-    subject: subjectKey, label,
+    subject: subjectKey, label, paperType,
+    mode: selectedMode.key,
     questions: shuffled,
     current: 0,
     answers: Array(shuffled.length).fill(null),
-    timeLeft: QUIZ_TIME_SEC,
+    timeLeft: selectedMode.time,
     finished: false,
     timerId: null
   };
   $('paperTag').textContent = label;
+  $('modeTag').textContent = selectedMode.label;
   show('v-quiz');
   renderQuestion();
   startTimer();
 }
 
-/* ============================================================
-   TIMER
-   ============================================================ */
+/* TIMER */
 function startTimer(){
   if(session.timerId) clearInterval(session.timerId);
   updateTimerText();
@@ -745,9 +876,7 @@ function updateTimerText(){
   else if(session.timeLeft <= 120) box.classList.add('warn');
 }
 
-/* ============================================================
-   RENDER QUESTION
-   ============================================================ */
+/* RENDER QUESTION */
 function escapeHtml(s){ return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
 function renderQuestion(){
@@ -788,9 +917,7 @@ $('btnSubmit').onclick = ()=>{
   if(confirm(msg)) finishQuiz(false);
 };
 
-/* ============================================================
-   FINISH
-   ============================================================ */
+/* FINISH */
 function finishQuiz(auto){
   if(session.timerId) clearInterval(session.timerId);
   session.finished = true;
@@ -814,26 +941,29 @@ function finishQuiz(auto){
     list.appendChild(div);
   });
 
+  const maxMarks = total * MARKS_PER_CORRECT;
+  const score = correct * MARKS_PER_CORRECT;
   const pct = Math.round(correct/total*100);
-  $('scoreBig').innerHTML = `${correct}<span class="denom">/${total}</span>`;
-  $('scorePct').textContent = `${pct}%`;
-  $('scoreTag').textContent = session.label;
+
+  $('scoreBig').innerHTML = `${score}<span class="denom">/${maxMarks}</span>`;
+  $('scorePct').textContent = `${pct}% · ${correct}/${total} correct`;
+  $('scoreTag').textContent = `${session.label} · ${MODES[session.mode].label}`;
+  $('resultSubhead').textContent = `+${MARKS_PER_CORRECT} per correct · No negative marking (real UGC-NET rule)`;
 
   show('v-result');
   if(auto) toast('⏰ Time up — auto-submitted', 'warn');
   else toast('Test submitted', 'success');
 }
 
-/* ============================================================
-   NAVIGATION HELPERS (FIX)
-   ============================================================ */
+/* NAVIGATION HELPERS */
 function goHome(){
   session = null;
+  selectedMode = null;
   history.replaceState(null, '', location.pathname);
   const u = getStoredUser();
   if(u){
-    $('hiName').textContent = u.name.split(' ')[0];
-    show('v-paper');
+    $('hiNameMode').textContent = u.name.split(' ')[0];
+    show('v-mode');
   } else {
     show('v-signup');
   }
@@ -841,10 +971,11 @@ function goHome(){
 
 function retakeQuiz(){
   if(!session) return goHome();
-  const { subject, label } = session;
+  const { subject, label, paperType, mode } = session;
+  selectedMode = MODES[mode];
   session = null;
   history.replaceState(null, '', location.pathname);
-  startQuiz(subject, label);
+  startQuiz(subject, label, paperType);
 }
 
 /* ============================================================
@@ -954,9 +1085,7 @@ $('btnBulkApply').onclick = ()=>{
   }
 };
 
-/* ============================================================
-   ROUTER
-   ============================================================ */
+/* ROUTER */
 function route(){
   const hash = location.hash.replace('#','');
   if(hash === 'admin'){
@@ -968,14 +1097,13 @@ function route(){
   if(!u){ show('v-signup'); return; }
   if(session && session.finished){ show('v-result'); return; }
   if(session){ show('v-quiz'); return; }
-  $('hiName').textContent = u.name.split(' ')[0];
-  show('v-paper');
+  if(selectedMode){ show('v-paper'); return; }
+  $('hiNameMode').textContent = u.name.split(' ')[0];
+  show('v-mode');
 }
 window.addEventListener('hashchange', route);
 
-/* ============================================================
-   BOOT
-   ============================================================ */
+/* BOOT */
 (async function boot(){
   applyTheme(localStorage.getItem('netTheme') || 'light');
   renderTopbar();
